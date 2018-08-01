@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="11 July 2016 09:38" MachineName="localhost">
-<FontFile FileName="Molengo-Regular.ttf" FileNameAndPath="Z:/usr/share/fonts/moyogo-molengo/Molengo-Regular.ttf">
+<FontValidatorReport RunDateTime="18 July 2016 00:34" MachineName="localhost.localdomain">
+<FontFile FileName="Molengo-Regular.ttf" FileNameAndPath="/usr/share/fonts/moyogo-molengo/Molengo-Regular.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
 <FontInfo FontName="Molengo" FontVersion="Version 0.10" FontDate="18/05/2010" />
@@ -70,15 +70,11 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, IUP[x], Glyph ID 55, At ByteOffset 48, " />
-<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, IUP[y], Glyph ID 55, At ByteOffset 49, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SFvFS, Glyph ID 55, At ByteOffset 46, " />
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, IP, Glyph ID 61, At ByteOffset 70, " />
-<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, IUP[x], Glyph ID 325, At ByteOffset 48, " />
-<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, IUP[y], Glyph ID 325, At ByteOffset 49, " />
-<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, IUP[x], Glyph ID 327, At ByteOffset 48, " />
-<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, IUP[y], Glyph ID 327, At ByteOffset 49, " />
-<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, IUP[x], Glyph ID 329, At ByteOffset 48, " />
-<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, IUP[y], Glyph ID 329, At ByteOffset 49, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SFvFS, Glyph ID 325, At ByteOffset 46, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SFvFS, Glyph ID 327, At ByteOffset 46, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SFvFS, Glyph ID 329, At ByteOffset 46, " />
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, IP, Glyph ID 335, At ByteOffset 70, " />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>

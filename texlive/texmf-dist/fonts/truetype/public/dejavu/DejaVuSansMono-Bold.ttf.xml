@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="11 July 2016 10:45" MachineName="localhost">
-<FontFile FileName="DejaVuSansMono-Bold.ttf" FileNameAndPath="Z:/usr/share/texlive/texmf-dist/fonts/truetype/public/dejavu/DejaVuSansMono-Bold.ttf">
+<FontValidatorReport RunDateTime="18 July 2016 01:05" MachineName="localhost.localdomain">
+<FontFile FileName="DejaVuSansMono-Bold.ttf" FileNameAndPath="/usr/share/texlive/texmf-dist/fonts/truetype/public/dejavu/DejaVuSansMono-Bold.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
 <FontInfo FontName="DejaVu Sans Mono Bold" FontVersion="Version 2.34" FontDate="25/08/2013" />
@@ -70,8 +70,9 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[srp0,nmd,rd,Gray], Glyph ID 323, At ByteOffset 39, " />
 <Report ErrorType="E" ErrorCode="E6046" Message="Stack Underflow" Details="Size 10, SLOOP, Glyph ID 845, At ByteOffset 78, " />
+<Report ErrorType="E" ErrorCode="E6046" Message="Stack Underflow" Details="Size 10, SHPIX, Glyph ID 845, At ByteOffset 79, " />
+<Report ErrorType="E" ErrorCode="E6046" Message="Stack Underflow" Details="Size 10, SHPIX, Glyph ID 845, At ByteOffset 79, " />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
@@ -80,6 +81,6 @@
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
 </RasterizationTest_ClearType>
 </Font>
-<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:02" />
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:01" />
 </FontFile>
 </FontValidatorReport>

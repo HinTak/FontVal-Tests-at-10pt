@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="11 July 2016 09:42" MachineName="localhost">
-<FontFile FileName="mona-VLGothic.ttf" FileNameAndPath="Z:/usr/share/fonts/mona-vlgothic/mona-VLGothic.ttf">
+<FontValidatorReport RunDateTime="18 July 2016 00:36" MachineName="localhost.localdomain">
+<FontFile FileName="mona-VLGothic.ttf" FileNameAndPath="/usr/share/fonts/mona-vlgothic/mona-VLGothic.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
 <FontInfo FontName="Mona-VLGothic" FontVersion="Version 2.90(s-shinonome-0.9.9 k-VLGothic-20141206) b20160205" FontDate="01/01/1904" />
@@ -63,7 +63,7 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="P" ErrorCode="P6000" Message="No problems were found during rasterization testing" />
+<Report ErrorType="A" ErrorCode="A6000" Message="An exception occurred during rasterization testing" Details="FreeType error: Invalid argument.  at SharpFont.Face.LoadGlyph (UInt32 glyphIndex, LoadFlags flags, LoadTarget target) &lt;0x40998530 + 0x000ef&gt; in &lt;filename unknown&gt;:0 &#xA;  at OTFontFile.Rasterizer.RasterInterf.RastTest (Int32 resX, Int32 resY, System.Int32[] arrPointSizes, Single stretchX, Single stretchY, Single rotation, Single skew, System.Single[,] matrix, Boolean setBW, Boolean setGrayscale, Boolean setCleartype, UInt32 CTFlags, OTFontFile.Rasterizer.RastTestErrorDelegate pRastTestErrorDelegate, OTFontFile.Rasterizer.UpdateProgressDelegate pUpdateProgressDelegate, Int32 numGlyphs) &lt;0x40995d60 + 0x012df&gt; in &lt;filename unknown&gt;:0 &#xA;  at OTFontFileVal.OTFontVal.Validate () &lt;0x4098bbf0 + 0x00f5f&gt; in &lt;filename unknown&gt;:0 " />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
@@ -72,6 +72,6 @@
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
 </RasterizationTest_ClearType>
 </Font>
-<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:09" />
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:07" />
 </FontFile>
 </FontValidatorReport>

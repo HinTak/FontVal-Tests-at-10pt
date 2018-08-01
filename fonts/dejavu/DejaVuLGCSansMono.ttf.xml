@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="18 July 2016 00:16" MachineName="localhost.localdomain">
+<FontValidatorReport RunDateTime="18 October 2016 22:12" MachineName="localhost.localdomain">
 <FontFile FileName="DejaVuLGCSansMono.ttf" FileNameAndPath="/usr/share/fonts/dejavu/DejaVuLGCSansMono.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
@@ -70,7 +70,8 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="P" ErrorCode="P6000" Message="No problems were found during rasterization testing" />
+<Report ErrorType="E" ErrorCode="E6052" Message="Value out of range" Details="Size 10, SLOOP, Glyph ID 21, At ByteOffset 77, " />
+<Report ErrorType="E" ErrorCode="E6052" Message="Value out of range" Details="Size 10, SLOOP, Glyph ID 2819, At ByteOffset 77, " />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />

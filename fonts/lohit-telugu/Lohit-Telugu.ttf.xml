@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="17 July 2016 23:25" MachineName="localhost.localdomain">
+<FontValidatorReport RunDateTime="18 October 2016 21:12" MachineName="localhost.localdomain">
 <FontFile FileName="Lohit-Telugu.ttf" FileNameAndPath="/usr/share/fonts/lohit-telugu/Lohit-Telugu.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
@@ -72,6 +72,7 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
+<Report ErrorType="E" ErrorCode="E6019" Message="Funit coordinate out of range must be -16384 .. 16383" Details="Size 10, WCvtF, Pre-Program, At ByteOffset 20, " />
 <Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 0, At ByteOffset 62,  Of function 18" />
 <Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 0, At ByteOffset 92,  Of function 18" />
 <Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 0, At ByteOffset 5,  Of function 46" />
@@ -6025,6 +6026,6 @@
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
 </RasterizationTest_ClearType>
 </Font>
-<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:16" />
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:15" />
 </FontFile>
 </FontValidatorReport>

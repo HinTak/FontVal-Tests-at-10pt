@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="18 July 2016 00:29" MachineName="localhost.localdomain">
+<FontValidatorReport RunDateTime="18 October 2016 22:26" MachineName="localhost.localdomain">
 <FontFile FileName="mm3.ttf" FileNameAndPath="/usr/share/fonts/myanmar3-unicode/mm3.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
@@ -79,7 +79,12 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="P" ErrorCode="P6000" Message="No problems were found during rasterization testing" />
+<Report ErrorType="E" ErrorCode="E6049" Message="Twilight zone point not set" Details="Size 10, IP, Pre-Program, At ByteOffset 2567, " />
+<Report ErrorType="E" ErrorCode="E6049" Message="Twilight zone point not set" Details="Size 10, IP, Pre-Program, At ByteOffset 2572, " />
+<Report ErrorType="E" ErrorCode="E6049" Message="Twilight zone point not set" Details="Size 10, IP, Pre-Program, At ByteOffset 2577, " />
+<Report ErrorType="E" ErrorCode="E6049" Message="Twilight zone point not set" Details="Size 10, IP, Pre-Program, At ByteOffset 2582, " />
+<Report ErrorType="E" ErrorCode="E6049" Message="Twilight zone point not set" Details="Size 10, IP, Pre-Program, At ByteOffset 2587, " />
+<Report ErrorType="E" ErrorCode="E6049" Message="Twilight zone point not set" Details="Size 10, IP, Pre-Program, At ByteOffset 2593, " />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />

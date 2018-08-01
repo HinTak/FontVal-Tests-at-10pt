@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="18 October 2016 20:50" MachineName="localhost.localdomain">
+<FontValidatorReport RunDateTime="31 October 2016 06:30" MachineName="localhost.localdomain">
 <FontFile FileName="edgewate.ttf" FileNameAndPath="/usr/share/fonts/larabie/uncommon/edgewate.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
@@ -66,7 +66,10 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="P" ErrorCode="P6000" Message="No problems were found during rasterization testing" />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[pmrB], Glyph ID 149, At ByteOffset 244, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[pmrB], Glyph ID 149, At ByteOffset 252, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[pmrB], Glyph ID 181, At ByteOffset 244, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[pmrB], Glyph ID 181, At ByteOffset 252, " />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="18 October 2016 22:34" MachineName="localhost.localdomain">
+<FontValidatorReport RunDateTime="31 October 2016 08:19" MachineName="localhost.localdomain">
 <FontFile FileName="mona-VLGothic.ttf" FileNameAndPath="/usr/share/fonts/mona-vlgothic/mona-VLGothic.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
@@ -63,7 +63,7 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="A" ErrorCode="A6000" Message="An exception occurred during rasterization testing" Details="FreeType error: Invalid argument.  at SharpFont.Face.LoadGlyph (UInt32 glyphIndex, LoadFlags flags, LoadTarget target) &lt;0x42127a40 + 0x000ef&gt; in &lt;filename unknown&gt;:0 &#xA;  at OTFontFile.Rasterizer.RasterInterf.RastTest (Int32 resX, Int32 resY, System.Int32[] arrPointSizes, Single stretchX, Single stretchY, Single rotation, Single skew, System.Single[,] matrix, Boolean setBW, Boolean setGrayscale, Boolean setCleartype, UInt32 CTFlags, OTFontFile.Rasterizer.RastTestErrorDelegate pRastTestErrorDelegate, OTFontFile.Rasterizer.UpdateProgressDelegate pUpdateProgressDelegate, Int32 numGlyphs) &lt;0x42124f10 + 0x012df&gt; in &lt;filename unknown&gt;:0 &#xA;  at OTFontFileVal.OTFontVal.Validate () &lt;0x4211a760 + 0x00f5f&gt; in &lt;filename unknown&gt;:0 " />
+<Report ErrorType="W" ErrorCode="W6024" Message="Invalid Argument" Details="Invalid Argument in Glyph 7225" />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
@@ -72,6 +72,6 @@
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
 </RasterizationTest_ClearType>
 </Font>
-<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:07" />
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:08" />
 </FontFile>
 </FontValidatorReport>

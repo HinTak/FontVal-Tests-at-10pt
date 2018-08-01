@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="18 October 2016 20:52" MachineName="localhost.localdomain">
+<FontValidatorReport RunDateTime="31 October 2016 06:31" MachineName="localhost.localdomain">
 <FontFile FileName="frenp___.ttf" FileNameAndPath="/usr/share/fonts/larabie/uncommon/frenp___.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
@@ -66,7 +66,8 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="P" ErrorCode="P6000" Message="No problems were found during rasterization testing" />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[pmrB], Glyph ID 13, At ByteOffset 190, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[pmrB], Glyph ID 40, At ByteOffset 123, " />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />

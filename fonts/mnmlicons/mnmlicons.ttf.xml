@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="fval.xsl"?>
+<FontValidatorReport RunDateTime="21 October 2016 04:07" MachineName="localhost">
+<FontFile FileName="mnmlicons.ttf" FileNameAndPath="Z:/usr/share/fonts/mnmlicons/mnmlicons.ttf">
+<Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
+<Font FontIndex="0">
+<FontInfo FontName="mnml icons Regular" FontVersion="Version 2.1" FontDate="21/04/2011" />
+<Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="16" TestName="_OFFSET_numTables" />
+<Report ErrorType="P" ErrorCode="P0010" Message="The searchRange, entrySelector, and rangeShift fields are all valid" TestName="_OFFSET_BinarySearchFields" />
+<Report ErrorType="P" ErrorCode="P0032" Message="The directory entry tags are in ascending order" />
+<Report ErrorType="P" ErrorCode="P0031" Message="The directory entry tag names are valid" />
+<Report ErrorType="P" ErrorCode="P0030" Message="The directory entry table offsets are all multiples of 4" />
+<Report ErrorType="P" ErrorCode="P0020" Message="All required tables are present" />
+<Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="kern" />
+<Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="hdmx" />
+<Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="VDMX" />
+<Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="DSIG" />
+<Report ErrorType="P" ErrorCode="P0022" Message="No unnecessary tables are present" />
+<Report ErrorType="W" ErrorCode="W0020" Message="Tables are not in optimal order" Details="table 'OS/2' precedes table 'head'" />
+<TableEntry Tag="FFTM" Offset="0x0000010c" Length="0x0000001c" Checksum="0x59d1a61c" CodeFriendlyTag="FFTM">
+<Report ErrorType="I" ErrorCode="I0040" Message="Not an OpenType table, contents not validated" Details="" />
+</TableEntry>
+<TableEntry Tag="GDEF" Offset="0x00000128" Length="0x00000020" Checksum="0x00b10004" CodeFriendlyTag="GDEF">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="OS/2" Offset="0x00000148" Length="0x00000060" Checksum="0x718bc227" CodeFriendlyTag="OS_2">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="cmap" Offset="0x000001a8" Length="0x000001e2" Checksum="0xbc2db4c3" CodeFriendlyTag="cmap">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="cvt " Offset="0x0000038c" Length="0x0000006a" Checksum="0x15e617cf" CodeFriendlyTag="cvt_">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="fpgm" Offset="0x000003f8" Length="0x00000265" Checksum="0xe9b42fa7" CodeFriendlyTag="fpgm">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="gasp" Offset="0x00000660" Length="0x0000000c" Checksum="0x00030007" CodeFriendlyTag="gasp">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="glyf" Offset="0x0000066c" Length="0x00008c50" Checksum="0x5f9a8712" CodeFriendlyTag="glyf">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="head" Offset="0x000092bc" Length="0x00000036" Checksum="0xfa9033c1" CodeFriendlyTag="head">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="hhea" Offset="0x000092f4" Length="0x00000024" Checksum="0x0ea107d5" CodeFriendlyTag="hhea">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="hmtx" Offset="0x00009318" Length="0x00000210" Checksum="0x77790251" CodeFriendlyTag="hmtx">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="loca" Offset="0x00009528" Length="0x0000010a" Checksum="0x63c44580" CodeFriendlyTag="loca">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="maxp" Offset="0x00009634" Length="0x00000020" Checksum="0x01b80726" CodeFriendlyTag="maxp">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="name" Offset="0x00009654" Length="0x00000232" Checksum="0xdcdaaf8a" CodeFriendlyTag="name">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="post" Offset="0x00009888" Length="0x000001d5" Checksum="0xf539b684" CodeFriendlyTag="post">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="prep" Offset="0x00009a60" Length="0x00000186" Checksum="0x6ed966e5" CodeFriendlyTag="prep">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<RasterizationTest_BW>
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SPVFS, Glyph ID 4, At ByteOffset 62, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SPVFS, Glyph ID 4, At ByteOffset 108, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SPVFS, Glyph ID 4, At ByteOffset 154, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SFVFS, Glyph ID 4, At ByteOffset 207, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SFVFS, Glyph ID 4, At ByteOffset 243, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SFVFS, Glyph ID 4, At ByteOffset 303, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SFVFS, Glyph ID 4, At ByteOffset 321, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SPVFS, Glyph ID 15, At ByteOffset 129, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SPVFS, Glyph ID 18, At ByteOffset 72, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SPVFS, Glyph ID 18, At ByteOffset 95, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SFVFS, Glyph ID 18, At ByteOffset 141, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SFVFS, Glyph ID 18, At ByteOffset 213, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SFVFS, Glyph ID 18, At ByteOffset 252, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SFVFS, Glyph ID 18, At ByteOffset 306, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SPVFS, Glyph ID 36, At ByteOffset 30, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SPVFS, Glyph ID 40, At ByteOffset 53, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SPVFS, Glyph ID 46, At ByteOffset 93, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SPVFS, Glyph ID 46, At ByteOffset 143, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SPVFS, Glyph ID 57, At ByteOffset 56, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SPVFS, Glyph ID 60, At ByteOffset 68, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SPVFS, Glyph ID 61, At ByteOffset 104, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SPVFS, Glyph ID 62, At ByteOffset 104, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SPVFS, Glyph ID 63, At ByteOffset 85, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SPVFS, Glyph ID 72, At ByteOffset 93, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SPVFS, Glyph ID 72, At ByteOffset 116, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SFVFS, Glyph ID 72, At ByteOffset 165, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SFVFS, Glyph ID 72, At ByteOffset 196, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SPVFS, Glyph ID 81, At ByteOffset 48, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SPVFS, Glyph ID 81, At ByteOffset 94, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SFVFS, Glyph ID 81, At ByteOffset 153, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SPVFS, Glyph ID 85, At ByteOffset 74, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SPVFS, Glyph ID 88, At ByteOffset 61, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SPVFS, Glyph ID 108, At ByteOffset 92, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SPVFS, Glyph ID 108, At ByteOffset 138, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SPVFS, Glyph ID 108, At ByteOffset 161, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SPVFS, Glyph ID 108, At ByteOffset 206, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SPVFS, Glyph ID 108, At ByteOffset 252, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SPVFS, Glyph ID 108, At ByteOffset 275, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SFVFS, Glyph ID 108, At ByteOffset 324, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SFVFS, Glyph ID 108, At ByteOffset 366, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SFVFS, Glyph ID 108, At ByteOffset 408, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SFVFS, Glyph ID 108, At ByteOffset 489, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SFVFS, Glyph ID 108, At ByteOffset 534, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SFVFS, Glyph ID 108, At ByteOffset 576, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SFVFS, Glyph ID 108, At ByteOffset 618, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SFVFS, Glyph ID 108, At ByteOffset 660, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SFVFS, Glyph ID 108, At ByteOffset 726, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SFVFS, Glyph ID 108, At ByteOffset 762, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SFVFS, Glyph ID 108, At ByteOffset 798, " />
+<Report ErrorType="E" ErrorCode="E6056" Message="X and Y components of vector are invalid. X^2 + Y^2 != 0x4000^2" Details="Size 10, SFVFS, Glyph ID 108, At ByteOffset 855, " />
+</RasterizationTest_BW>
+<RasterizationTest_Grayscale>
+<Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
+</RasterizationTest_Grayscale>
+<RasterizationTest_ClearType>
+<Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
+</RasterizationTest_ClearType>
+</Font>
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:00" />
+</FontFile>
+</FontValidatorReport>

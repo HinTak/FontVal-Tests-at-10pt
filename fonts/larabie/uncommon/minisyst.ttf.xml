@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="fval.xsl"?>
+<FontValidatorReport RunDateTime="20 October 2016 23:26" MachineName="localhost">
+<FontFile FileName="minisyst.ttf" FileNameAndPath="Z:/usr/share/fonts/larabie/uncommon/minisyst.ttf">
+<Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
+<Font FontIndex="0">
+<FontInfo FontName="Minisystem" FontVersion="Version 2.00" FontDate="17/08/1999" />
+<Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="15" TestName="_OFFSET_numTables" />
+<Report ErrorType="E" ErrorCode="E0014" Message="The searchRange field is invalid" Details="48" TestName="_OFFSET_BinarySearchFields" />
+<Report ErrorType="E" ErrorCode="E0013" Message="The rangeShift field is invalid" Details="192" TestName="_OFFSET_BinarySearchFields" />
+<Report ErrorType="P" ErrorCode="P0032" Message="The directory entry tags are in ascending order" />
+<Report ErrorType="P" ErrorCode="P0031" Message="The directory entry tag names are valid" />
+<Report ErrorType="P" ErrorCode="P0030" Message="The directory entry table offsets are all multiples of 4" />
+<Report ErrorType="P" ErrorCode="P0020" Message="All required tables are present" />
+<Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="gasp" />
+<Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="kern" />
+<Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="VDMX" />
+<Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="DSIG" />
+<Report ErrorType="W" ErrorCode="W0021" Message="Table is unnecessary" Details="PCLT table not needed, Microsoft no longer recommends including this table" />
+<Report ErrorType="W" ErrorCode="W0020" Message="Tables are not in optimal order" Details="table 'OS/2' precedes table 'head'" />
+<TableEntry Tag="OS/2" Offset="0x0000ab20" Length="0x0000004e" Checksum="0x6046791a" CodeFriendlyTag="OS_2">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="PCLT" Offset="0x0000ab70" Length="0x00000036" Checksum="0x0869e34f" CodeFriendlyTag="PCLT">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="cmap" Offset="0x00007d50" Length="0x00000a86" Checksum="0xc53ada2b" CodeFriendlyTag="cmap">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="cvt " Offset="0x00000380" Length="0x00000040" Checksum="0xc3321c9d" CodeFriendlyTag="cvt_">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="fpgm" Offset="0x0000036c" Length="0x00000014" Checksum="0x8333c24f" CodeFriendlyTag="fpgm">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="glyf" Offset="0x00000448" Length="0x00005930" Checksum="0xe404e462" CodeFriendlyTag="glyf">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="hdmx" Offset="0x000087d8" Length="0x00002348" Checksum="0xf79b2847" CodeFriendlyTag="hdmx">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="head" Offset="0x0000aba8" Length="0x00000036" Checksum="0xca3263c1" CodeFriendlyTag="head">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="hhea" Offset="0x0000abe0" Length="0x00000024" Checksum="0x06b5890c" CodeFriendlyTag="hhea">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="hmtx" Offset="0x00006644" Length="0x000008c8" Checksum="0x733cbbfb" CodeFriendlyTag="hmtx">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="loca" Offset="0x00005d78" Length="0x000008cc" Checksum="0x00aa0190" CodeFriendlyTag="loca">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="maxp" Offset="0x0000ac04" Length="0x00000020" Checksum="0x030c0272" CodeFriendlyTag="maxp">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="name" Offset="0x000000fc" Length="0x00000270" Checksum="0x8e035bc6" CodeFriendlyTag="name">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="post" Offset="0x00006f0c" Length="0x00000e43" Checksum="0x5ea663dc" CodeFriendlyTag="post">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="prep" Offset="0x000003c0" Length="0x00000086" Checksum="0x4bb54b97" CodeFriendlyTag="prep">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<RasterizationTest_BW>
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 0, At ByteOffset 45, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 9, At ByteOffset 137178, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 10, At ByteOffset 218779, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 13, At ByteOffset 333668, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 14, At ByteOffset 415118, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 15, At ByteOffset 496782, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 18, At ByteOffset 609628, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 21, At ByteOffset 98, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 23, At ByteOffset -2871973, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 32, At ByteOffset -2662217, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 33, At ByteOffset -2581452, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 34, At ByteOffset -2500058, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 36, At ByteOffset -2403456, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 64, At ByteOffset -1891362, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 65, At ByteOffset -1809701, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 66, At ByteOffset -1728034, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 67, At ByteOffset -1646965, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 69, At ByteOffset 42, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 96, At ByteOffset -1236382, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 98, At ByteOffset -1139754, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 134, At ByteOffset 103, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 153, At ByteOffset 42, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 157, At ByteOffset 101716, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 165, At ByteOffset -778918, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 166, At ByteOffset -668750, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 167, At ByteOffset -558509, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 168, At ByteOffset -448180, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 170, At ByteOffset 60, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 172, At ByteOffset 155084, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 173, At ByteOffset 265082, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 174, At ByteOffset 375050, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 175, At ByteOffset 485091, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 177, At ByteOffset 42, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 178, At ByteOffset 109722, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 179, At ByteOffset 219499, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 182, At ByteOffset 64, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 183, At ByteOffset 110246, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 184, At ByteOffset 220422, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 185, At ByteOffset 330671, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 186, At ByteOffset 441008, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 189, At ByteOffset 98, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 190, At ByteOffset 110098, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 191, At ByteOffset 219970, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 192, At ByteOffset 329915, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 194, At ByteOffset 42, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 197, At ByteOffset 147686, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 198, At ByteOffset 271886, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 199, At ByteOffset 396159, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 200, At ByteOffset 520520, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 202, At ByteOffset 60, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 204, At ByteOffset 183164, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 205, At ByteOffset 307202, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 206, At ByteOffset 431210, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 207, At ByteOffset 555291, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 209, At ByteOffset 42, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 210, At ByteOffset 127802, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 211, At ByteOffset -800985, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 214, At ByteOffset 64, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 215, At ByteOffset 124286, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 216, At ByteOffset 248502, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 217, At ByteOffset 372791, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 218, At ByteOffset 497168, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 221, At ByteOffset 98, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 222, At ByteOffset -924338, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 223, At ByteOffset -800418, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 224, At ByteOffset -676425, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 226, At ByteOffset 42, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 365, At ByteOffset 53, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 370, At ByteOffset 108830, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 372, At ByteOffset 196718, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 556, At ByteOffset -539941, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 557, At ByteOffset -445218, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 560, At ByteOffset -350359, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 561, At ByteOffset -247970, " />
+</RasterizationTest_BW>
+<RasterizationTest_Grayscale>
+<Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
+</RasterizationTest_Grayscale>
+<RasterizationTest_ClearType>
+<Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
+</RasterizationTest_ClearType>
+</Font>
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:00" />
+</FontFile>
+</FontValidatorReport>

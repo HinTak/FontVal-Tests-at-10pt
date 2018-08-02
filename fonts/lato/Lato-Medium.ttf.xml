@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="31 October 2016 07:11" MachineName="localhost.localdomain">
-<FontFile FileName="Lato-Medium.ttf" FileNameAndPath="/usr/share/fonts/lato/Lato-Medium.ttf">
+<FontValidatorReport RunDateTime="19 July 2017 00:35" MachineName="localhost">
+<FontFile FileName="Lato-Medium.ttf" FileNameAndPath="Z:/usr/share/fonts/lato/Lato-Medium.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
 <FontInfo FontName="Lato Medium" FontVersion="Version 2.015; 2015-08-06; http://www.latofonts.com/" FontDate="06/08/2015" />
@@ -66,6 +66,7 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
+<Report ErrorType="E" ErrorCode="E6019" Message="Funit coordinate out of range must be -16384 .. 16383" Details="Size 10, WCvtF, Pre-Program, At ByteOffset 20, " />
 <Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 0, At ByteOffset 5,  Of function 46" />
 <Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 0, At ByteOffset 5,  Of function 46" />
 <Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 0, At ByteOffset 5,  Of function 46" />
@@ -14413,6 +14414,6 @@
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
 </RasterizationTest_ClearType>
 </Font>
-<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:42" />
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:53" />
 </FontFile>
 </FontValidatorReport>

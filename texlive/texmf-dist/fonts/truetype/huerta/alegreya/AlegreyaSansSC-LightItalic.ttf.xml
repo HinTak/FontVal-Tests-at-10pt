@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="31 October 2016 09:03" MachineName="localhost.localdomain">
-<FontFile FileName="AlegreyaSansSC-LightItalic.ttf" FileNameAndPath="/usr/share/texlive/texmf-dist/fonts/truetype/huerta/alegreya/AlegreyaSansSC-LightItalic.ttf">
+<FontValidatorReport RunDateTime="18 July 2017 01:49" MachineName="localhost">
+<FontFile FileName="AlegreyaSansSC-LightItalic.ttf" FileNameAndPath="Z:/usr/share/texlive/texmf-dist/fonts/truetype/huerta/alegreya/AlegreyaSansSC-LightItalic.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
 <FontInfo FontName="Alegreya Sans SC Light Italic" FontVersion="Version 1.000;PS 001.000;hotconv 1.0.70;makeotf.lib2.5.58329 DEVELOPMENT; ttfautohint (v0.97) -l 8 -r 50 -G 200 -x 17 -f dflt -w G -W" FontDate="03/12/2013" />
@@ -72,6 +72,7 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
+<Report ErrorType="E" ErrorCode="E6019" Message="Funit coordinate out of range must be -16384 .. 16383" Details="Size 10, WCvtF, Pre-Program, At ByteOffset 25, " />
 <Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 4, At ByteOffset 92,  Of function 17" />
 <Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 4, At ByteOffset 5,  Of function 42" />
 <Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 4, At ByteOffset 5,  Of function 42" />
@@ -2192,6 +2193,6 @@
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
 </RasterizationTest_ClearType>
 </Font>
-<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:06" />
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:09" />
 </FontFile>
 </FontValidatorReport>

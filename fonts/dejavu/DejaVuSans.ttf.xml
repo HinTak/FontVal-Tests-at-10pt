@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="31 October 2016 07:54" MachineName="localhost.localdomain">
-<FontFile FileName="DejaVuSans.ttf" FileNameAndPath="/usr/share/fonts/dejavu/DejaVuSans.ttf">
+<FontValidatorReport RunDateTime="18 July 2017 08:24" MachineName="localhost">
+<FontFile FileName="DejaVuSans.ttf" FileNameAndPath="Z:/usr/share/fonts/dejavu/DejaVuSans.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
-<FontInfo FontName="DejaVu Sans" FontVersion="Version 2.35" FontDate="03/02/2016" />
+<FontInfo FontName="DejaVu Sans" FontVersion="Version 2.35" FontDate="17/05/2015" />
 <Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="20" TestName="_OFFSET_numTables" />
 <Report ErrorType="P" ErrorCode="P0010" Message="The searchRange, entrySelector, and rangeShift fields are all valid" TestName="_OFFSET_BinarySearchFields" />
 <Report ErrorType="P" ErrorCode="P0032" Message="The directory entry tags are in ascending order" />
@@ -16,7 +16,7 @@
 <Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="DSIG" />
 <Report ErrorType="P" ErrorCode="P0022" Message="No unnecessary tables are present" />
 <Report ErrorType="W" ErrorCode="W0020" Message="Tables are not in optimal order" Details="table 'OS/2' precedes table 'head'" />
-<TableEntry Tag="FFTM" Offset="0x0000014c" Length="0x0000001c" Checksum="0x74ff3562" CodeFriendlyTag="FFTM">
+<TableEntry Tag="FFTM" Offset="0x0000014c" Length="0x0000001c" Checksum="0x7799861b" CodeFriendlyTag="FFTM">
 <Report ErrorType="I" ErrorCode="I0040" Message="Not an OpenType table, contents not validated" Details="" />
 </TableEntry>
 <TableEntry Tag="GDEF" Offset="0x00000168" Length="0x00000292" Checksum="0x8e489417" CodeFriendlyTag="GDEF">
@@ -49,7 +49,7 @@
 <TableEntry Tag="glyf" Offset="0x0000d83c" Length="0x0008795c" Checksum="0x68346753" CodeFriendlyTag="glyf">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="head" Offset="0x00095198" Length="0x00000036" Checksum="0x0b11bfe9" CodeFriendlyTag="head">
+<TableEntry Tag="head" Offset="0x00095198" Length="0x00000036" Checksum="0x085da0a7" CodeFriendlyTag="head">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <TableEntry Tag="hhea" Offset="0x000951d0" Length="0x00000024" Checksum="0x0d9f1fbf" CodeFriendlyTag="hhea">
@@ -77,13 +77,13 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="W" ErrorCode="W6020" Message="Setting the loop variable to zero is an error" Details="Size 10, SLOOP, Glyph ID 116, At ByteOffset 67, " />
-<Report ErrorType="W" ErrorCode="W6020" Message="Setting the loop variable to zero is an error" Details="Size 10, SLOOP, Glyph ID 127, At ByteOffset 67, " />
+<Report ErrorType="W" ErrorCode="W6029" Message="Setting the loop variable to zero is an error" Details="Size 10, SLOOP, Glyph ID 116, At ByteOffset 67, " />
+<Report ErrorType="W" ErrorCode="W6029" Message="Setting the loop variable to zero is an error" Details="Size 10, SLOOP, Glyph ID 127, At ByteOffset 67, " />
 <Report ErrorType="E" ErrorCode="E6046" Message="Stack Underflow" Details="Size 10, IP, Glyph ID 350, At ByteOffset 73, " />
 <Report ErrorType="E" ErrorCode="E6046" Message="Stack Underflow" Details="Size 10, DeltaP1, Glyph ID 530, At ByteOffset 177, " />
-<Report ErrorType="W" ErrorCode="W6020" Message="Setting the loop variable to zero is an error" Details="Size 10, SLOOP, Glyph ID 2909, At ByteOffset 67, " />
-<Report ErrorType="W" ErrorCode="W6020" Message="Setting the loop variable to zero is an error" Details="Size 10, SLOOP, Glyph ID 3047, At ByteOffset 67, " />
-<Report ErrorType="W" ErrorCode="W6020" Message="Setting the loop variable to zero is an error" Details="Size 10, SLOOP, Glyph ID 3049, At ByteOffset 67, " />
+<Report ErrorType="W" ErrorCode="W6029" Message="Setting the loop variable to zero is an error" Details="Size 10, SLOOP, Glyph ID 2909, At ByteOffset 67, " />
+<Report ErrorType="W" ErrorCode="W6029" Message="Setting the loop variable to zero is an error" Details="Size 10, SLOOP, Glyph ID 3047, At ByteOffset 67, " />
+<Report ErrorType="W" ErrorCode="W6029" Message="Setting the loop variable to zero is an error" Details="Size 10, SLOOP, Glyph ID 3049, At ByteOffset 67, " />
 <Report ErrorType="W" ErrorCode="W6009" Message="Window 95 and Windows 3.1 always return 12" Details="Size 10, MPS, Glyph ID 4970, At ByteOffset 67, " />
 <Report ErrorType="W" ErrorCode="W6009" Message="Window 95 and Windows 3.1 always return 12" Details="Size 10, MPS, Glyph ID 4970, At ByteOffset 73, " />
 <Report ErrorType="W" ErrorCode="W6009" Message="Window 95 and Windows 3.1 always return 12" Details="Size 10, MPS, Glyph ID 4970, At ByteOffset 227, " />

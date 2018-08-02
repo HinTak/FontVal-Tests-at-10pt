@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="31 October 2016 05:48" MachineName="localhost.localdomain">
-<FontFile FileName="ukai.ttc" FileNameAndPath="/usr/share/fonts/cjkuni-ukai/ukai.ttc">
+<FontValidatorReport RunDateTime="17 July 2017 19:08" MachineName="localhost">
+<FontFile FileName="ukai.ttc" FileNameAndPath="Z:/usr/share/fonts/cjkuni-ukai/ukai.ttc">
 <Report ErrorType="I" ErrorCode="I0001" Message="The file begins with a TTC header (file contains a collection of fonts)" Details="TTC Header Version (major number): 1.0" />
 <Font FontIndex="0">
 <FontInfo FontName="AR PL UKai CN" FontVersion="Version 0.2.20080216 " FontDate="19/02/2008" />
@@ -142,9 +142,7 @@
 <TableEntry Tag="gasp" Offset="0x0001327c" Length="0x00000008" Checksum="0xffff0003" CodeFriendlyTag="gasp">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="glyf" Offset="0x0001336e" Length="0x00f63248" Checksum="0x92650e0c" CodeFriendlyTag="glyf">
-<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
-</TableEntry>
+<Report ErrorType="I" ErrorCode="I1100" Message="No need to check identical glyf tables in TTC beyond the first member" />
 <Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'head', calc: 0xe9865ce1, font: 0x911ccfab" />
 <TableEntry Tag="head" Offset="0x01023e8b" Length="0x00000036" Checksum="0x911ccfab" CodeFriendlyTag="head">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
@@ -174,13 +172,13 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="P" ErrorCode="P6000" Message="No problems were found during rasterization testing" />
+<Report ErrorType="I" ErrorCode="I1100" Message="No need to check identical glyf tables in TTC beyond the first member" />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
-<Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
+<Report ErrorType="I" ErrorCode="I1100" Message="No need to check identical glyf tables in TTC beyond the first member" />
 </RasterizationTest_Grayscale>
 <RasterizationTest_ClearType>
-<Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
+<Report ErrorType="I" ErrorCode="I1100" Message="No need to check identical glyf tables in TTC beyond the first member" />
 </RasterizationTest_ClearType>
 </Font>
 <Font FontIndex="2">
@@ -231,9 +229,7 @@
 <TableEntry Tag="gasp" Offset="0x0001327c" Length="0x00000008" Checksum="0xffff0003" CodeFriendlyTag="gasp">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="glyf" Offset="0x0001336e" Length="0x00f63248" Checksum="0x92650e0c" CodeFriendlyTag="glyf">
-<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
-</TableEntry>
+<Report ErrorType="I" ErrorCode="I1100" Message="No need to check identical glyf tables in TTC beyond the first member" />
 <Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'head', calc: 0xe9865e4f, font: 0x2ce81167" />
 <TableEntry Tag="head" Offset="0x0103ceda" Length="0x00000036" Checksum="0x2ce81167" CodeFriendlyTag="head">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
@@ -263,13 +259,13 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="P" ErrorCode="P6000" Message="No problems were found during rasterization testing" />
+<Report ErrorType="I" ErrorCode="I1100" Message="No need to check identical glyf tables in TTC beyond the first member" />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
-<Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
+<Report ErrorType="I" ErrorCode="I1100" Message="No need to check identical glyf tables in TTC beyond the first member" />
 </RasterizationTest_Grayscale>
 <RasterizationTest_ClearType>
-<Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
+<Report ErrorType="I" ErrorCode="I1100" Message="No need to check identical glyf tables in TTC beyond the first member" />
 </RasterizationTest_ClearType>
 </Font>
 <Font FontIndex="3">
@@ -322,9 +318,7 @@
 <TableEntry Tag="gasp" Offset="0x0001327c" Length="0x00000008" Checksum="0xffff0003" CodeFriendlyTag="gasp">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="glyf" Offset="0x0001336e" Length="0x00f63248" Checksum="0x92650e0c" CodeFriendlyTag="glyf">
-<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
-</TableEntry>
+<Report ErrorType="I" ErrorCode="I1100" Message="No need to check identical glyf tables in TTC beyond the first member" />
 <Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'head', calc: 0xe983e76b, font: 0x1bcd4fd0" />
 <TableEntry Tag="head" Offset="0x01055cd1" Length="0x00000036" Checksum="0x1bcd4fd0" CodeFriendlyTag="head">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
@@ -354,16 +348,16 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="P" ErrorCode="P6000" Message="No problems were found during rasterization testing" />
+<Report ErrorType="I" ErrorCode="I1100" Message="No need to check identical glyf tables in TTC beyond the first member" />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
-<Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
+<Report ErrorType="I" ErrorCode="I1100" Message="No need to check identical glyf tables in TTC beyond the first member" />
 </RasterizationTest_Grayscale>
 <RasterizationTest_ClearType>
-<Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
+<Report ErrorType="I" ErrorCode="I1100" Message="No need to check identical glyf tables in TTC beyond the first member" />
 </RasterizationTest_ClearType>
 </Font>
-<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:43" />
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:19" />
 <Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="DSIG" />
 </FontFile>
 </FontValidatorReport>

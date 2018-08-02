@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="31 October 2016 08:48" MachineName="localhost.localdomain">
-<FontFile FileName="font-mfizz.ttf" FileNameAndPath="/usr/share/texlive/texmf-dist/fonts/truetype/public/fontmfizz/font-mfizz.ttf">
+<FontValidatorReport RunDateTime="18 July 2017 01:26" MachineName="localhost">
+<FontFile FileName="font-mfizz.ttf" FileNameAndPath="Z:/usr/share/texlive/texmf-dist/fonts/truetype/public/fontmfizz/font-mfizz.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
 <FontInfo FontName="font-mfizz" FontVersion="Version 001.000 " FontDate="23/07/2013" />
@@ -180,6 +180,7 @@
 <Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PushB[0], Pre-Program, At ByteOffset 23, " />
 <Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, SWAP, Pre-Program, At ByteOffset 25, " />
 <Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, WCvtF, Pre-Program, At ByteOffset 26, " />
+<Report ErrorType="E" ErrorCode="E6019" Message="Funit coordinate out of range must be -16384 .. 16383" Details="Size 10, WCvtF, Pre-Program, At ByteOffset 26, " />
 <Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PushB[2], Pre-Program, At ByteOffset 27, " />
 <Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, RCvt, Pre-Program, At ByteOffset 31, " />
 <Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, GT, Pre-Program, At ByteOffset 32, " />
@@ -198,6 +199,6 @@
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
 </RasterizationTest_ClearType>
 </Font>
-<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:00" />
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:01" />
 </FontFile>
 </FontValidatorReport>

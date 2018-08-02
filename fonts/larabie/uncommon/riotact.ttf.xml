@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="31 October 2016 06:25" MachineName="localhost.localdomain">
-<FontFile FileName="riotact.ttf" FileNameAndPath="/usr/share/fonts/larabie/uncommon/riotact.ttf">
+<FontValidatorReport RunDateTime="17 July 2017 16:44" MachineName="localhost">
+<FontFile FileName="riotact.ttf" FileNameAndPath="Z:/usr/share/fonts/larabie/uncommon/riotact.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
 <FontInfo FontName="Riot Act" FontVersion="2.0 Tue Aug 05 23:00:40 1997" FontDate="06/08/1931" />
@@ -79,7 +79,11 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="P" ErrorCode="P6000" Message="No problems were found during rasterization testing" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFvFS, Glyph ID 29, At ByteOffset 42, " />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFvFS, Glyph ID 29, At ByteOffset 51, " />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFvFS, Glyph ID 29, At ByteOffset 62, " />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFvFS, Glyph ID 29, At ByteOffset 62, " />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFvFS, Glyph ID 31, At ByteOffset 44, " />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />

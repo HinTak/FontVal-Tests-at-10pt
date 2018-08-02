@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="31 October 2016 08:01" MachineName="localhost.localdomain">
-<FontFile FileName="LiberationSans-Bold.ttf" FileNameAndPath="/usr/share/fonts/liberation/LiberationSans-Bold.ttf">
+<FontValidatorReport RunDateTime="17 July 2017 16:15" MachineName="localhost">
+<FontFile FileName="LiberationSans-Bold.ttf" FileNameAndPath="Z:/usr/share/fonts/liberation/LiberationSans-Bold.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
-<FontInfo FontName="Liberation Sans Bold" FontVersion="Version 1.07.4" FontDate="04/02/2016" />
+<FontInfo FontName="Liberation Sans Bold" FontVersion="Version 1.07.4" FontDate="03/12/2013" />
 <Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="19" TestName="_OFFSET_numTables" />
 <Report ErrorType="P" ErrorCode="P0010" Message="The searchRange, entrySelector, and rangeShift fields are all valid" TestName="_OFFSET_BinarySearchFields" />
 <Report ErrorType="P" ErrorCode="P0032" Message="The directory entry tags are in ascending order" />
@@ -16,7 +16,7 @@
 <Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="DSIG" />
 <Report ErrorType="P" ErrorCode="P0022" Message="No unnecessary tables are present" />
 <Report ErrorType="P" ErrorCode="P0021" Message="Tables are in optimal order" />
-<TableEntry Tag="FFTM" Offset="0x00021880" Length="0x0000001c" Checksum="0x5fe156c8" CodeFriendlyTag="FFTM">
+<TableEntry Tag="FFTM" Offset="0x00021880" Length="0x0000001c" Checksum="0x627bbe01" CodeFriendlyTag="FFTM">
 <Report ErrorType="I" ErrorCode="I0040" Message="Not an OpenType table, contents not validated" Details="" />
 </TableEntry>
 <TableEntry Tag="GDEF" Offset="0x0002078c" Length="0x00000026" Checksum="0x002702d0" CodeFriendlyTag="GDEF">
@@ -46,7 +46,7 @@
 <TableEntry Tag="glyf" Offset="0x00002640" Length="0x0001ae48" Checksum="0xc00ccfc0" CodeFriendlyTag="glyf">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="head" Offset="0x0000013c" Length="0x00000036" Checksum="0x0beba391" CodeFriendlyTag="head">
+<TableEntry Tag="head" Offset="0x0000013c" Length="0x00000036" Checksum="0xf418799f" CodeFriendlyTag="head">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <TableEntry Tag="hhea" Offset="0x00000174" Length="0x00000024" Checksum="0x0e8a0864" CodeFriendlyTag="hhea">
@@ -74,7 +74,21 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="P" ErrorCode="P6000" Message="No problems were found during rasterization testing" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPvFS, Glyph ID 90, At ByteOffset 36, " />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPvFS, Glyph ID 90, At ByteOffset 57, " />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPvFS, Glyph ID 90, At ByteOffset 57, " />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPvFS, Glyph ID 309, At ByteOffset 36, " />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPvFS, Glyph ID 309, At ByteOffset 57, " />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPvFS, Glyph ID 309, At ByteOffset 57, " />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPvFS, Glyph ID 513, At ByteOffset 36, " />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPvFS, Glyph ID 513, At ByteOffset 57, " />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPvFS, Glyph ID 513, At ByteOffset 57, " />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPvFS, Glyph ID 515, At ByteOffset 36, " />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPvFS, Glyph ID 515, At ByteOffset 57, " />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPvFS, Glyph ID 515, At ByteOffset 57, " />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPvFS, Glyph ID 517, At ByteOffset 36, " />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPvFS, Glyph ID 517, At ByteOffset 57, " />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPvFS, Glyph ID 517, At ByteOffset 57, " />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />

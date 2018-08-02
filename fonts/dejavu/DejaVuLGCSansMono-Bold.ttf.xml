@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="31 October 2016 07:52" MachineName="localhost.localdomain">
-<FontFile FileName="DejaVuLGCSansMono-Bold.ttf" FileNameAndPath="/usr/share/fonts/dejavu/DejaVuLGCSansMono-Bold.ttf">
+<FontValidatorReport RunDateTime="18 July 2017 07:51" MachineName="localhost">
+<FontFile FileName="DejaVuLGCSansMono-Bold.ttf" FileNameAndPath="Z:/usr/share/fonts/dejavu/DejaVuLGCSansMono-Bold.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
-<FontInfo FontName="DejaVu LGC Sans Mono Bold" FontVersion="Version 2.35" FontDate="03/02/2016" />
+<FontInfo FontName="DejaVu LGC Sans Mono Bold" FontVersion="Version 2.35" FontDate="10/02/2017" />
 <Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="18" TestName="_OFFSET_numTables" />
 <Report ErrorType="P" ErrorCode="P0010" Message="The searchRange, entrySelector, and rangeShift fields are all valid" TestName="_OFFSET_BinarySearchFields" />
 <Report ErrorType="P" ErrorCode="P0032" Message="The directory entry tags are in ascending order" />
@@ -15,7 +15,7 @@
 <Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="DSIG" />
 <Report ErrorType="P" ErrorCode="P0022" Message="No unnecessary tables are present" />
 <Report ErrorType="W" ErrorCode="W0020" Message="Tables are not in optimal order" Details="table 'OS/2' precedes table 'head'" />
-<TableEntry Tag="FFTM" Offset="0x0000012c" Length="0x0000001c" Checksum="0x77b35496" CodeFriendlyTag="FFTM">
+<TableEntry Tag="FFTM" Offset="0x0000012c" Length="0x0000001c" Checksum="0x7e248492" CodeFriendlyTag="FFTM">
 <Report ErrorType="I" ErrorCode="I0040" Message="Not an OpenType table, contents not validated" Details="" />
 </TableEntry>
 <TableEntry Tag="GDEF" Offset="0x00000148" Length="0x00000042" Checksum="0x204d2ae5" CodeFriendlyTag="GDEF">
@@ -45,7 +45,7 @@
 <TableEntry Tag="glyf" Offset="0x00001e1c" Length="0x00035ccc" Checksum="0x39a68bc8" CodeFriendlyTag="glyf">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="head" Offset="0x00037ae8" Length="0x00000036" Checksum="0x072bbeb0" CodeFriendlyTag="head">
+<TableEntry Tag="head" Offset="0x00037ae8" Length="0x00000036" Checksum="0x0b029ddf" CodeFriendlyTag="head">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <TableEntry Tag="hhea" Offset="0x00037b20" Length="0x00000024" Checksum="0x09b80201" CodeFriendlyTag="hhea">
@@ -71,7 +71,7 @@
 </TableEntry>
 <RasterizationTest_BW>
 <Report ErrorType="E" ErrorCode="E6046" Message="Stack Underflow" Details="Size 10, SLOOP, Glyph ID 845, At ByteOffset 78, " />
-<Report ErrorType="W" ErrorCode="W6020" Message="Setting the loop variable to zero is an error" Details="Size 10, SLOOP, Glyph ID 845, At ByteOffset 78, " />
+<Report ErrorType="W" ErrorCode="W6029" Message="Setting the loop variable to zero is an error" Details="Size 10, SLOOP, Glyph ID 845, At ByteOffset 78, " />
 <Report ErrorType="E" ErrorCode="E6046" Message="Stack Underflow" Details="Size 10, SHPIX, Glyph ID 845, At ByteOffset 79, " />
 <Report ErrorType="E" ErrorCode="E6046" Message="Stack Underflow" Details="Size 10, SHPIX, Glyph ID 845, At ByteOffset 79, " />
 </RasterizationTest_BW>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="31 October 2016 07:06" MachineName="localhost.localdomain">
-<FontFile FileName="opens___.ttf" FileNameAndPath="/usr/share/fonts/opensymbol/opens___.ttf">
+<FontValidatorReport RunDateTime="17 July 2017 14:13" MachineName="localhost">
+<FontFile FileName="opens___.ttf" FileNameAndPath="Z:/usr/share/fonts/opensymbol/opens___.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
-<FontInfo FontName="OpenSymbol" FontVersion="Version 102.7" FontDate="21/08/2015" />
-<Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="15" TestName="_OFFSET_numTables" />
+<FontInfo FontName="OpenSymbol" FontVersion="Version 102.10 " FontDate="21/11/2016" />
+<Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="16" TestName="_OFFSET_numTables" />
 <Report ErrorType="P" ErrorCode="P0010" Message="The searchRange, entrySelector, and rangeShift fields are all valid" TestName="_OFFSET_BinarySearchFields" />
 <Report ErrorType="P" ErrorCode="P0032" Message="The directory entry tags are in ascending order" />
 <Report ErrorType="P" ErrorCode="P0031" Message="The directory entry tag names are valid" />
@@ -17,54 +17,63 @@
 <Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="DSIG" />
 <Report ErrorType="P" ErrorCode="P0022" Message="No unnecessary tables are present" />
 <Report ErrorType="P" ErrorCode="P0021" Message="Tables are in optimal order" />
-<TableEntry Tag="GDEF" Offset="0x00031290" Length="0x00000056" Checksum="0x04db08cb" CodeFriendlyTag="GDEF">
+<TableEntry Tag="FFTM" Offset="0x00032a0c" Length="0x0000001c" Checksum="0x6903700d" CodeFriendlyTag="FFTM">
+<Report ErrorType="I" ErrorCode="I0040" Message="Not an OpenType table, contents not validated" Details="" />
+</TableEntry>
+<TableEntry Tag="GDEF" Offset="0x000329b4" Length="0x00000056" Checksum="0x04f3090f" CodeFriendlyTag="GDEF">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="OS/2" Offset="0x00000178" Length="0x00000060" Checksum="0x4f7ddd03" CodeFriendlyTag="OS_2">
+<TableEntry Tag="OS/2" Offset="0x00000188" Length="0x00000060" Checksum="0x50beecf7" CodeFriendlyTag="OS_2">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="cmap" Offset="0x0000119c" Length="0x00000914" Checksum="0x94ca1599" CodeFriendlyTag="cmap">
+<TableEntry Tag="cmap" Offset="0x00001264" Length="0x00000a08" Checksum="0x93b3ab6c" CodeFriendlyTag="cmap">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="cvt " Offset="0x00001d48" Length="0x00000050" Checksum="0x0d8e175c" CodeFriendlyTag="cvt_">
+<TableEntry Tag="cvt " Offset="0x00001f04" Length="0x00000050" Checksum="0x0d8e175c" CodeFriendlyTag="cvt_">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="fpgm" Offset="0x00001ab0" Length="0x00000265" Checksum="0x0fb42fa7" CodeFriendlyTag="fpgm">
+<TableEntry Tag="fpgm" Offset="0x00001c6c" Length="0x00000265" Checksum="0x0fb42fa7" CodeFriendlyTag="fpgm">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="gasp" Offset="0x00031288" Length="0x00000008" Checksum="0xffff0003" CodeFriendlyTag="gasp">
+<TableEntry Tag="gasp" Offset="0x000329ac" Length="0x00000008" Checksum="0xffff0003" CodeFriendlyTag="gasp">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="glyf" Offset="0x00002d6c" Length="0x0002bcab" Checksum="0x1a24ae0f" CodeFriendlyTag="glyf">
+<TableEntry Tag="glyf" Offset="0x00002fd4" Length="0x0002cd10" Checksum="0xa274a098" CodeFriendlyTag="glyf">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="head" Offset="0x000000fc" Length="0x00000036" Checksum="0x06ca901f" CodeFriendlyTag="head">
+<TableEntry Tag="head" Offset="0x0000010c" Length="0x00000036" Checksum="0xfb9069e8" CodeFriendlyTag="head">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="hhea" Offset="0x00000134" Length="0x00000024" Checksum="0x0e94094e" CodeFriendlyTag="hhea">
+<TableEntry Tag="hhea" Offset="0x00000144" Length="0x00000024" Checksum="0x0dfd0a47" CodeFriendlyTag="hhea">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="hmtx" Offset="0x000001d8" Length="0x00000fc2" Checksum="0x6f99f76a" CodeFriendlyTag="hmtx">
+<TableEntry Tag="hmtx" Offset="0x000001e8" Length="0x0000107c" Checksum="0x3e4b155d" CodeFriendlyTag="hmtx">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="loca" Offset="0x00001d98" Length="0x00000fd4" Checksum="0x05950a22" CodeFriendlyTag="loca">
+<TableEntry Tag="loca" Offset="0x00001f54" Length="0x00001080" Checksum="0x061c8250" CodeFriendlyTag="loca">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="maxp" Offset="0x00000158" Length="0x00000020" Checksum="0x05350466" CodeFriendlyTag="maxp">
+<TableEntry Tag="maxp" Offset="0x00000168" Length="0x00000020" Checksum="0x05630480" CodeFriendlyTag="maxp">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="name" Offset="0x0002ea18" Length="0x00000387" Checksum="0xda095a08" CodeFriendlyTag="name">
+<TableEntry Tag="name" Offset="0x0002fce4" Length="0x00000639" Checksum="0x56e43866" CodeFriendlyTag="name">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="post" Offset="0x0002eda0" Length="0x000024e5" Checksum="0xcceb99e1" CodeFriendlyTag="post">
+<TableEntry Tag="post" Offset="0x00030320" Length="0x0000268c" Checksum="0x3ebdef59" CodeFriendlyTag="post">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="prep" Offset="0x00001d18" Length="0x0000002e" Checksum="0xb0f22b14" CodeFriendlyTag="prep">
+<TableEntry Tag="prep" Offset="0x00001ed4" Length="0x0000002e" Checksum="0xb0f22b14" CodeFriendlyTag="prep">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="E" ErrorCode="E6043" Message="RP1 and RP2 have the same position on the projection vector" Details="Size 10, IP, Glyph ID 73, At ByteOffset 129, " />
-<Report ErrorType="E" ErrorCode="E6043" Message="RP1 and RP2 have the same position on the projection vector" Details="Size 10, IP, Glyph ID 73, At ByteOffset 171, " />
+<Report ErrorType="E" ErrorCode="E6043" Message="RP1 and RP2 have the same position on the projection vector" Details="Size 10, IP, Glyph ID 76, At ByteOffset 129, " />
+<Report ErrorType="E" ErrorCode="E6043" Message="RP1 and RP2 have the same position on the projection vector" Details="Size 10, IP, Glyph ID 76, At ByteOffset 171, " />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPvFS, Glyph ID 433, At ByteOffset 52, " />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPvFS, Glyph ID 433, At ByteOffset 52, " />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPvFS, Glyph ID 447, At ByteOffset 32, " />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPvFS, Glyph ID 447, At ByteOffset 32, " />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPvFS, Glyph ID 936, At ByteOffset 54, " />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPvFS, Glyph ID 995, At ByteOffset 104, " />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />

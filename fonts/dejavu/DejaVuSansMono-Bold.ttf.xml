@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="18 July 2017 07:55" MachineName="localhost">
-<FontFile FileName="DejaVuSansMono-Bold.ttf" FileNameAndPath="Z:/usr/share/fonts/dejavu/DejaVuSansMono-Bold.ttf">
+<FontValidatorReport RunDateTime="16 May 2018 23:25" MachineName="localhost.localdomain">
+<FontFile FileName="DejaVuSansMono-Bold.ttf" FileNameAndPath="/usr/share/fonts/dejavu/DejaVuSansMono-Bold.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
 <FontInfo FontName="DejaVu Sans Mono Bold" FontVersion="Version 2.35" FontDate="17/05/2015" />
@@ -15,7 +15,7 @@
 <Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="DSIG" />
 <Report ErrorType="P" ErrorCode="P0022" Message="No unnecessary tables are present" />
 <Report ErrorType="W" ErrorCode="W0020" Message="Tables are not in optimal order" Details="table 'OS/2' precedes table 'head'" />
-<TableEntry Tag="FFTM" Offset="0x0000012c" Length="0x0000001c" Checksum="0x7799861b" CodeFriendlyTag="FFTM">
+<TableEntry Tag="FFTM" Offset="0x0000012c" Length="0x0000001c" Checksum="0x79791a28" CodeFriendlyTag="FFTM">
 <Report ErrorType="I" ErrorCode="I0040" Message="Not an OpenType table, contents not validated" Details="" />
 </TableEntry>
 <TableEntry Tag="GDEF" Offset="0x00000148" Length="0x00000072" Checksum="0x58596474" CodeFriendlyTag="GDEF">
@@ -30,7 +30,7 @@
 <TableEntry Tag="OS/2" Offset="0x00002220" Length="0x00000056" Checksum="0x8e268b92" CodeFriendlyTag="OS_2">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="cmap" Offset="0x00002278" Length="0x00001636" Checksum="0x6469ac1e" CodeFriendlyTag="cmap">
+<TableEntry Tag="cmap" Offset="0x00002278" Length="0x00001636" Checksum="0x6469ac18" CodeFriendlyTag="cmap">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <TableEntry Tag="cvt " Offset="0x000038b0" Length="0x00000184" Checksum="0xb449b12a" CodeFriendlyTag="cvt_">
@@ -70,10 +70,10 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="E" ErrorCode="E6046" Message="Stack Underflow" Details="Size 10, SLOOP, Glyph ID 845, At ByteOffset 78, " />
-<Report ErrorType="W" ErrorCode="W6029" Message="Setting the loop variable to zero is an error" Details="Size 10, SLOOP, Glyph ID 845, At ByteOffset 78, " />
-<Report ErrorType="E" ErrorCode="E6046" Message="Stack Underflow" Details="Size 10, SHPIX, Glyph ID 845, At ByteOffset 79, " />
-<Report ErrorType="E" ErrorCode="E6046" Message="Stack Underflow" Details="Size 10, SHPIX, Glyph ID 845, At ByteOffset 79, " />
+<Report ErrorType="E" ErrorCode="E6046" Message="Stack Underflow" Details="Size 10, SLOOP, Glyph ID 845, At ByteOffset 78" />
+<Report ErrorType="W" ErrorCode="W6029" Message="Setting the loop variable to zero is an error" Details="Size 10, SLOOP, Glyph ID 845, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6046" Message="Stack Underflow" Details="Size 10, SHPIX, Glyph ID 845, At ByteOffset 79" />
+<Report ErrorType="E" ErrorCode="E6046" Message="Stack Underflow" Details="Size 10, SHPIX, Glyph ID 845, At ByteOffset 79" />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
@@ -82,6 +82,6 @@
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
 </RasterizationTest_ClearType>
 </Font>
-<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:01" />
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:00" />
 </FontFile>
 </FontValidatorReport>

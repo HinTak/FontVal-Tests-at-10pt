@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="21 October 2016 02:50" MachineName="localhost">
-<FontFile FileName="DejaVuLGCSerif-Italic.ttf" FileNameAndPath="Z:/usr/share/fonts/dejavu/DejaVuLGCSerif-Italic.ttf">
+<FontValidatorReport RunDateTime="10 August 2018 09:15" MachineName="localhost">
+<FontFile FileName="DejaVuLGCSerif-Italic.ttf" FileNameAndPath="z:/usr/share/fonts/dejavu/DejaVuLGCSerif-Italic.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
-<FontInfo FontName="DejaVu LGC Serif Italic" FontVersion="Version 2.35" FontDate="03/02/2016" />
+<FontInfo FontName="DejaVu LGC Serif Italic" FontVersion="Version 2.35" FontDate="07/02/2018" />
 <Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="19" TestName="_OFFSET_numTables" />
 <Report ErrorType="P" ErrorCode="P0010" Message="The searchRange, entrySelector, and rangeShift fields are all valid" TestName="_OFFSET_BinarySearchFields" />
 <Report ErrorType="P" ErrorCode="P0032" Message="The directory entry tags are in ascending order" />
@@ -16,7 +16,7 @@
 <Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="DSIG" />
 <Report ErrorType="P" ErrorCode="P0022" Message="No unnecessary tables are present" />
 <Report ErrorType="W" ErrorCode="W0020" Message="Tables are not in optimal order" Details="table 'OS/2' precedes table 'head'" />
-<TableEntry Tag="FFTM" Offset="0x0000013c" Length="0x0000001c" Checksum="0x77b35498" CodeFriendlyTag="FFTM">
+<TableEntry Tag="FFTM" Offset="0x0000013c" Length="0x0000001c" Checksum="0x83bdbeac" CodeFriendlyTag="FFTM">
 <Report ErrorType="I" ErrorCode="I0040" Message="Not an OpenType table, contents not validated" Details="" />
 </TableEntry>
 <TableEntry Tag="GDEF" Offset="0x00000158" Length="0x000000aa" Checksum="0x8f259b76" CodeFriendlyTag="GDEF">
@@ -31,7 +31,7 @@
 <TableEntry Tag="OS/2" Offset="0x00003fb8" Length="0x00000056" Checksum="0x69aae336" CodeFriendlyTag="OS_2">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="cmap" Offset="0x00004010" Length="0x00000f66" Checksum="0xbc4ae3d3" CodeFriendlyTag="cmap">
+<TableEntry Tag="cmap" Offset="0x00004010" Length="0x00000f66" Checksum="0xbc4ae3cd" CodeFriendlyTag="cmap">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <TableEntry Tag="cvt " Offset="0x00004f78" Length="0x00000194" Checksum="0x8f33abf4" CodeFriendlyTag="cvt_">
@@ -46,7 +46,7 @@
 <TableEntry Tag="glyf" Offset="0x000051a4" Length="0x00033cf0" Checksum="0xc8be414f" CodeFriendlyTag="glyf">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="head" Offset="0x00038e94" Length="0x00000036" Checksum="0x0b7abfe3" CodeFriendlyTag="head">
+<TableEntry Tag="head" Offset="0x00038e94" Length="0x00000036" Checksum="0x130b451d" CodeFriendlyTag="head">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <TableEntry Tag="hhea" Offset="0x00038ecc" Length="0x00000024" Checksum="0x0e19149d" CodeFriendlyTag="hhea">
@@ -83,6 +83,6 @@
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
 </RasterizationTest_ClearType>
 </Font>
-<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:02" />
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:01" />
 </FontFile>
 </FontValidatorReport>

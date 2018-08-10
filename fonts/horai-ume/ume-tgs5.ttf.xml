@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="21 October 2016 04:42" MachineName="localhost">
-<FontFile FileName="ume-tgs5.ttf" FileNameAndPath="Z:/usr/share/fonts/horai-ume/ume-tgs5.ttf">
+<FontValidatorReport RunDateTime="10 August 2018 10:39" MachineName="localhost">
+<FontFile FileName="ume-tgs5.ttf" FileNameAndPath="z:/usr/share/fonts/horai-ume/ume-tgs5.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
-<FontInfo FontName="Ume Gothic S5" FontVersion="Look update time of this file." FontDate="29/03/2016" />
+<FontInfo FontName="Ume Gothic S5" FontVersion="Look update time of this file." FontDate="07/03/2017" />
 <Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="16" TestName="_OFFSET_numTables" />
 <Report ErrorType="P" ErrorCode="P0010" Message="The searchRange, entrySelector, and rangeShift fields are all valid" TestName="_OFFSET_BinarySearchFields" />
 <Report ErrorType="P" ErrorCode="P0032" Message="The directory entry tags are in ascending order" />
@@ -35,38 +35,39 @@
 <TableEntry Tag="gasp" Offset="0x0000944c" Length="0x00000010" Checksum="0x00170006" CodeFriendlyTag="gasp">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="glyf" Offset="0x0000945c" Length="0x003d88bc" Checksum="0xc6cb7ad0" CodeFriendlyTag="glyf">
+<TableEntry Tag="glyf" Offset="0x0000945c" Length="0x00402122" Checksum="0x59955400" CodeFriendlyTag="glyf">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="head" Offset="0x003e1d18" Length="0x00000036" Checksum="0x42acc01d" CodeFriendlyTag="head">
+<TableEntry Tag="head" Offset="0x0040b580" Length="0x00000036" Checksum="0x44712d9e" CodeFriendlyTag="head">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="hhea" Offset="0x003e1d50" Length="0x00000024" Checksum="0x1d834a3c" CodeFriendlyTag="hhea">
+<TableEntry Tag="hhea" Offset="0x0040b5b8" Length="0x00000024" Checksum="0x1d734a2c" CodeFriendlyTag="hhea">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="hmtx" Offset="0x003e1d74" Length="0x0000f32c" Checksum="0xc8abeb90" CodeFriendlyTag="hmtx">
+<TableEntry Tag="hmtx" Offset="0x0040b5dc" Length="0x0000f32c" Checksum="0xc8ba8180" CodeFriendlyTag="hmtx">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="loca" Offset="0x003f10a0" Length="0x0000f330" Checksum="0x7dc1d9f4" CodeFriendlyTag="loca">
+<TableEntry Tag="loca" Offset="0x0041a908" Length="0x0000f330" Checksum="0x8d4ffa14" CodeFriendlyTag="loca">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="maxp" Offset="0x004003d0" Length="0x00000020" Checksum="0x5513039b" CodeFriendlyTag="maxp">
+<TableEntry Tag="maxp" Offset="0x00429c38" Length="0x00000020" Checksum="0x551301ee" CodeFriendlyTag="maxp">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="mort" Offset="0x004003f0" Length="0x000009a8" Checksum="0x448cd99b" CodeFriendlyTag="mort">
+<TableEntry Tag="mort" Offset="0x00429c58" Length="0x000009a8" Checksum="0xead94399" CodeFriendlyTag="mort">
 <Report ErrorType="I" ErrorCode="I0040" Message="Not an OpenType table, contents not validated" Details="This table type is defined in the Apple TrueType spec." />
 </TableEntry>
-<TableEntry Tag="name" Offset="0x00400d98" Length="0x000005a6" Checksum="0x903838d5" CodeFriendlyTag="name">
+<TableEntry Tag="name" Offset="0x0042a600" Length="0x000005a6" Checksum="0x903838d5" CodeFriendlyTag="name">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="post" Offset="0x00401340" Length="0x00000020" Checksum="0xffa30030" CodeFriendlyTag="post">
+<TableEntry Tag="post" Offset="0x0042aba8" Length="0x00000020" Checksum="0xffa30030" CodeFriendlyTag="post">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="prep" Offset="0x00401360" Length="0x00000282" Checksum="0x0f253ea5" CodeFriendlyTag="prep">
+<TableEntry Tag="prep" Offset="0x0042abc8" Length="0x00000282" Checksum="0xcfed2016" CodeFriendlyTag="prep">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="P" ErrorCode="P6000" Message="No problems were found during rasterization testing" />
+<Report ErrorType="E" ErrorCode="E6046" Message="Stack Underflow" Details="Size 10, MSIRP[nrp], Pre-Program, At ByteOffset 0, " />
+<Report ErrorType="A" ErrorCode="A6000" Message="An exception occurred during rasterization testing" Details="Secure Rasterizer error: TrueType stack underflow   at Avalon.Media.Text.TrueType.RasterInterf.RenderSize(Int32 resX, Int32 resY, Int32 nPointSize, Single stretchX, Single stretchY, Single rotation, Single skew, Single[,] matrix)&#xD;&#xA;   at Avalon.Media.Text.TrueType.RasterInterf.RastTest(Int32 resX, Int32 resY, Int32[] arrPointSizes, Single stretchX, Single stretchY, Single rotation, Single skew, Single[,] matrix, RastTestErrorDelegate pRastTestErrorDelegate, UpdateProgressDelegate pUpdateProgressDelegate)&#xD;&#xA;   at OTFontFile.Rasterizer.RasterInterf.RastTest(Int32 resX, Int32 resY, Int32[] arrPointSizes, Single stretchX, Single stretchY, Single rotation, Single skew, Single[,] matrix, Boolean setBW, Boolean setGrayscale, Boolean setCleartype, UInt32 CTFlags, RastTestErrorDelegate pRastTestErrorDelegate, UpdateProgressDelegate pUpdateProgressDelegate, Int32 numGlyphs)&#xD;&#xA;   at OTFontFileVal.OTFontVal.Validate()" />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
@@ -75,6 +76,6 @@
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
 </RasterizationTest_ClearType>
 </Font>
-<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:17" />
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:02" />
 </FontFile>
 </FontValidatorReport>

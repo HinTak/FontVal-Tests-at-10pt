@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="10 August 2018 04:55" MachineName="localhost.localdomain">
-<FontFile FileName="ArundinaSans.ttf" FileNameAndPath="/usr/share/fonts/thai-arundina/ArundinaSans.ttf">
+<FontValidatorReport RunDateTime="10 November 2018 02:21" MachineName="localhost">
+<FontFile FileName="ArundinaSans.ttf" FileNameAndPath="z://usr/share/fonts/thai-arundina/ArundinaSans.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
 <FontInfo FontName="Arundina Sans" FontVersion="Version 1.24 " FontDate="24/04/2014" />
@@ -17,7 +17,7 @@
 <Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="DSIG" />
 <Report ErrorType="P" ErrorCode="P0022" Message="No unnecessary tables are present" />
 <Report ErrorType="P" ErrorCode="P0021" Message="Tables are in optimal order" />
-<TableEntry Tag="FFTM" Offset="0x0001a754" Length="0x0000001c" Checksum="0x658f8356" CodeFriendlyTag="FFTM">
+<TableEntry Tag="FFTM" Offset="0x0001a754" Length="0x0000001c" Checksum="0x6675400a" CodeFriendlyTag="FFTM">
 <Report ErrorType="I" ErrorCode="I0040" Message="Not an OpenType table, contents not validated" Details="" />
 </TableEntry>
 <TableEntry Tag="GDEF" Offset="0x0001a15c" Length="0x00000044" Checksum="0x05f40775" CodeFriendlyTag="GDEF">
@@ -72,6 +72,27 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 43" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 52" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 63" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 123" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 130" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 149" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 168" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 177" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 236" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 250" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 259" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 290" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 342" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 381" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 434" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 443" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 452" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 493" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 519" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 601" />
 <Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPvFS, Glyph ID 6, At ByteOffset 90" />
 <Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPvFS, Glyph ID 6, At ByteOffset 119" />
 <Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPvFS, Glyph ID 8, At ByteOffset 103" />
@@ -468,6 +489,6 @@
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
 </RasterizationTest_ClearType>
 </Font>
-<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:00" />
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:04" />
 </FontFile>
 </FontValidatorReport>

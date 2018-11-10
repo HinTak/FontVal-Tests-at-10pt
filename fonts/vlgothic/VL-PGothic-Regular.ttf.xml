@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="10 August 2018 04:39" MachineName="localhost.localdomain">
-<FontFile FileName="VL-PGothic-Regular.ttf" FileNameAndPath="/usr/share/fonts/vlgothic/VL-PGothic-Regular.ttf">
+<FontValidatorReport RunDateTime="10 November 2018 01:35" MachineName="localhost">
+<FontFile FileName="VL-PGothic-Regular.ttf" FileNameAndPath="z://usr/share/fonts/vlgothic/VL-PGothic-Regular.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
 <FontInfo FontName="VL PGothic Regular" FontVersion="Version 2.120" FontDate="06/12/2014" />
@@ -74,7 +74,21 @@
 <Report ErrorType="I" ErrorCode="I0040" Message="Not an OpenType table, contents not validated" Details="This table type is defined in the Apple TrueType spec." />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="P" ErrorCode="P6000" Message="No problems were found during rasterization testing" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 43" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 52" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 63" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 123" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 130" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 149" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 168" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 177" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 236" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 250" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 259" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 290" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 342" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 381" />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
@@ -83,6 +97,6 @@
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
 </RasterizationTest_ClearType>
 </Font>
-<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:04" />
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:06" />
 </FontFile>
 </FontValidatorReport>

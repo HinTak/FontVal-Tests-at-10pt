@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="10 August 2018 04:27" MachineName="localhost.localdomain">
-<FontFile FileName="siliconc.ttf" FileNameAndPath="/usr/share/fonts/larabie/straight/siliconc.ttf">
+<FontValidatorReport RunDateTime="10 November 2018 01:14" MachineName="localhost">
+<FontFile FileName="siliconc.ttf" FileNameAndPath="z://usr/share/fonts/larabie/straight/siliconc.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
 <FontInfo FontName="Silicon Carne" FontVersion="V2 Apr 1997 - fixed space &amp; overlaps" FontDate="13/04/1931" />
@@ -78,6 +78,10 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 24" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 39" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 53" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 68" />
 <Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFvFS, Glyph ID 31, At ByteOffset 55" />
 <Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFvFS, Glyph ID 31, At ByteOffset 66" />
 <Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFvFS, Glyph ID 31, At ByteOffset 66" />

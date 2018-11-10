@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="10 August 2018 05:45" MachineName="localhost.localdomain">
-<FontFile FileName="Edrip-BoldItalic.ttf" FileNameAndPath="/usr/share/fonts/apanov-edrip/Edrip-BoldItalic.ttf">
+<FontValidatorReport RunDateTime="10 November 2018 04:09" MachineName="localhost">
+<FontFile FileName="Edrip-BoldItalic.ttf" FileNameAndPath="z://usr/share/fonts/apanov-edrip/Edrip-BoldItalic.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
 <FontInfo FontName="Edrip Bold Italic" FontVersion="Version 1.0 " FontDate="19/11/2009" />
@@ -70,6 +70,12 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 95" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 133" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 222" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 256" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 386" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 604" />
 <Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPvFS, Glyph ID 4, At ByteOffset 9" />
 <Report ErrorType="E" ErrorCode="E6048" Message="Storage location not written to" Details="Size 10, RS, Glyph ID 4, At ByteOffset 57" />
 <Report ErrorType="E" ErrorCode="E6048" Message="Storage location not written to" Details="Size 10, RS, Glyph ID 4, At ByteOffset 65" />
@@ -675,6 +681,6 @@
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
 </RasterizationTest_ClearType>
 </Font>
-<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:00" />
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:07" />
 </FontFile>
 </FontValidatorReport>

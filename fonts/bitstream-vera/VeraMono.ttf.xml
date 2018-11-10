@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="10 August 2018 05:51" MachineName="localhost.localdomain">
-<FontFile FileName="VeraMono.ttf" FileNameAndPath="/usr/share/fonts/bitstream-vera/VeraMono.ttf">
+<FontValidatorReport RunDateTime="10 November 2018 04:21" MachineName="localhost">
+<FontFile FileName="VeraMono.ttf" FileNameAndPath="z://usr/share/fonts/bitstream-vera/VeraMono.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
 <FontInfo FontName="Bitstream Vera Sans Mono" FontVersion="Release 1.10" FontDate="16/04/2003" />
@@ -65,6 +65,12 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 25" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 40" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 99" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 112" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 120" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 136" />
 <Report ErrorType="W" ErrorCode="W6029" Message="Setting the loop variable to zero is an error" Details="Size 10, SLOOP, Glyph ID 21, At ByteOffset 77" />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>

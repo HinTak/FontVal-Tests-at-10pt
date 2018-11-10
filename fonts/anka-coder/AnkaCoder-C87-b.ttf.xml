@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="10 August 2018 04:24" MachineName="localhost.localdomain">
-<FontFile FileName="AnkaCoder-C87-b.ttf" FileNameAndPath="/usr/share/fonts/anka-coder/AnkaCoder-C87-b.ttf">
+<FontValidatorReport RunDateTime="10 November 2018 01:08" MachineName="localhost">
+<FontFile FileName="AnkaCoder-C87-b.ttf" FileNameAndPath="z://usr/share/fonts/anka-coder/AnkaCoder-C87-b.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
 <FontInfo FontName="Anka/Coder Condensed Bold" FontVersion="Version 001.100 " FontDate="25/10/2012" />
@@ -15,13 +15,13 @@
 <Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="DSIG" />
 <Report ErrorType="P" ErrorCode="P0022" Message="No unnecessary tables are present" />
 <Report ErrorType="P" ErrorCode="P0021" Message="Tables are in optimal order" />
-<TableEntry Tag="BASE" Offset="0x00010bbc" Length="0x0000000e" Checksum="0x00090004" CodeFriendlyTag="BASE">
+<TableEntry Tag="BASE" Offset="0x000104a8" Length="0x0000000e" Checksum="0x00090004" CodeFriendlyTag="BASE">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="FFTM" Offset="0x00010bcc" Length="0x0000001c" Checksum="0x6a72d55d" CodeFriendlyTag="FFTM">
+<TableEntry Tag="FFTM" Offset="0x000104b8" Length="0x0000001c" Checksum="0x6b5896b6" CodeFriendlyTag="FFTM">
 <Report ErrorType="I" ErrorCode="I0040" Message="Not an OpenType table, contents not validated" Details="" />
 </TableEntry>
-<TableEntry Tag="GDEF" Offset="0x00010b9c" Length="0x0000001e" Checksum="0x00290272" CodeFriendlyTag="GDEF">
+<TableEntry Tag="GDEF" Offset="0x00010488" Length="0x0000001e" Checksum="0x00290272" CodeFriendlyTag="GDEF">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <TableEntry Tag="OS/2" Offset="0x00000198" Length="0x00000060" Checksum="0xf29f19b7" CodeFriendlyTag="OS_2">
@@ -36,10 +36,10 @@
 <TableEntry Tag="fpgm" Offset="0x00000b90" Length="0x000000c7" Checksum="0x324a6698" CodeFriendlyTag="fpgm">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="gasp" Offset="0x00010b8c" Length="0x00000010" Checksum="0x00180009" CodeFriendlyTag="gasp">
+<TableEntry Tag="gasp" Offset="0x00010478" Length="0x00000010" Checksum="0x00180009" CodeFriendlyTag="gasp">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="glyf" Offset="0x00001174" Length="0x00009930" Checksum="0x6500632b" CodeFriendlyTag="glyf">
+<TableEntry Tag="glyf" Offset="0x00001174" Length="0x00009218" Checksum="0xb16926c1" CodeFriendlyTag="glyf">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <TableEntry Tag="head" Offset="0x0000011c" Length="0x00000036" Checksum="0xf7571a65" CodeFriendlyTag="head">
@@ -51,23 +51,30 @@
 <TableEntry Tag="hmtx" Offset="0x000001f8" Length="0x000004e0" Checksum="0x9da19038" CodeFriendlyTag="hmtx">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="loca" Offset="0x00000c98" Length="0x000004da" Checksum="0x5848320e" CodeFriendlyTag="loca">
+<TableEntry Tag="loca" Offset="0x00000c98" Length="0x000004da" Checksum="0x5cd03852" CodeFriendlyTag="loca">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="maxp" Offset="0x00000178" Length="0x00000020" Checksum="0x03df025d" CodeFriendlyTag="maxp">
+<TableEntry Tag="maxp" Offset="0x00000178" Length="0x00000020" Checksum="0x03df0255" CodeFriendlyTag="maxp">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="name" Offset="0x0000aaa4" Length="0x00004cf2" Checksum="0xa289f182" CodeFriendlyTag="name">
+<TableEntry Tag="name" Offset="0x0000a38c" Length="0x00004cf5" Checksum="0xa0af952f" CodeFriendlyTag="name">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="post" Offset="0x0000f798" Length="0x000013f3" Checksum="0x3a7019a2" CodeFriendlyTag="post">
+<TableEntry Tag="post" Offset="0x0000f084" Length="0x000013f3" Checksum="0x3a7019a2" CodeFriendlyTag="post">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <TableEntry Tag="prep" Offset="0x00000c58" Length="0x00000028" Checksum="0x9a36c321" CodeFriendlyTag="prep">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="P" ErrorCode="P6000" Message="No problems were found during rasterization testing" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 43" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 76" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 87" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 102" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 147" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 154" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 173" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 192" />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />

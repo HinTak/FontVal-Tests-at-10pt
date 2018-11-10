@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="10 August 2018 04:30" MachineName="localhost.localdomain">
-<FontFile FileName="plasticb.ttf" FileNameAndPath="/usr/share/fonts/larabie/uncommon/plasticb.ttf">
+<FontValidatorReport RunDateTime="10 November 2018 01:18" MachineName="localhost">
+<FontFile FileName="plasticb.ttf" FileNameAndPath="z://usr/share/fonts/larabie/uncommon/plasticb.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
 <FontInfo FontName="Plastic Bag" FontVersion="1.0 Sun Sep 14 11:48:55 1997" FontDate="14/09/1931" />
@@ -78,6 +78,10 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 24" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 39" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 53" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 68" />
 <Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFvFS, Glyph ID 11, At ByteOffset 59" />
 <Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFvFS, Glyph ID 11, At ByteOffset 68" />
 <Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFvFS, Glyph ID 11, At ByteOffset 79" />

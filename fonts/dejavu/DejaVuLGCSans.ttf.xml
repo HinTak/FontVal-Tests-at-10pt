@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="10 August 2018 05:01" MachineName="localhost.localdomain">
-<FontFile FileName="DejaVuLGCSans.ttf" FileNameAndPath="/usr/share/fonts/dejavu/DejaVuLGCSans.ttf">
+<FontValidatorReport RunDateTime="10 November 2018 02:30" MachineName="localhost">
+<FontFile FileName="DejaVuLGCSans.ttf" FileNameAndPath="z://usr/share/fonts/dejavu/DejaVuLGCSans.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
-<FontInfo FontName="DejaVu LGC Sans" FontVersion="Version 2.35" FontDate="07/02/2018" />
+<FontInfo FontName="DejaVu LGC Sans" FontVersion="Version 2.35" FontDate="13/07/2018" />
 <Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="20" TestName="_OFFSET_numTables" />
 <Report ErrorType="P" ErrorCode="P0010" Message="The searchRange, entrySelector, and rangeShift fields are all valid" TestName="_OFFSET_BinarySearchFields" />
 <Report ErrorType="P" ErrorCode="P0032" Message="The directory entry tags are in ascending order" />
@@ -16,7 +16,7 @@
 <Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="DSIG" />
 <Report ErrorType="P" ErrorCode="P0022" Message="No unnecessary tables are present" />
 <Report ErrorType="W" ErrorCode="W0020" Message="Tables are not in optimal order" Details="table 'OS/2' precedes table 'head'" />
-<TableEntry Tag="FFTM" Offset="0x0000014c" Length="0x0000001c" Checksum="0x83bdbeac" CodeFriendlyTag="FFTM">
+<TableEntry Tag="FFTM" Offset="0x0000014c" Length="0x0000001c" Checksum="0x863e4249" CodeFriendlyTag="FFTM">
 <Report ErrorType="I" ErrorCode="I0040" Message="Not an OpenType table, contents not validated" Details="" />
 </TableEntry>
 <TableEntry Tag="GDEF" Offset="0x00000168" Length="0x000001c0" Checksum="0xc47dc238" CodeFriendlyTag="GDEF">
@@ -49,7 +49,7 @@
 <TableEntry Tag="glyf" Offset="0x00009aa0" Length="0x00071b48" Checksum="0xcb22a615" CodeFriendlyTag="glyf">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="head" Offset="0x0007b5e8" Length="0x00000036" Checksum="0x12a2452b" CodeFriendlyTag="head">
+<TableEntry Tag="head" Offset="0x0007b5e8" Length="0x00000036" Checksum="0x143d076f" CodeFriendlyTag="head">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <TableEntry Tag="hhea" Offset="0x0007b620" Length="0x00000024" Checksum="0x0d9f1b61" CodeFriendlyTag="hhea">
@@ -77,6 +77,13 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 26" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 41" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 100" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 112" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 120" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 136" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 140" />
 <Report ErrorType="W" ErrorCode="W6029" Message="Setting the loop variable to zero is an error" Details="Size 10, SLOOP, Glyph ID 116, At ByteOffset 67" />
 <Report ErrorType="W" ErrorCode="W6029" Message="Setting the loop variable to zero is an error" Details="Size 10, SLOOP, Glyph ID 127, At ByteOffset 67" />
 <Report ErrorType="E" ErrorCode="E6046" Message="Stack Underflow" Details="Size 10, IP, Glyph ID 350, At ByteOffset 73" />
@@ -98,6 +105,6 @@
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
 </RasterizationTest_ClearType>
 </Font>
-<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:00" />
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:01" />
 </FontFile>
 </FontValidatorReport>

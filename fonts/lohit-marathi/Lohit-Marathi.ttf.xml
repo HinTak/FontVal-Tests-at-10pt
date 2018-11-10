@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="10 August 2018 04:58" MachineName="localhost.localdomain">
-<FontFile FileName="Lohit-Marathi.ttf" FileNameAndPath="/usr/share/fonts/lohit-marathi/Lohit-Marathi.ttf">
+<FontValidatorReport RunDateTime="10 November 2018 02:26" MachineName="localhost">
+<FontFile FileName="Lohit-Marathi.ttf" FileNameAndPath="z://usr/share/fonts/lohit-marathi/Lohit-Marathi.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
 <FontInfo FontName="Lohit Marathi" FontVersion="2.94.2" FontDate="05/03/2014" />
@@ -17,16 +17,16 @@
 <Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="DSIG" />
 <Report ErrorType="P" ErrorCode="P0022" Message="No unnecessary tables are present" />
 <Report ErrorType="P" ErrorCode="P0021" Message="Tables are in optimal order" />
-<TableEntry Tag="FFTM" Offset="0x00011308" Length="0x0000001c" Checksum="0x66fb39ee" CodeFriendlyTag="FFTM">
+<TableEntry Tag="FFTM" Offset="0x0001130c" Length="0x0000001c" Checksum="0x67f98be1" CodeFriendlyTag="FFTM">
 <Report ErrorType="I" ErrorCode="I0040" Message="Not an OpenType table, contents not validated" Details="" />
 </TableEntry>
-<TableEntry Tag="GDEF" Offset="0x0000f8f0" Length="0x0000011c" Checksum="0x264d2751" CodeFriendlyTag="GDEF">
+<TableEntry Tag="GDEF" Offset="0x0000f8f4" Length="0x0000011c" Checksum="0x264d2751" CodeFriendlyTag="GDEF">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="GPOS" Offset="0x00010a38" Length="0x000008d0" Checksum="0xd765b6d8" CodeFriendlyTag="GPOS">
+<TableEntry Tag="GPOS" Offset="0x00010a3c" Length="0x000008d0" Checksum="0xd765b6d8" CodeFriendlyTag="GPOS">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="GSUB" Offset="0x0000fa0c" Length="0x0000102a" Checksum="0xe29369a0" CodeFriendlyTag="GSUB">
+<TableEntry Tag="GSUB" Offset="0x0000fa10" Length="0x0000102a" Checksum="0xe29369a0" CodeFriendlyTag="GSUB">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <TableEntry Tag="OS/2" Offset="0x000001a8" Length="0x00000060" Checksum="0xfaf27df7" CodeFriendlyTag="OS_2">
@@ -41,7 +41,7 @@
 <TableEntry Tag="fpgm" Offset="0x00000a7c" Length="0x00000064" Checksum="0xa7d95e93" CodeFriendlyTag="fpgm">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="gasp" Offset="0x0000f8e4" Length="0x0000000c" Checksum="0x00070007" CodeFriendlyTag="gasp">
+<TableEntry Tag="gasp" Offset="0x0000f8e8" Length="0x0000000c" Checksum="0x00070007" CodeFriendlyTag="gasp">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <TableEntry Tag="glyf" Offset="0x00000f58" Length="0x0000c66c" Checksum="0xe567b07f" CodeFriendlyTag="glyf">
@@ -62,17 +62,20 @@
 <TableEntry Tag="maxp" Offset="0x00000188" Length="0x00000020" Checksum="0x02390128" CodeFriendlyTag="maxp">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="name" Offset="0x0000d5c4" Length="0x0000060c" Checksum="0x097c282f" CodeFriendlyTag="name">
+<TableEntry Tag="name" Offset="0x0000d5c4" Length="0x0000060f" Checksum="0x7c97a2b2" CodeFriendlyTag="name">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="post" Offset="0x0000dbd0" Length="0x00001d11" Checksum="0xd017b718" CodeFriendlyTag="post">
+<TableEntry Tag="post" Offset="0x0000dbd4" Length="0x00001d11" Checksum="0xd017b718" CodeFriendlyTag="post">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <TableEntry Tag="prep" Offset="0x00000ae0" Length="0x0000000b" Checksum="0x53305f00" CodeFriendlyTag="prep">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="P" ErrorCode="P6000" Message="No problems were found during rasterization testing" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 24" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 39" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 53" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 68" />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />

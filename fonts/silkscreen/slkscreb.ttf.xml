@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="10 August 2018 05:09" MachineName="localhost.localdomain">
-<FontFile FileName="slkscreb.ttf" FileNameAndPath="/usr/share/fonts/silkscreen/slkscreb.ttf">
+<FontValidatorReport RunDateTime="10 November 2018 02:55" MachineName="localhost">
+<FontFile FileName="slkscreb.ttf" FileNameAndPath="z://usr/share/fonts/silkscreen/slkscreb.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
 <FontInfo FontName="Silkscreen Expanded Bold" FontVersion="1.0 Sat Aug 21 15:44:19 1999" FontDate="20/08/1933" />
@@ -78,6 +78,10 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 24" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 39" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 53" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 68" />
 <Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[pmrB], Glyph ID 0, At ByteOffset 42" />
 <Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[pmrB], Glyph ID 0, At ByteOffset 51" />
 </RasterizationTest_BW>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="10 August 2018 05:01" MachineName="localhost.localdomain">
-<FontFile FileName="DejaVuLGCSans-Oblique.ttf" FileNameAndPath="/usr/share/fonts/dejavu/DejaVuLGCSans-Oblique.ttf">
+<FontValidatorReport RunDateTime="10 November 2018 02:31" MachineName="localhost">
+<FontFile FileName="DejaVuLGCSans-Oblique.ttf" FileNameAndPath="z://usr/share/fonts/dejavu/DejaVuLGCSans-Oblique.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
-<FontInfo FontName="DejaVu LGC Sans Oblique" FontVersion="Version 2.35" FontDate="07/02/2018" />
+<FontInfo FontName="DejaVu LGC Sans Oblique" FontVersion="Version 2.35" FontDate="13/07/2018" />
 <Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="19" TestName="_OFFSET_numTables" />
 <Report ErrorType="P" ErrorCode="P0010" Message="The searchRange, entrySelector, and rangeShift fields are all valid" TestName="_OFFSET_BinarySearchFields" />
 <Report ErrorType="P" ErrorCode="P0032" Message="The directory entry tags are in ascending order" />
@@ -16,7 +16,7 @@
 <Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="DSIG" />
 <Report ErrorType="P" ErrorCode="P0022" Message="No unnecessary tables are present" />
 <Report ErrorType="W" ErrorCode="W0020" Message="Tables are not in optimal order" Details="table 'OS/2' precedes table 'head'" />
-<TableEntry Tag="FFTM" Offset="0x0000013c" Length="0x0000001c" Checksum="0x83bdbeac" CodeFriendlyTag="FFTM">
+<TableEntry Tag="FFTM" Offset="0x0000013c" Length="0x0000001c" Checksum="0x863e4248" CodeFriendlyTag="FFTM">
 <Report ErrorType="I" ErrorCode="I0040" Message="Not an OpenType table, contents not validated" Details="" />
 </TableEntry>
 <TableEntry Tag="GDEF" Offset="0x00000158" Length="0x0000014c" Checksum="0x6b5069f1" CodeFriendlyTag="GDEF">
@@ -46,7 +46,7 @@
 <TableEntry Tag="glyf" Offset="0x00006a7c" Length="0x00067544" Checksum="0xea13e558" CodeFriendlyTag="glyf">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="head" Offset="0x0006dfc0" Length="0x00000036" Checksum="0x119b44f0" CodeFriendlyTag="head">
+<TableEntry Tag="head" Offset="0x0006dfc0" Length="0x00000036" Checksum="0x13360733" CodeFriendlyTag="head">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <TableEntry Tag="hhea" Offset="0x0006dff8" Length="0x00000024" Checksum="0x0ca91804" CodeFriendlyTag="hhea">
@@ -74,6 +74,12 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 25" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 40" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 99" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 111" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 119" />
+<Report ErrorType="E" ErrorCode="E6016" Message="FDEF out of range" Details="Size 10, FDEF, Pre-Program, At ByteOffset 135" />
 <Report ErrorType="E" ErrorCode="E6043" Message="RP1 and RP2 have the same position on the projection vector" Details="Size 10, IP, Glyph ID 269, At ByteOffset 34" />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
@@ -83,6 +89,6 @@
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
 </RasterizationTest_ClearType>
 </Font>
-<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:00" />
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:01" />
 </FontFile>
 </FontValidatorReport>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="17 November 2018 05:46" MachineName="localhost">
-<FontFile FileName="NotoSansCarian-Regular.ttf" FileNameAndPath="z://usr/share/fonts/google-noto/NotoSansCarian-Regular.ttf">
+<FontValidatorReport RunDateTime="22 March 2019 11:56" MachineName="localhost.localdomain">
+<FontFile FileName="NotoSansCarian-Regular.ttf" FileNameAndPath="/usr/share/fonts/google-noto/NotoSansCarian-Regular.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
-<FontInfo FontName="Noto Sans Carian" FontVersion="Version 1.05 uh" FontDate="23/09/2015" />
-<Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="11" TestName="_OFFSET_numTables" />
+<FontInfo FontName="Noto Sans Carian Regular" FontVersion="Version 2.000;GOOG;noto-source:20170915:90ef993387c0; ttfautohint (v1.7)" FontDate="19/09/2017" />
+<Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="15" TestName="_OFFSET_numTables" />
 <Report ErrorType="P" ErrorCode="P0010" Message="The searchRange, entrySelector, and rangeShift fields are all valid" TestName="_OFFSET_BinarySearchFields" />
 <Report ErrorType="P" ErrorCode="P0032" Message="The directory entry tags are in ascending order" />
 <Report ErrorType="P" ErrorCode="P0031" Message="The directory entry tag names are valid" />
@@ -16,42 +16,246 @@
 <Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="VDMX" />
 <Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="DSIG" />
 <Report ErrorType="P" ErrorCode="P0022" Message="No unnecessary tables are present" />
-<Report ErrorType="P" ErrorCode="P0021" Message="Tables are in optimal order" />
-<TableEntry Tag="OS/2" Offset="0x00000138" Length="0x00000060" Checksum="0x7ae76fc8" CodeFriendlyTag="OS_2">
+<Report ErrorType="W" ErrorCode="W0020" Message="Tables are not in optimal order" Details="table 'OS/2' precedes table 'head'" />
+<TableEntry Tag="OS/2" Offset="0x000000fc" Length="0x00000060" Checksum="0x68cc6292" CodeFriendlyTag="OS_2">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="cmap" Offset="0x0000026c" Length="0x000000ac" Checksum="0x00db055b" CodeFriendlyTag="cmap">
+<TableEntry Tag="TTFA" Offset="0x00003184" Length="0x000001ff" Checksum="0xb85118c3" CodeFriendlyTag="TTFA">
+<Report ErrorType="I" ErrorCode="I0040" Message="Not an OpenType table, contents not validated" Details="" />
+</TableEntry>
+<TableEntry Tag="cmap" Offset="0x0000015c" Length="0x000000a8" Checksum="0x016508bc" CodeFriendlyTag="cmap">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="gasp" Offset="0x00001868" Length="0x0000000c" Checksum="0x00080016" CodeFriendlyTag="gasp">
+<TableEntry Tag="cvt " Offset="0x00002348" Length="0x0000002c" Checksum="0x0ea8fe59" CodeFriendlyTag="cvt_">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="glyf" Offset="0x00000384" Length="0x00000ec4" Checksum="0xf36e021f" CodeFriendlyTag="glyf">
+<TableEntry Tag="fpgm" Offset="0x00002374" Length="0x00000d6d" Checksum="0x32188e7c" CodeFriendlyTag="fpgm">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="head" Offset="0x000000bc" Length="0x00000036" Checksum="0x04edc3d8" CodeFriendlyTag="head">
+<TableEntry Tag="gasp" Offset="0x00002340" Length="0x00000008" Checksum="0x00000010" CodeFriendlyTag="gasp">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="hhea" Offset="0x000000f4" Length="0x00000024" Checksum="0x0fea0559" CodeFriendlyTag="hhea">
+<TableEntry Tag="glyf" Offset="0x00000204" Length="0x000016d8" Checksum="0x0192eb5d" CodeFriendlyTag="glyf">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="hmtx" Offset="0x00000198" Length="0x000000d4" Checksum="0x180f15e2" CodeFriendlyTag="hmtx">
+<TableEntry Tag="head" Offset="0x000018dc" Length="0x00000036" Checksum="0x0d40804a" CodeFriendlyTag="head">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="loca" Offset="0x00000318" Length="0x0000006c" Checksum="0x5ad35eb3" CodeFriendlyTag="loca">
+<TableEntry Tag="hhea" Offset="0x00001914" Length="0x00000024" Checksum="0x07c602b9" CodeFriendlyTag="hhea">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="maxp" Offset="0x00000118" Length="0x00000020" Checksum="0x003b002d" CodeFriendlyTag="maxp">
+<TableEntry Tag="hmtx" Offset="0x00001938" Length="0x000000d8" Checksum="0x88c70ab6" CodeFriendlyTag="hmtx">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="name" Offset="0x00001248" Length="0x00000600" Checksum="0x8c33b874" CodeFriendlyTag="name">
+<TableEntry Tag="loca" Offset="0x00001a10" Length="0x0000006e" Checksum="0x98c0933e" CodeFriendlyTag="loca">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="post" Offset="0x00001848" Length="0x00000020" Checksum="0xff690066" CodeFriendlyTag="post">
+<TableEntry Tag="maxp" Offset="0x00001a80" Length="0x00000020" Checksum="0x01330dc3" CodeFriendlyTag="maxp">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="name" Offset="0x00001aa0" Length="0x00000690" Checksum="0x9d48c41c" CodeFriendlyTag="name">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="post" Offset="0x00002130" Length="0x0000020d" Checksum="0x006cd922" CodeFriendlyTag="post">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="prep" Offset="0x000030e4" Length="0x0000009f" Checksum="0x331db8be" CodeFriendlyTag="prep">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="P" ErrorCode="P6000" Message="No problems were found during rasterization testing" />
+<Report ErrorType="E" ErrorCode="E6019" Message="Funit coordinate out of range must be -16384 .. 16383" Details="Size 10, WCvtF, Pre-Program, At ByteOffset 20" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 0, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 0, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 0, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 0, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 0, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 0, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 4, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 4, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 4, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 4, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 4, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 5, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 5, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 5, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 5, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 5, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 5, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 6, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 6, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 6, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 6, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 7, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 7, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 7, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 7, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 8, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 8, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 9, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 9, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 9, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 10, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 10, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 10, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 11, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 11, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 11, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 11, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 11, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 11, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 11, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 12, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 12, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 13, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 13, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 13, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 14, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 14, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 14, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 15, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 15, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 15, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 15, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 16, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 16, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 16, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 16, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 16, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 17, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 17, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 17, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 17, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 17, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 18, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 18, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 18, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 18, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 18, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 18, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 18, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 19, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 19, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 19, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 19, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 19, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 19, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 20, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 20, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 21, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 21, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 21, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 22, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 22, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 23, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 23, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 23, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 24, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 24, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 25, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 25, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 26, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 26, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 26, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 26, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 27, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 27, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 28, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 28, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 29, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 29, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 29, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 29, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 29, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 29, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 29, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 30, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 30, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 30, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 30, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 30, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 31, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 31, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 31, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 31, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 31, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 32, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 32, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 32, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 32, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 33, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 33, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 33, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 33, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 34, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 34, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 35, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 35, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 35, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 36, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 36, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 36, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 36, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 36, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 37, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 37, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 37, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 37, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 39, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 39, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 39, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 39, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 39, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 39, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 39, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 39, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 40, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 40, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 41, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 41, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 42, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 42, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 42, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 42, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 43, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 43, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 43, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 44, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 44, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 44, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 44, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 44, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 44, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 44, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 45, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 45, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 45, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 45, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 45, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 45, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 46, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 46, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 47, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 47, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 48, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 48, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 48, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 48, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 49, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 49, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 49, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 49, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 50, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 50, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 50, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 50, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 50, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 50, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 51, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 51, At ByteOffset 870, In function 18 offsetted by 92" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 51, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 51, At ByteOffset 1343, In function 46 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 52, At ByteOffset 840, In function 18 offsetted by 62" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 52, At ByteOffset 870, In function 18 offsetted by 92" />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />

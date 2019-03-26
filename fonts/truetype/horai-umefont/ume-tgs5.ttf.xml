@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="27 May 2018 03:25" MachineName="DESKTOP-25CHSCS">
-<FontFile FileName="ume-tgs5.ttf" FileNameAndPath="/usr/share/fonts/truetype/horai-umefont/ume-tgs5.ttf">
+<FontValidatorReport RunDateTime="25 March 2019 20:36" MachineName="hintak-System-P">
+<FontFile FileName="ume-tgs5.ttf" FileNameAndPath="z://usr/share/fonts/truetype/horai-umefont/ume-tgs5.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
-<FontInfo FontName="Ume Gothic S5" FontVersion="Look update time of this file." FontDate="26/01/2016" />
+<FontInfo FontName="Ume Gothic S5" FontVersion="Look update time of this file." FontDate="07/03/2017" />
 <Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="16" TestName="_OFFSET_numTables" />
 <Report ErrorType="P" ErrorCode="P0010" Message="The searchRange, entrySelector, and rangeShift fields are all valid" TestName="_OFFSET_BinarySearchFields" />
 <Report ErrorType="P" ErrorCode="P0032" Message="The directory entry tags are in ascending order" />
@@ -35,38 +35,47 @@
 <TableEntry Tag="gasp" Offset="0x0000944c" Length="0x00000010" Checksum="0x00170006" CodeFriendlyTag="gasp">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="glyf" Offset="0x0000945c" Length="0x003e5998" Checksum="0x7f51f8a8" CodeFriendlyTag="glyf">
+<TableEntry Tag="glyf" Offset="0x0000945c" Length="0x00402122" Checksum="0x59955400" CodeFriendlyTag="glyf">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="head" Offset="0x003eedf4" Length="0x00000036" Checksum="0x4259972d" CodeFriendlyTag="head">
+<TableEntry Tag="head" Offset="0x0040b580" Length="0x00000036" Checksum="0x44712d9e" CodeFriendlyTag="head">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="hhea" Offset="0x003eee2c" Length="0x00000024" Checksum="0x1d734a2c" CodeFriendlyTag="hhea">
+<TableEntry Tag="hhea" Offset="0x0040b5b8" Length="0x00000024" Checksum="0x1d734a2c" CodeFriendlyTag="hhea">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="hmtx" Offset="0x003eee50" Length="0x0000f32c" Checksum="0xc8ba6b60" CodeFriendlyTag="hmtx">
+<TableEntry Tag="hmtx" Offset="0x0040b5dc" Length="0x0000f32c" Checksum="0xc8ba8180" CodeFriendlyTag="hmtx">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="loca" Offset="0x003fe17c" Length="0x0000f330" Checksum="0x90072350" CodeFriendlyTag="loca">
+<TableEntry Tag="loca" Offset="0x0041a908" Length="0x0000f330" Checksum="0x8d4ffa14" CodeFriendlyTag="loca">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="maxp" Offset="0x0040d4ac" Length="0x00000020" Checksum="0x551301ee" CodeFriendlyTag="maxp">
+<TableEntry Tag="maxp" Offset="0x00429c38" Length="0x00000020" Checksum="0x551301ee" CodeFriendlyTag="maxp">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="mort" Offset="0x0040d4cc" Length="0x000009a8" Checksum="0x448cd99b" CodeFriendlyTag="mort">
+<TableEntry Tag="mort" Offset="0x00429c58" Length="0x000009a8" Checksum="0xead94399" CodeFriendlyTag="mort">
 <Report ErrorType="I" ErrorCode="I0040" Message="Not an OpenType table, contents not validated" Details="This table type is defined in the Apple TrueType spec." />
 </TableEntry>
-<TableEntry Tag="name" Offset="0x0040de74" Length="0x000005a6" Checksum="0x903838d5" CodeFriendlyTag="name">
+<TableEntry Tag="name" Offset="0x0042a600" Length="0x000005a6" Checksum="0x903838d5" CodeFriendlyTag="name">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="post" Offset="0x0040e41c" Length="0x00000020" Checksum="0xffa30030" CodeFriendlyTag="post">
+<TableEntry Tag="post" Offset="0x0042aba8" Length="0x00000020" Checksum="0xffa30030" CodeFriendlyTag="post">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="prep" Offset="0x0040e43c" Length="0x00000282" Checksum="0x0f253ea5" CodeFriendlyTag="prep">
+<TableEntry Tag="prep" Offset="0x0042abc8" Length="0x00000282" Checksum="0xcfed2016" CodeFriendlyTag="prep">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="P" ErrorCode="P6000" Message="No problems were found during rasterization testing" />
+<Report ErrorType="E" ErrorCode="E6046" Message="Stack Underflow" Details="Size 10, MSIRP[0], Pre-Program, At ByteOffset 0" />
+<Report ErrorType="E" ErrorCode="E6040" Message="Zone referenced in pre-program is not the twilight zone" Details="Size 10, MSIRP[0], Pre-Program, At ByteOffset 0" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MSIRP[0], Pre-Program, At ByteOffset 0" />
+<Report ErrorType="E" ErrorCode="E6046" Message="Stack Underflow" Details="Size 10, SRP2, Pre-Program, At ByteOffset 1" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, AlignRP, Pre-Program, At ByteOffset 2" />
+<Report ErrorType="E" ErrorCode="E6046" Message="Stack Underflow" Details="Size 10, AlignRP, Pre-Program, At ByteOffset 2" />
+<Report ErrorType="E" ErrorCode="E6028" Message="Invalid Instruction" Details="Size 10, INS_$AF, Pre-Program, At ByteOffset 3" />
+<Report ErrorType="E" ErrorCode="E6028" Message="Invalid Instruction" Details="Size 10, INS_$AF, Pre-Program, At ByteOffset 3" />
+<Report ErrorType="I" ErrorCode="I6070" Message="Supplementary Information" Details="Glyph 0 at size 10" />
+<Report ErrorType="A" ErrorCode="A6000" Message="An exception occurred during rasterization testing" Details="FreeType error: Invalid opcode.  at SharpFont.Face.LoadGlyph (System.UInt32 glyphIndex, SharpFont.LoadFlags flags, SharpFont.LoadTarget target) [0x00037] in &lt;4e4ef5f00f9a4e968bea11bd0b79fa71&gt;:0 &#xD;&#xA;  at OTFontFile.Rasterizer.RasterInterf.RastTest (System.Int32 resX, System.Int32 resY, System.Int32[] arrPointSizes, System.Single stretchX, System.Single stretchY, System.Single rotation, System.Single skew, System.Single[,] matrix, System.Boolean setBW, System.Boolean setGrayscale, System.Boolean setCleartype, System.UInt32 CTFlags, OTFontFile.Rasterizer.RasterInterf+RastTestErrorDelegate pRastTestErrorDelegate, OTFontFile.Rasterizer.RasterInterf+UpdateProgressDelegate pUpdateProgressDelegate, System.Int32 numGlyphs) [0x00495] in &lt;130437fb1f0045f29ab747e65b9e5346&gt;:0 &#xD;&#xA;  at OTFontFileVal.OTFontVal.Validate () [0x00482] in &lt;387aa075a9e84f06a916c75c8114b904&gt;:0 " />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
@@ -75,6 +84,6 @@
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
 </RasterizationTest_ClearType>
 </Font>
-<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:04" />
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:01" />
 </FontFile>
 </FontValidatorReport>

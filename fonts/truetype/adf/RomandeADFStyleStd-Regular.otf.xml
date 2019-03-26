@@ -1,65 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="27 May 2018 01:32" MachineName="DESKTOP-25CHSCS">
-<FontFile FileName="RomandeADFStyleStd-Regular.otf" FileNameAndPath="/usr/share/fonts/truetype/adf/RomandeADFStyleStd-Regular.otf">
+<FontValidatorReport RunDateTime="25 March 2019 22:03" MachineName="hintak-System-P">
+<FontFile FileName="RomandeADFStyleStd-Regular.otf" FileNameAndPath="z://usr/share/fonts/truetype/adf/RomandeADFStyleStd-Regular.otf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
-<FontInfo FontName="Romande ADF Style Std Regular" FontVersion="Version 1.004;PS 1.007;Core 1.0.38;makeotf.lib1.6.5960" FontDate="27/04/2008" />
-<Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="16" TestName="_OFFSET_numTables" />
+<FontInfo FontName="Romande ADF Style Std Regular" FontVersion="Version 1.009 " FontDate="08/04/2011" />
+<Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="15" TestName="_OFFSET_numTables" />
 <Report ErrorType="P" ErrorCode="P0010" Message="The searchRange, entrySelector, and rangeShift fields are all valid" TestName="_OFFSET_BinarySearchFields" />
 <Report ErrorType="P" ErrorCode="P0032" Message="The directory entry tags are in ascending order" />
 <Report ErrorType="P" ErrorCode="P0031" Message="The directory entry tag names are valid" />
 <Report ErrorType="P" ErrorCode="P0030" Message="The directory entry table offsets are all multiples of 4" />
 <Report ErrorType="P" ErrorCode="P0020" Message="All required tables are present" />
-<Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="DSIG" />
+<Report ErrorType="P" ErrorCode="P0023" Message="All recommended tables are present" />
 <Report ErrorType="P" ErrorCode="P0022" Message="No unnecessary tables are present" />
 <Report ErrorType="P" ErrorCode="P0021" Message="Tables are in optimal order" />
-<TableEntry Tag="CFF " Offset="0x00000ed4" Length="0x0000606c" Checksum="0x81e0d9fb" CodeFriendlyTag="CFF_">
+<TableEntry Tag="BASE" Offset="0x00007854" Length="0x00000070" Checksum="0x917b8376" CodeFriendlyTag="BASE">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="FFTM" Offset="0x000091a4" Length="0x0000001c" Checksum="0x4a23a236" CodeFriendlyTag="FFTM">
+<TableEntry Tag="CFF " Offset="0x00000d40" Length="0x00006450" Checksum="0x5a349133" CodeFriendlyTag="CFF_">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="DSIG" Offset="0x00007cf8" Length="0x0000053a" Checksum="0x208d3bf7" CodeFriendlyTag="DSIG">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="FFTM" Offset="0x000078c4" Length="0x0000001c" Checksum="0x5965fb4d" CodeFriendlyTag="FFTM">
 <Report ErrorType="I" ErrorCode="I0040" Message="Not an OpenType table, contents not validated" Details="" />
 </TableEntry>
-<TableEntry Tag="GDEF" Offset="0x00006f40" Length="0x00000078" Checksum="0x094d09b2" CodeFriendlyTag="GDEF">
+<TableEntry Tag="GDEF" Offset="0x00007190" Length="0x0000006a" Checksum="0x0989088f" CodeFriendlyTag="GDEF">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="GPOS" Offset="0x00007490" Length="0x00001d14" Checksum="0x29f27833" CodeFriendlyTag="GPOS">
+<TableEntry Tag="GPOS" Offset="0x00007750" Length="0x00000104" Checksum="0x9cbf9f90" CodeFriendlyTag="GPOS">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="GSUB" Offset="0x00006fb8" Length="0x000004d6" Checksum="0x7641603d" CodeFriendlyTag="GSUB">
+<TableEntry Tag="GSUB" Offset="0x000071fc" Length="0x00000552" Checksum="0x89489c11" CodeFriendlyTag="GSUB">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="OS/2" Offset="0x00000170" Length="0x00000060" Checksum="0x6209fee7" CodeFriendlyTag="OS_2">
+<TableEntry Tag="OS/2" Offset="0x00000160" Length="0x00000060" Checksum="0x62450e45" CodeFriendlyTag="OS_2">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="cmap" Offset="0x00000c90" Length="0x00000222" Checksum="0x8b7219eb" CodeFriendlyTag="cmap">
+<TableEntry Tag="cmap" Offset="0x000009e8" Length="0x00000336" Checksum="0x0f4e24fe" CodeFriendlyTag="cmap">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="feat" Offset="0x000091c0" Length="0x0000002c" Checksum="0x00060454" CodeFriendlyTag="feat">
-<Report ErrorType="I" ErrorCode="I0040" Message="Not an OpenType table, contents not validated" Details="This table type is defined in the Apple TrueType spec." />
-</TableEntry>
-<TableEntry Tag="head" Offset="0x0000010c" Length="0x00000036" Checksum="0xec10a389" CodeFriendlyTag="head">
+<TableEntry Tag="head" Offset="0x000000fc" Length="0x00000036" Checksum="0xfa1f0345" CodeFriendlyTag="head">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="hhea" Offset="0x00000144" Length="0x00000024" Checksum="0x083604aa" CodeFriendlyTag="hhea">
+<TableEntry Tag="hhea" Offset="0x00000134" Length="0x00000024" Checksum="0x0bac07cc" CodeFriendlyTag="hhea">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="hmtx" Offset="0x000091ec" Length="0x000003b4" Checksum="0x0ba9183a" CodeFriendlyTag="hmtx">
+<TableEntry Tag="hmtx" Offset="0x000078e0" Length="0x00000418" Checksum="0x4c3d1b21" CodeFriendlyTag="hmtx">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="kern" Offset="0x000095a0" Length="0x000025b0" Checksum="0xb978be52" CodeFriendlyTag="kern">
+<TableEntry Tag="maxp" Offset="0x00000158" Length="0x00000006" Checksum="0x01065000" CodeFriendlyTag="maxp">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="maxp" Offset="0x00000168" Length="0x00000006" Checksum="0x00ed5000" CodeFriendlyTag="maxp">
+<TableEntry Tag="name" Offset="0x000001c0" Length="0x00000825" Checksum="0x2d24fb98" CodeFriendlyTag="name">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="morx" Offset="0x0000bb50" Length="0x0000010c" Checksum="0x2096478e" CodeFriendlyTag="morx">
-<Report ErrorType="I" ErrorCode="I0040" Message="Not an OpenType table, contents not validated" Details="This table type is defined in the Apple TrueType spec." />
-</TableEntry>
-<TableEntry Tag="name" Offset="0x000001d0" Length="0x00000abe" Checksum="0x30e9b70f" CodeFriendlyTag="name">
-<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
-</TableEntry>
-<TableEntry Tag="post" Offset="0x00000eb4" Length="0x00000020" Checksum="0xff9f0032" CodeFriendlyTag="post">
+<TableEntry Tag="post" Offset="0x00000d20" Length="0x00000020" Checksum="0xff6d0032" CodeFriendlyTag="post">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="11 September 2019 18:30" MachineName="hintak-System-Product-Name">
-<FontFile FileName="Swift.ttf" FileNameAndPath="//usr/share/fonts/truetype/dustin/Swift.ttf">
+<FontValidatorReport RunDateTime="13 September 2019 17:47" MachineName="hintak-System-P">
+<FontFile FileName="Swift.ttf" FileNameAndPath="z://usr/share/fonts/truetype/dustin/Swift.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
 <FontInfo FontName="Swift" FontVersion="Version 1.1; 2000" FontDate="19/08/2002" />
@@ -72,7 +72,8 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="P" ErrorCode="P6000" Message="No problems were found during rasterization testing" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rd], Glyph ID 6, At ByteOffset 7, " />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[srp0,md,rd,Gray], Glyph ID 6, At ByteOffset 11, " />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />

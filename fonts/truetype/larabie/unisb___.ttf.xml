@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="11 September 2019 18:34" MachineName="hintak-System-Product-Name">
-<FontFile FileName="unisb___.ttf" FileNameAndPath="//usr/share/fonts/truetype/larabie/unisb___.ttf">
+<FontValidatorReport RunDateTime="13 September 2019 17:59" MachineName="hintak-System-P">
+<FontFile FileName="unisb___.ttf" FileNameAndPath="z://usr/share/fonts/truetype/larabie/unisb___.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
 <FontInfo FontName="Unispace Bold" FontVersion="Version 1.00" FontDate="02/02/2000" />
@@ -64,7 +64,16 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="P" ErrorCode="P6000" Message="No problems were found during rasterization testing" />
+<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, MDAP[nrd], Glyph ID 31, At ByteOffset 62, " />
+<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, MDAP[nrd], Glyph ID 33, At ByteOffset 62, " />
+<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, MDAP[nrd], Glyph ID 144, At ByteOffset 131, " />
+<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, MDAP[nrd], Glyph ID 148, At ByteOffset 114, " />
+<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, MDAP[nrd], Glyph ID 161, At ByteOffset 130, " />
+<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, MDAP[nrd], Glyph ID 161, At ByteOffset 138, " />
+<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, MDAP[nrd], Glyph ID 175, At ByteOffset 112, " />
+<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, MDAP[nrd], Glyph ID 175, At ByteOffset 120, " />
+<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, MDAP[nrd], Glyph ID 179, At ByteOffset 115, " />
+<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, MDAP[nrd], Glyph ID 179, At ByteOffset 123, " />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />

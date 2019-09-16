@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="11 September 2019 23:17" MachineName="hintak-System-Product-Name">
-<FontFile FileName="ae_Tholoth.ttf" FileNameAndPath="//usr/share/fonts/truetype/fonts-arabeyes/ae_Tholoth.ttf">
+<FontValidatorReport RunDateTime="16 September 2019 12:49" MachineName="hintak-System-P">
+<FontFile FileName="ae_Tholoth.ttf" FileNameAndPath="z://usr/share/fonts/truetype/fonts-arabeyes/ae_Tholoth.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
 <FontInfo FontName="Tholoth" FontVersion="Jeddah K.S.A. 10-jun-95" FontDate="07/09/2010" />
@@ -73,7 +73,16 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="P" ErrorCode="P6000" Message="No problems were found during rasterization testing" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rd], Glyph ID 918, At ByteOffset 11, " />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[srp0,md,rd,Gray], Glyph ID 918, At ByteOffset 15, " />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[srp0,md,rd,Gray], Glyph ID 945, At ByteOffset 53, " />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[srp0,md,rd,Gray], Glyph ID 946, At ByteOffset 73, " />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[srp0,md,rd,Gray], Glyph ID 947, At ByteOffset 53, " />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[srp0,md,rd,Gray], Glyph ID 948, At ByteOffset 73, " />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[srp0,md,rd,Gray], Glyph ID 949, At ByteOffset 53, " />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[srp0,md,rd,Gray], Glyph ID 950, At ByteOffset 73, " />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[srp0,md,rd,Gray], Glyph ID 951, At ByteOffset 53, " />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[srp0,md,rd,Gray], Glyph ID 952, At ByteOffset 81, " />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />

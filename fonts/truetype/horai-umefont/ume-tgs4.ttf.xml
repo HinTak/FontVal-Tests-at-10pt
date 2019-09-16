@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="11 September 2019 23:08" MachineName="hintak-System-Product-Name">
-<FontFile FileName="ume-tgs4.ttf" FileNameAndPath="//usr/share/fonts/truetype/horai-umefont/ume-tgs4.ttf">
+<FontValidatorReport RunDateTime="16 September 2019 12:16" MachineName="hintak-System-P">
+<FontFile FileName="ume-tgs4.ttf" FileNameAndPath="z://usr/share/fonts/truetype/horai-umefont/ume-tgs4.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
 <FontInfo FontName="Ume Gothic S4" FontVersion="Look update time of this file." FontDate="07/03/2017" />
@@ -66,13 +66,8 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="E" ErrorCode="E6046" Message="Stack Underflow" Details="Size 10, MDRP[G], Pre-Program, At ByteOffset 0" />
-<Report ErrorType="E" ErrorCode="E6040" Message="Zone referenced in pre-program is not the twilight zone" Details="Size 10, MDRP[G], Pre-Program, At ByteOffset 0" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[G], Pre-Program, At ByteOffset 0" />
-<Report ErrorType="E" ErrorCode="E6046" Message="Stack Underflow" Details="Size 10, LT, Pre-Program, At ByteOffset 4" />
-<Report ErrorType="E" ErrorCode="E6046" Message="Stack Underflow" Details="Size 10, MIRP[mrW], Pre-Program, At ByteOffset 5" />
-<Report ErrorType="E" ErrorCode="E6040" Message="Zone referenced in pre-program is not the twilight zone" Details="Size 10, MIRP[mrW], Pre-Program, At ByteOffset 5" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MIRP[mrW], Pre-Program, At ByteOffset 5" />
+<Report ErrorType="E" ErrorCode="E6046" Message="Stack Underflow" Details="Size 10, MDRP[nrp0,nmd,nrd,Gray], Pre-Program, At ByteOffset 0, " />
+<Report ErrorType="A" ErrorCode="A6000" Message="An exception occurred during rasterization testing" Details="Secure Rasterizer error: TrueType stack underflow   at Avalon.Media.Text.TrueType.RasterInterf.RenderSize(Int32 resX, Int32 resY, Int32 nPointSize, Single stretchX, Single stretchY, Single rotation, Single skew, Single[,] matrix)&#xD;&#xA;   at Avalon.Media.Text.TrueType.RasterInterf.RastTest(Int32 resX, Int32 resY, Int32[] arrPointSizes, Single stretchX, Single stretchY, Single rotation, Single skew, Single[,] matrix, RastTestErrorDelegate pRastTestErrorDelegate, UpdateProgressDelegate pUpdateProgressDelegate)&#xD;&#xA;   at OTFontFile.Rasterizer.RasterInterf.RastTest(Int32 resX, Int32 resY, Int32[] arrPointSizes, Single stretchX, Single stretchY, Single rotation, Single skew, Single[,] matrix, Boolean setBW, Boolean setGrayscale, Boolean setCleartype, UInt32 CTFlags, RastTestErrorDelegate pRastTestErrorDelegate, UpdateProgressDelegate pUpdateProgressDelegate, Int32 numGlyphs)&#xD;&#xA;   at OTFontFileVal.OTFontVal.Validate()" />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
@@ -81,6 +76,6 @@
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
 </RasterizationTest_ClearType>
 </Font>
-<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:02" />
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:03" />
 </FontFile>
 </FontValidatorReport>

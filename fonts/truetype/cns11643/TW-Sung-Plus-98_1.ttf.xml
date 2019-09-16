@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="11 September 2019 23:33" MachineName="hintak-System-Product-Name">
-<FontFile FileName="TW-Sung-Plus-98_1.ttf" FileNameAndPath="//usr/share/fonts/truetype/cns11643/TW-Sung-Plus-98_1.ttf">
+<FontValidatorReport RunDateTime="16 September 2019 13:21" MachineName="hintak-System-P">
+<FontFile FileName="TW-Sung-Plus-98_1.ttf" FileNameAndPath="z://usr/share/fonts/truetype/cns11643/TW-Sung-Plus-98_1.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
 <FontInfo FontName="TW-Sung-Plus" FontVersion="Version 103.1" FontDate="17/09/2018" />
@@ -69,7 +69,7 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="P" ErrorCode="P6000" Message="No problems were found during rasterization testing" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[srp0,md,rd,Gray], Glyph ID 11878, At ByteOffset 353, " />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
@@ -78,6 +78,6 @@
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
 </RasterizationTest_ClearType>
 </Font>
-<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:01" />
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:22" />
 </FontFile>
 </FontValidatorReport>

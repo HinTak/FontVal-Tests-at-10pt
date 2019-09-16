@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="11 September 2019 18:35" MachineName="hintak-System-Product-Name">
-<FontFile FileName="portcred.ttf" FileNameAndPath="//usr/share/fonts/truetype/larabie/portcred.ttf">
+<FontValidatorReport RunDateTime="13 September 2019 18:03" MachineName="hintak-System-P">
+<FontFile FileName="portcred.ttf" FileNameAndPath="z://usr/share/fonts/truetype/larabie/portcred.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
 <FontInfo FontName="Port Credit" FontVersion="Version 1.10" FontDate="24/05/1999" />
@@ -66,7 +66,10 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="P" ErrorCode="P6000" Message="No problems were found during rasterization testing" />
+<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, MDAP[nrd], Glyph ID 36, At ByteOffset 63, " />
+<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, MDAP[nrd], Glyph ID 62, At ByteOffset 64, " />
+<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, MDAP[nrd], Glyph ID 94, At ByteOffset 69, " />
+<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, MDAP[nrd], Glyph ID 95, At ByteOffset 108, " />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />

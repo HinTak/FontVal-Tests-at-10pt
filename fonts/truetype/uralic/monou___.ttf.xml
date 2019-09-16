@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="11 September 2019 23:02" MachineName="hintak-System-Product-Name">
-<FontFile FileName="monou___.ttf" FileNameAndPath="//usr/share/fonts/truetype/uralic/monou___.ttf">
+<FontValidatorReport RunDateTime="16 September 2019 11:48" MachineName="hintak-System-P">
+<FontFile FileName="monou___.ttf" FileNameAndPath="z://usr/share/fonts/truetype/uralic/monou___.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
 <FontInfo FontName="Mono Uralic" FontVersion="Version 1.0" FontDate="24/05/2002" />
@@ -65,7 +65,11 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="P" ErrorCode="P6000" Message="No problems were found during rasterization testing" />
+<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, MDAP[nrd], Glyph ID 13, At ByteOffset 116, " />
+<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, MDAP[nrd], Glyph ID 31, At ByteOffset 54, " />
+<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, MDAP[nrd], Glyph ID 33, At ByteOffset 56, " />
+<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, MDAP[nrd], Glyph ID 59, At ByteOffset 159, " />
+<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, MDAP[nrd], Glyph ID 161, At ByteOffset 159, " />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />

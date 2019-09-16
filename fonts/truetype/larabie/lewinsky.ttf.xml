@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="11 September 2019 18:33" MachineName="hintak-System-Product-Name">
-<FontFile FileName="lewinsky.ttf" FileNameAndPath="//usr/share/fonts/truetype/larabie/lewinsky.ttf">
+<FontValidatorReport RunDateTime="13 September 2019 17:56" MachineName="hintak-System-P">
+<FontFile FileName="lewinsky.ttf" FileNameAndPath="z://usr/share/fonts/truetype/larabie/lewinsky.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
 <FontInfo FontName="Lewinsky" FontVersion="Macromedia Fontographer 4.1 3/20/98" FontDate="20/03/1998" />
@@ -64,7 +64,8 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="P" ErrorCode="P6000" Message="No problems were found during rasterization testing" />
+<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, MDRP[nrp0,nmd,rd,Gray], Glyph ID 51, At ByteOffset 174, " />
+<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, MDRP[nrp0,nmd,rd,Gray], Glyph ID 82, At ByteOffset 174, " />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />

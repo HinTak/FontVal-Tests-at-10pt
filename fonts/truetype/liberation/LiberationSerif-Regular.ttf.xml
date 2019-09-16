@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="11 September 2019 23:23" MachineName="hintak-System-Product-Name">
-<FontFile FileName="LiberationSerif-Regular.ttf" FileNameAndPath="//usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf">
+<FontValidatorReport RunDateTime="16 September 2019 13:10" MachineName="hintak-System-P">
+<FontFile FileName="LiberationSerif-Regular.ttf" FileNameAndPath="z://usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
 <FontInfo FontName="Liberation Serif" FontVersion="Version 1.07.4" FontDate="03/12/2013" />
@@ -74,7 +74,8 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="P" ErrorCode="P6000" Message="No problems were found during rasterization testing" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, SHP[rp1,zp0], Glyph ID 657, At ByteOffset 69, " />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, SHP[rp1,zp0], Glyph ID 657, At ByteOffset 73, " />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />

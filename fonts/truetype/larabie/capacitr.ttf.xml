@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="11 September 2019 18:36" MachineName="hintak-System-Product-Name">
-<FontFile FileName="capacitr.ttf" FileNameAndPath="//usr/share/fonts/truetype/larabie/capacitr.ttf">
+<FontValidatorReport RunDateTime="13 September 2019 18:04" MachineName="hintak-System-P">
+<FontFile FileName="capacitr.ttf" FileNameAndPath="z://usr/share/fonts/truetype/larabie/capacitr.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
 <FontInfo FontName="Capacitor" FontVersion="1.1" FontDate="07/12/1998" />
@@ -64,8 +64,11 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[pmrB], Glyph ID 223, At ByteOffset 67" />
-<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[pmrB], Glyph ID 223, At ByteOffset 75" />
+<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, MDAP[nrd], Glyph ID 18, At ByteOffset 125, " />
+<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, MDAP[nrd], Glyph ID 64, At ByteOffset 102, " />
+<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, MDAP[nrd], Glyph ID 96, At ByteOffset 100, " />
+<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, MDAP[nrd], Glyph ID 191, At ByteOffset 100, " />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, MIRP[srp0,md,rd,Black], Glyph ID 223, At ByteOffset 67, " />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />

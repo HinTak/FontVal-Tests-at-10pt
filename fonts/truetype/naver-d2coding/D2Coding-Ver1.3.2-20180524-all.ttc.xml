@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="11 September 2019 23:39" MachineName="hintak-System-Product-Name">
-<FontFile FileName="D2Coding-Ver1.3.2-20180524-all.ttc" FileNameAndPath="//usr/share/fonts/truetype/naver-d2coding/D2Coding-Ver1.3.2-20180524-all.ttc">
+<FontValidatorReport RunDateTime="16 September 2019 13:40" MachineName="hintak-System-P">
+<FontFile FileName="D2Coding-Ver1.3.2-20180524-all.ttc" FileNameAndPath="z://usr/share/fonts/truetype/naver-d2coding/D2Coding-Ver1.3.2-20180524-all.ttc">
 <Report ErrorType="I" ErrorCode="I0001" Message="The file begins with a TTC header (file contains a collection of fonts)" Details="TTC Header Version (major number): 1.0" />
 <Font FontIndex="0">
 <FontInfo FontName="D2Coding" FontVersion="Version 1.3.2; Build 20180524" FontDate="24/05/2018" />
@@ -173,7 +173,9 @@
 <TableEntry Tag="gasp" Offset="0x0002aa48" Length="0x00000010" Checksum="0x00170009" CodeFriendlyTag="gasp">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<Report ErrorType="I" ErrorCode="I1100" Message="No need to check identical glyf or EBDT tables in TTC beyond the first member" Details="glyf" />
+<TableEntry Tag="glyf" Offset="0x0002aa58" Length="0x003a9368" Checksum="0x208ab791" CodeFriendlyTag="glyf">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
 <TableEntry Tag="head" Offset="0x007b27c8" Length="0x00000036" Checksum="0x26233b57" CodeFriendlyTag="head">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
@@ -199,7 +201,7 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="I" ErrorCode="I1100" Message="No need to check identical glyf or EBDT tables in TTC beyond the first member" Details="B/W Rasterization" />
+<Report ErrorType="P" ErrorCode="P6000" Message="No problems were found during rasterization testing" />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
@@ -247,7 +249,9 @@
 <TableEntry Tag="gasp" Offset="0x0002aa48" Length="0x00000010" Checksum="0x00170009" CodeFriendlyTag="gasp">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<Report ErrorType="I" ErrorCode="I1100" Message="No need to check identical glyf or EBDT tables in TTC beyond the first member" Details="glyf" />
+<TableEntry Tag="glyf" Offset="0x003d3dc0" Length="0x003de998" Checksum="0x3ae8878b" CodeFriendlyTag="glyf">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
 <TableEntry Tag="head" Offset="0x007b2800" Length="0x00000036" Checksum="0x2613331f" CodeFriendlyTag="head">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
@@ -273,7 +277,7 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="I" ErrorCode="I1100" Message="No need to check identical glyf or EBDT tables in TTC beyond the first member" Details="B/W Rasterization" />
+<Report ErrorType="P" ErrorCode="P6000" Message="No problems were found during rasterization testing" />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
@@ -282,7 +286,7 @@
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
 </RasterizationTest_ClearType>
 </Font>
-<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:08" />
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:02:01" />
 <Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="DSIG" />
 </FontFile>
 </FontValidatorReport>

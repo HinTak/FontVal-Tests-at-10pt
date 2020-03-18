@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="fval.xsl"?>
+<FontValidatorReport RunDateTime="18 March 2020 00:51" MachineName="localhost">
+<FontFile FileName="foundation-icons.ttf" FileNameAndPath="/usr/share/fonts/foundation-icons/foundation-icons.ttf">
+<Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
+<Font FontIndex="0">
+<FontInfo FontName="fontcustom" FontVersion="Version 001.000 " FontDate="23/08/2013" />
+<Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="15" TestName="_OFFSET_numTables" />
+<Report ErrorType="P" ErrorCode="P0010" Message="The searchRange, entrySelector, and rangeShift fields are all valid" TestName="_OFFSET_BinarySearchFields" />
+<Report ErrorType="P" ErrorCode="P0032" Message="The directory entry tags are in ascending order" />
+<Report ErrorType="P" ErrorCode="P0031" Message="The directory entry tag names are valid" />
+<Report ErrorType="P" ErrorCode="P0030" Message="The directory entry table offsets are all multiples of 4" />
+<Report ErrorType="P" ErrorCode="P0020" Message="All required tables are present" />
+<Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="kern" />
+<Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="hdmx" />
+<Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="VDMX" />
+<Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="DSIG" />
+<Report ErrorType="P" ErrorCode="P0022" Message="No unnecessary tables are present" />
+<Report ErrorType="W" ErrorCode="W0020" Message="Tables are not in optimal order" Details="table 'OS/2' precedes table 'head'" />
+<TableEntry Tag="FFTM" Offset="0x000000fc" Length="0x0000001c" Checksum="0x68b81df6" CodeFriendlyTag="FFTM">
+<Report ErrorType="I" ErrorCode="I0040" Message="Not an OpenType table, contents not validated" Details="" />
+</TableEntry>
+<TableEntry Tag="OS/2" Offset="0x00000118" Length="0x00000060" Checksum="0x41395ef2" CodeFriendlyTag="OS_2">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="cmap" Offset="0x00000178" Length="0x00000142" Checksum="0x000ff5c5" CodeFriendlyTag="cmap">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="cvt " Offset="0x0000d45c" Length="0x00000014" Checksum="0x00320032" CodeFriendlyTag="cvt_">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="fpgm" Offset="0x0000d470" Length="0x00000991" Checksum="0x8a0a7839" CodeFriendlyTag="fpgm">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="gasp" Offset="0x0000d454" Length="0x00000008" Checksum="0x00000010" CodeFriendlyTag="gasp">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="glyf" Offset="0x000002bc" Length="0x0000bc7e" Checksum="0xf46af446" CodeFriendlyTag="glyf">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="head" Offset="0x0000bf3c" Length="0x00000036" Checksum="0xfd99bba3" CodeFriendlyTag="head">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="hhea" Offset="0x0000bf74" Length="0x00000024" Checksum="0x03f102dd" CodeFriendlyTag="hhea">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="hmtx" Offset="0x0000bf98" Length="0x00000476" Checksum="0x9ff40037" CodeFriendlyTag="hmtx">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="loca" Offset="0x0000c410" Length="0x0000023e" Checksum="0x5128233c" CodeFriendlyTag="loca">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="maxp" Offset="0x0000c650" Length="0x00000020" Checksum="0x019d0aa7" CodeFriendlyTag="maxp">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="name" Offset="0x0000c670" Length="0x000002a9" Checksum="0x496758a6" CodeFriendlyTag="name">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="post" Offset="0x0000c91c" Length="0x00000b36" Checksum="0x67acb27b" CodeFriendlyTag="post">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="prep" Offset="0x0000de04" Length="0x0000008b" Checksum="0xdce492d2" CodeFriendlyTag="prep">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<RasterizationTest_BW>
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 0" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 8" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 133" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 166" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 239" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 254" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 278" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 299" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 360" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 372" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 409" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 439" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 457" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 481" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 621" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 662" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 670" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 678" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 686" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 694" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 702" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 710" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 718" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 726" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 734" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 742" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 786" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 794" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 802" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 810" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 818" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 826" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 834" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 842" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 850" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 858" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 866" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 875" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 902" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 912" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 957" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 981" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 1008" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 1017" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 1062" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 1085" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 1092" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 1119" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 1164" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 1195" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 1403" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 1426" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 1450" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 1540" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 1573" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 1596" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 1619" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 1655" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 1681" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 1724" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 1760" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 1898" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 1911" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 1941" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 1965" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 1989" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2001" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2008" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2030" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2041" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2050" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2059" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2068" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2077" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2086" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2095" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2104" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2113" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2122" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2131" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2140" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2149" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2158" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2167" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2176" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2185" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2194" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2203" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2212" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2221" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2230" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2239" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2248" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2257" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2270" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2280" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2290" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2303" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2316" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2326" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2336" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2346" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2359" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2369" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2379" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2389" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2402" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2412" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2422" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 2432" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, MPPEM, Pre-Program, At ByteOffset 0" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHW[0], Pre-Program, At ByteOffset 1" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, GT, Pre-Program, At ByteOffset 4" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHW[1], Pre-Program, At ByteOffset 11" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, MUL, Pre-Program, At ByteOffset 16" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, DUP, Pre-Program, At ByteOffset 17" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 18" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, SWAP, Pre-Program, At ByteOffset 20" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, WCVTP, Pre-Program, At ByteOffset 21" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 22" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, SWAP, Pre-Program, At ByteOffset 24" />
+<Report ErrorType="E" ErrorCode="E6019" Message="Funit coordinate out of range must be -16384 .. 16383" Details="Size 10, WCVTF, Pre-Program, At ByteOffset 25" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 26" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, RCVT, Pre-Program, At ByteOffset 28" />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, RCVT, Pre-Program, At ByteOffset 28" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, DUP, Pre-Program, At ByteOffset 29" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, DUP, Pre-Program, At ByteOffset 30" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, MPPEM, Pre-Program, At ByteOffset 31" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHW[0], Pre-Program, At ByteOffset 32" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, LTEQ, Pre-Program, At ByteOffset 35" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, MPPEM, Pre-Program, At ByteOffset 36" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 37" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, GTEQ, Pre-Program, At ByteOffset 39" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, AND, Pre-Program, At ByteOffset 40" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, IF, Pre-Program, At ByteOffset 41" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 42" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, ELSE, Pre-Program, At ByteOffset 44" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, ADD, Pre-Program, At ByteOffset 48" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, FLOOR, Pre-Program, At ByteOffset 49" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, DUP, Pre-Program, At ByteOffset 50" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, ROLL, Pre-Program, At ByteOffset 51" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, NEQ, Pre-Program, At ByteOffset 52" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, IF, Pre-Program, At ByteOffset 53" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[2], Pre-Program, At ByteOffset 84" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, RCVT, Pre-Program, At ByteOffset 88" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, GT, Pre-Program, At ByteOffset 89" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, WCVTP, Pre-Program, At ByteOffset 90" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[1], Pre-Program, At ByteOffset 91" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, WCVTP, Pre-Program, At ByteOffset 94" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[1], Pre-Program, At ByteOffset 95" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, GETINFO, Pre-Program, At ByteOffset 98" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, LTEQ, Pre-Program, At ByteOffset 99" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, IF, Pre-Program, At ByteOffset 100" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHW[0], Pre-Program, At ByteOffset 128" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, SCANCTRL, Pre-Program, At ByteOffset 131" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[0], Pre-Program, At ByteOffset 132" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, SCANTYPE, Pre-Program, At ByteOffset 134" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[1], Pre-Program, At ByteOffset 135" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, WCVTP, Pre-Program, At ByteOffset 138" />
+</RasterizationTest_BW>
+<RasterizationTest_Grayscale>
+<Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
+</RasterizationTest_Grayscale>
+<RasterizationTest_ClearType>
+<Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
+</RasterizationTest_ClearType>
+</Font>
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:00" />
+</FontFile>
+</FontValidatorReport>

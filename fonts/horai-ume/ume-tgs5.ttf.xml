@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="22 March 2019 09:54" MachineName="localhost.localdomain">
+<FontValidatorReport RunDateTime="18 March 2020 01:13" MachineName="localhost">
 <FontFile FileName="ume-tgs5.ttf" FileNameAndPath="/usr/share/fonts/horai-ume/ume-tgs5.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
@@ -66,16 +66,16 @@
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="E" ErrorCode="E6046" Message="Stack Underflow" Details="Size 10, MSIRP[0], Pre-Program, At ByteOffset 0" />
-<Report ErrorType="E" ErrorCode="E6040" Message="Zone referenced in pre-program is not the twilight zone" Details="Size 10, MSIRP[0], Pre-Program, At ByteOffset 0" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MSIRP[0], Pre-Program, At ByteOffset 0" />
+<Report ErrorType="E" ErrorCode="E6046" Message="Stack Underflow" Details="Size 10, MSIRP[], Pre-Program, At ByteOffset 0" />
+<Report ErrorType="E" ErrorCode="E6040" Message="Zone referenced in pre-program is not the twilight zone" Details="Size 10, MSIRP[], Pre-Program, At ByteOffset 0" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MSIRP[], Pre-Program, At ByteOffset 0" />
 <Report ErrorType="E" ErrorCode="E6046" Message="Stack Underflow" Details="Size 10, SRP2, Pre-Program, At ByteOffset 1" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, AlignRP, Pre-Program, At ByteOffset 2" />
-<Report ErrorType="E" ErrorCode="E6046" Message="Stack Underflow" Details="Size 10, AlignRP, Pre-Program, At ByteOffset 2" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, ALIGNRP, Pre-Program, At ByteOffset 2" />
+<Report ErrorType="E" ErrorCode="E6046" Message="Stack Underflow" Details="Size 10, ALIGNRP, Pre-Program, At ByteOffset 2" />
 <Report ErrorType="E" ErrorCode="E6028" Message="Invalid Instruction" Details="Size 10, INS_$AF, Pre-Program, At ByteOffset 3" />
 <Report ErrorType="E" ErrorCode="E6028" Message="Invalid Instruction" Details="Size 10, INS_$AF, Pre-Program, At ByteOffset 3" />
 <Report ErrorType="I" ErrorCode="I6070" Message="Supplementary Information" Details="Glyph 0 at size 10" />
-<Report ErrorType="A" ErrorCode="A6000" Message="An exception occurred during rasterization testing" Details="FreeType error: Invalid opcode.  at SharpFont.Face.LoadGlyph (System.UInt32 glyphIndex, SharpFont.LoadFlags flags, SharpFont.LoadTarget target) [0x00037] in &lt;4e4ef5f00f9a4e968bea11bd0b79fa71&gt;:0 &#xA;  at OTFontFile.Rasterizer.RasterInterf.RastTest (System.Int32 resX, System.Int32 resY, System.Int32[] arrPointSizes, System.Single stretchX, System.Single stretchY, System.Single rotation, System.Single skew, System.Single[,] matrix, System.Boolean setBW, System.Boolean setGrayscale, System.Boolean setCleartype, System.UInt32 CTFlags, OTFontFile.Rasterizer.RasterInterf+RastTestErrorDelegate pRastTestErrorDelegate, OTFontFile.Rasterizer.RasterInterf+UpdateProgressDelegate pUpdateProgressDelegate, System.Int32 numGlyphs) [0x00318] in &lt;91683dc03fb84a39a25a98acedcb8606&gt;:0 " />
+<Report ErrorType="A" ErrorCode="A6000" Message="An exception occurred during rasterization testing" Details="FreeType error: Invalid opcode.  at SharpFont.Face.LoadGlyph (System.UInt32 glyphIndex, SharpFont.LoadFlags flags, SharpFont.LoadTarget target) [0x00037] in &lt;4e4ef5f00f9a4e968bea11bd0b79fa71&gt;:0 &#xA;  at OTFontFile.Rasterizer.RasterInterf.RastTest (System.Int32 resX, System.Int32 resY, System.Int32[] arrPointSizes, System.Single stretchX, System.Single stretchY, System.Single rotation, System.Single skew, System.Single[,] matrix, System.Boolean setBW, System.Boolean setGrayscale, System.Boolean setCleartype, System.UInt32 CTFlags, OTFontFile.Rasterizer.RasterInterf+RastTestErrorDelegate pRastTestErrorDelegate, OTFontFile.Rasterizer.RasterInterf+UpdateProgressDelegate pUpdateProgressDelegate, System.Int32 numGlyphs) [0x00495] in &lt;2b0769e527d1445fbf4609551f61caef&gt;:0 &#xA;  at OTFontFileVal.OTFontVal.Validate () [0x00482] in &lt;c096c97564894072a4c497e4d43899a4&gt;:0 " />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="fval.xsl"?>
+<FontValidatorReport RunDateTime="09 March 2020 20:46" MachineName="raspberrypi">
+<FontFile FileName="inflamma.ttf" FileNameAndPath="/usr/share/fonts/truetype/larabie/inflamma.ttf">
+<Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
+<Font FontIndex="0">
+<FontInfo FontName="Inflammable Age" FontVersion="1.0 Mon Sep 15 08:44:38 1997" FontDate="15/09/1931" />
+<Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="15" TestName="_OFFSET_numTables" />
+<Report ErrorType="E" ErrorCode="E0014" Message="The searchRange field is invalid" Details="48" TestName="_OFFSET_BinarySearchFields" />
+<Report ErrorType="E" ErrorCode="E0013" Message="The rangeShift field is invalid" Details="192" TestName="_OFFSET_BinarySearchFields" />
+<Report ErrorType="P" ErrorCode="P0032" Message="The directory entry tags are in ascending order" />
+<Report ErrorType="P" ErrorCode="P0031" Message="The directory entry tag names are valid" />
+<Report ErrorType="P" ErrorCode="P0030" Message="The directory entry table offsets are all multiples of 4" />
+<Report ErrorType="P" ErrorCode="P0020" Message="All required tables are present" />
+<Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="gasp" />
+<Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="kern" />
+<Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="VDMX" />
+<Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="DSIG" />
+<Report ErrorType="W" ErrorCode="W0021" Message="Table is unnecessary" Details="PCLT table not needed, Microsoft no longer recommends including this table" />
+<Report ErrorType="W" ErrorCode="W0020" Message="Tables are not in optimal order" Details="table 'hmtx' precedes table 'OS/2'" />
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'OS/2', calc: 0x8065477b, font: 0x5c666f75" />
+<TableEntry Tag="OS/2" Offset="0x000046c4" Length="0x0000004e" Checksum="0x5c666f75" CodeFriendlyTag="OS_2">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'PCLT', calc: 0x0cab7602, font: 0xb2cb5060" />
+<TableEntry Tag="PCLT" Offset="0x00004714" Length="0x00000036" Checksum="0xb2cb5060" CodeFriendlyTag="PCLT">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'cmap', calc: 0x58a79f34, font: 0x087a8cc3" />
+<TableEntry Tag="cmap" Offset="0x00003fd4" Length="0x00000334" Checksum="0x087a8cc3" CodeFriendlyTag="cmap">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'cvt ', calc: 0x1c0816cf, font: 0x16d21c05" />
+<TableEntry Tag="cvt " Offset="0x0000464c" Length="0x00000076" Checksum="0x16d21c05" CodeFriendlyTag="cvt_">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'fpgm', calc: 0xa7d95e93, font: 0x985cdca2" />
+<TableEntry Tag="fpgm" Offset="0x000003f0" Length="0x00000064" Checksum="0x985cdca2" CodeFriendlyTag="fpgm">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'glyf', calc: 0x356dcd7c, font: 0xd8bd5746" />
+<Report ErrorType="W" ErrorCode="W0031" Message="Non-zero pad bytes were found for the table" Details="after glyf table" />
+<TableEntry Tag="glyf" Offset="0x0000054c" Length="0x0000356a" Checksum="0xd8bd5746" CodeFriendlyTag="glyf">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'hdmx', calc: 0xfccb475b, font: 0x9159ccb6" />
+<TableEntry Tag="hdmx" Offset="0x0000474c" Length="0x00000d48" Checksum="0x9159ccb6" CodeFriendlyTag="hdmx">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'head', calc: 0xca999eaf, font: 0xcd9a9bae" />
+<TableEntry Tag="head" Offset="0x000000fc" Length="0x00000036" Checksum="0xcd9a9bae" CodeFriendlyTag="head">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'hhea', calc: 0x066e0431, font: 0x0433066b" />
+<TableEntry Tag="hhea" Offset="0x00000134" Length="0x00000024" Checksum="0x0433066b" CodeFriendlyTag="hhea">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'hmtx', calc: 0x7f951494, font: 0x14957f8c" />
+<TableEntry Tag="hmtx" Offset="0x00004308" Length="0x00000344" Checksum="0x14957f8c" CodeFriendlyTag="hmtx">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="loca" Offset="0x00003ab8" Length="0x00000348" Checksum="0x00194e06" CodeFriendlyTag="loca">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'maxp', calc: 0x0140018a, font: 0x018b013f" />
+<TableEntry Tag="maxp" Offset="0x00000158" Length="0x00000020" Checksum="0x018b013f" CodeFriendlyTag="maxp">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'name', calc: 0x0c7ad607, font: 0x81e6ba3f" />
+<TableEntry Tag="name" Offset="0x00000178" Length="0x00000276" Checksum="0x81e6ba3f" CodeFriendlyTag="name">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'post', calc: 0x9f9c084a, font: 0xde781226" />
+<TableEntry Tag="post" Offset="0x00003e00" Length="0x000001d2" Checksum="0xde781226" CodeFriendlyTag="post">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'prep', calc: 0xa46895ba, font: 0xc8956999" />
+<TableEntry Tag="prep" Offset="0x00000454" Length="0x000000f5" Checksum="0xc8956999" CodeFriendlyTag="prep">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<RasterizationTest_BW>
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 31, At ByteOffset 46" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 31, At ByteOffset 46" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 31, At ByteOffset 61" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 33, At ByteOffset 46" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 46, At ByteOffset 62" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 59, At ByteOffset 82" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 59, At ByteOffset 82" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 59, At ByteOffset 106" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 59, At ByteOffset 121" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 65, At ByteOffset 59" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 78, At ByteOffset 62" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 91, At ByteOffset 82" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 91, At ByteOffset 82" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 91, At ByteOffset 106" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 91, At ByteOffset 121" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 142, At ByteOffset 126" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 150, At ByteOffset 132" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 154, At ByteOffset 89" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 160, At ByteOffset 108" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 167, At ByteOffset 107" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 174, At ByteOffset 126" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 182, At ByteOffset 133" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 186, At ByteOffset 82" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 192, At ByteOffset 110" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 199, At ByteOffset 105" />
+</RasterizationTest_BW>
+<RasterizationTest_Grayscale>
+<Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
+</RasterizationTest_Grayscale>
+<RasterizationTest_ClearType>
+<Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
+</RasterizationTest_ClearType>
+</Font>
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:00" />
+</FontFile>
+</FontValidatorReport>

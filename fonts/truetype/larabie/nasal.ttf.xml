@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="fval.xsl"?>
+<FontValidatorReport RunDateTime="09 March 2020 20:44" MachineName="raspberrypi">
+<FontFile FileName="nasal.ttf" FileNameAndPath="/usr/share/fonts/truetype/larabie/nasal.ttf">
+<Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
+<Font FontIndex="0">
+<FontInfo FontName="Nasal" FontVersion="2.0 Wed Aug 06 08:52:02 1997" FontDate="14/09/1931" />
+<Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="16" TestName="_OFFSET_numTables" />
+<Report ErrorType="E" ErrorCode="E0014" Message="The searchRange field is invalid" Details="64" TestName="_OFFSET_BinarySearchFields" />
+<Report ErrorType="E" ErrorCode="E0013" Message="The rangeShift field is invalid" Details="192" TestName="_OFFSET_BinarySearchFields" />
+<Report ErrorType="P" ErrorCode="P0032" Message="The directory entry tags are in ascending order" />
+<Report ErrorType="P" ErrorCode="P0031" Message="The directory entry tag names are valid" />
+<Report ErrorType="P" ErrorCode="P0030" Message="The directory entry table offsets are all multiples of 4" />
+<Report ErrorType="P" ErrorCode="P0020" Message="All required tables are present" />
+<Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="gasp" />
+<Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="VDMX" />
+<Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="DSIG" />
+<Report ErrorType="W" ErrorCode="W0021" Message="Table is unnecessary" Details="PCLT table not needed, Microsoft no longer recommends including this table" />
+<Report ErrorType="W" ErrorCode="W0020" Message="Tables are not in optimal order" Details="table 'hmtx' precedes table 'OS/2'" />
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'OS/2', calc: 0x13b70174, font: 0xfc7a1cac" />
+<TableEntry Tag="OS/2" Offset="0x000057ac" Length="0x0000004e" Checksum="0xfc7a1cac" CodeFriendlyTag="OS_2">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'PCLT', calc: 0x430db6ad, font: 0x1ec8a328" />
+<TableEntry Tag="PCLT" Offset="0x000057fc" Length="0x00000036" Checksum="0x1ec8a328" CodeFriendlyTag="PCLT">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'cmap', calc: 0xcd9887bb, font: 0xc13807a8" />
+<TableEntry Tag="cmap" Offset="0x00004f60" Length="0x00000404" Checksum="0xc13807a8" CodeFriendlyTag="cmap">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'cvt ', calc: 0x2a663803, font: 0x38082a64" />
+<TableEntry Tag="cvt " Offset="0x00005738" Length="0x00000074" Checksum="0x38082a64" CodeFriendlyTag="cvt_">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'fpgm', calc: 0xa7d95e93, font: 0x985cdca2" />
+<TableEntry Tag="fpgm" Offset="0x00000380" Length="0x00000064" Checksum="0x985cdca2" CodeFriendlyTag="fpgm">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'glyf', calc: 0x276556e4, font: 0x1eb7279e" />
+<TableEntry Tag="glyf" Offset="0x000004d0" Length="0x0000446c" Checksum="0x1eb7279e" CodeFriendlyTag="glyf">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'hdmx', calc: 0xc6532237, font: 0x57325694" />
+<TableEntry Tag="hdmx" Offset="0x00005834" Length="0x00000f88" Checksum="0x57325694" CodeFriendlyTag="hdmx">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'head', calc: 0xce4609ee, font: 0xd3b9047b" />
+<TableEntry Tag="head" Offset="0x0000010c" Length="0x00000036" Checksum="0xd3b9047b" CodeFriendlyTag="head">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'hhea', calc: 0x0ce00692, font: 0x06940cdd" />
+<TableEntry Tag="hhea" Offset="0x00000144" Length="0x00000024" Checksum="0x06940cdd" CodeFriendlyTag="hhea">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'hmtx', calc: 0xfa8e2649, font: 0x264dfa87" />
+<TableEntry Tag="hmtx" Offset="0x00005364" Length="0x000003d4" Checksum="0x264dfa87" CodeFriendlyTag="hmtx">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'kern', calc: 0x1f6e27de, font: 0x283a1f11" />
+<TableEntry Tag="kern" Offset="0x000067bc" Length="0x000004ec" Checksum="0x283a1f11" CodeFriendlyTag="kern">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="loca" Offset="0x0000493c" Length="0x000003d8" Checksum="0x002f66ac" CodeFriendlyTag="loca">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'maxp', calc: 0x014d0212, font: 0x0213014c" />
+<TableEntry Tag="maxp" Offset="0x00000168" Length="0x00000020" Checksum="0x0213014c" CodeFriendlyTag="maxp">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'name', calc: 0x94d13987, font: 0x4ce33eb7" />
+<TableEntry Tag="name" Offset="0x00000188" Length="0x000001f8" Checksum="0x4ce33eb7" CodeFriendlyTag="name">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'post', calc: 0x340631bb, font: 0x6989ab89" />
+<TableEntry Tag="post" Offset="0x00004d14" Length="0x00000249" Checksum="0x6989ab89" CodeFriendlyTag="post">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'prep', calc: 0xd1ceb924, font: 0x31b8cfc7" />
+<TableEntry Tag="prep" Offset="0x000003e4" Length="0x000000e9" Checksum="0x31b8cfc7" CodeFriendlyTag="prep">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<RasterizationTest_BW>
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 31, At ByteOffset 43" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 31, At ByteOffset 43" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 31, At ByteOffset 58" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 33, At ByteOffset 43" />
+</RasterizationTest_BW>
+<RasterizationTest_Grayscale>
+<Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
+</RasterizationTest_Grayscale>
+<RasterizationTest_ClearType>
+<Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
+</RasterizationTest_ClearType>
+</Font>
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:00" />
+</FontFile>
+</FontValidatorReport>

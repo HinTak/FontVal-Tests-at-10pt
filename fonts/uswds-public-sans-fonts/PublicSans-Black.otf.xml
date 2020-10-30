@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="fval.xsl"?>
+<FontValidatorReport RunDateTime="30 October 2020 12:11" MachineName="localhost">
+<FontFile FileName="PublicSans-Black.otf" FileNameAndPath="/usr/share/fonts/uswds-public-sans-fonts/PublicSans-Black.otf">
+<Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
+<Font FontIndex="0">
+<FontInfo FontName="Public Sans Black" FontVersion="Version 1.008" FontDate="08/01/2020" />
+<Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="12" TestName="_OFFSET_numTables" />
+<Report ErrorType="P" ErrorCode="P0010" Message="The searchRange, entrySelector, and rangeShift fields are all valid" TestName="_OFFSET_BinarySearchFields" />
+<Report ErrorType="P" ErrorCode="P0032" Message="The directory entry tags are in ascending order" />
+<Report ErrorType="P" ErrorCode="P0031" Message="The directory entry tag names are valid" />
+<Report ErrorType="P" ErrorCode="P0030" Message="The directory entry table offsets are all multiples of 4" />
+<Report ErrorType="P" ErrorCode="P0020" Message="All required tables are present" />
+<Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="DSIG" />
+<Report ErrorType="P" ErrorCode="P0022" Message="No unnecessary tables are present" />
+<Report ErrorType="P" ErrorCode="P0021" Message="Tables are in optimal order" />
+<TableEntry Tag="CFF " Offset="0x00001034" Length="0x000070cf" Checksum="0xc718ea9c" CodeFriendlyTag="CFF_">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="GDEF" Offset="0x00008104" Length="0x000000b2" Checksum="0x23d62369" CodeFriendlyTag="GDEF">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="GPOS" Offset="0x000081b8" Length="0x000033ba" Checksum="0x7bf8a7e9" CodeFriendlyTag="GPOS">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="GSUB" Offset="0x0000b574" Length="0x0000097e" Checksum="0x01bed425" CodeFriendlyTag="GSUB">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="OS/2" Offset="0x00000130" Length="0x00000060" Checksum="0x92fc64f5" CodeFriendlyTag="OS_2">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="cmap" Offset="0x000009c0" Length="0x00000654" Checksum="0xb71739ef" CodeFriendlyTag="cmap">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="head" Offset="0x000000cc" Length="0x00000036" Checksum="0x1c8db175" CodeFriendlyTag="head">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="hhea" Offset="0x00000104" Length="0x00000024" Checksum="0x106e0749" CodeFriendlyTag="hhea">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="hmtx" Offset="0x0000bef4" Length="0x00000a24" Checksum="0xa521a46c" CodeFriendlyTag="hmtx">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="maxp" Offset="0x00000128" Length="0x00000006" Checksum="0x02895000" CodeFriendlyTag="maxp">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="name" Offset="0x00000190" Length="0x0000082e" Checksum="0xed8d27bf" CodeFriendlyTag="name">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="post" Offset="0x00001014" Length="0x00000020" Checksum="0xfe91008c" CodeFriendlyTag="post">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<RasterizationTest_BW>
+<Report ErrorType="I" ErrorCode="I6059" Message="Could not perform rasterization" Details="Font has PostScript outlines, rasterization not yet implemented" />
+</RasterizationTest_BW>
+<RasterizationTest_Grayscale>
+<Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
+</RasterizationTest_Grayscale>
+<RasterizationTest_ClearType>
+<Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
+</RasterizationTest_ClearType>
+</Font>
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:00" />
+</FontFile>
+</FontValidatorReport>

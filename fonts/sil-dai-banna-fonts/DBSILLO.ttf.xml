@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="fval.xsl"?>
+<FontValidatorReport RunDateTime="30 October 2020 12:06" MachineName="localhost">
+<FontFile FileName="DBSILLO.ttf" FileNameAndPath="/usr/share/fonts/sil-dai-banna-fonts/DBSILLO.ttf">
+<Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
+<Font FontIndex="0">
+<FontInfo FontName="Dai Banna SIL Light Italic" FontVersion="Version 2.200" FontDate="21/02/2011" />
+<Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="18" TestName="_OFFSET_numTables" />
+<Report ErrorType="P" ErrorCode="P0010" Message="The searchRange, entrySelector, and rangeShift fields are all valid" TestName="_OFFSET_BinarySearchFields" />
+<Report ErrorType="P" ErrorCode="P0032" Message="The directory entry tags are in ascending order" />
+<Report ErrorType="P" ErrorCode="P0031" Message="The directory entry tag names are valid" />
+<Report ErrorType="P" ErrorCode="P0030" Message="The directory entry table offsets are all multiples of 4" />
+<Report ErrorType="P" ErrorCode="P0020" Message="All required tables are present" />
+<Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="VDMX" />
+<Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="DSIG" />
+<Report ErrorType="P" ErrorCode="P0022" Message="No unnecessary tables are present" />
+<Report ErrorType="W" ErrorCode="W0020" Message="Tables are not in optimal order" Details="table 'OS/2' precedes table 'head'" />
+<TableEntry Tag="GPOS" Offset="0x0000012c" Length="0x000001b0" Checksum="0x16482857" CodeFriendlyTag="GPOS">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="LTSH" Offset="0x000002dc" Length="0x000000e1" Checksum="0x0d3b9cf3" CodeFriendlyTag="LTSH">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'OS/2', calc: 0x8fc169b4, font: 0x0003042b" />
+<TableEntry Tag="OS/2" Offset="0x000003c0" Length="0x00000060" Checksum="0x0003042b" CodeFriendlyTag="OS_2">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="cmap" Offset="0x00000420" Length="0x00000562" Checksum="0xd30f4fee" CodeFriendlyTag="cmap">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="cvt " Offset="0x00000984" Length="0x0000001e" Checksum="0x01c60ffa" CodeFriendlyTag="cvt_">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="fpgm" Offset="0x000009a4" Length="0x00000173" Checksum="0x06599c37" CodeFriendlyTag="fpgm">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="gasp" Offset="0x00000b18" Length="0x00000010" Checksum="0x00170009" CodeFriendlyTag="gasp">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="glyf" Offset="0x00000b28" Length="0x000189b0" Checksum="0x2d98c305" CodeFriendlyTag="glyf">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="hdmx" Offset="0x000194d8" Length="0x00001428" Checksum="0xcd03ffb5" CodeFriendlyTag="hdmx">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="head" Offset="0x0001a900" Length="0x00000036" Checksum="0xf59ae766" CodeFriendlyTag="head">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="hhea" Offset="0x0001a938" Length="0x00000024" Checksum="0x0b6a0c74" CodeFriendlyTag="hhea">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="hmtx" Offset="0x0001a95c" Length="0x00000374" Checksum="0x955b2d2c" CodeFriendlyTag="hmtx">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="kern" Offset="0x0001acd0" Length="0x000001f2" Checksum="0x53615524" CodeFriendlyTag="kern">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="loca" Offset="0x0001aec4" Length="0x000001bc" Checksum="0xfb625a8e" CodeFriendlyTag="loca">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="maxp" Offset="0x0001b080" Length="0x00000020" Checksum="0x02f803c5" CodeFriendlyTag="maxp">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="name" Offset="0x0001b0a0" Length="0x00003a07" Checksum="0xb218500f" CodeFriendlyTag="name">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="post" Offset="0x0001eaa8" Length="0x00000557" Checksum="0x838bbf4b" CodeFriendlyTag="post">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="prep" Offset="0x0001f000" Length="0x00000072" Checksum="0xe8a1b95f" CodeFriendlyTag="prep">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<RasterizationTest_BW>
+<Report ErrorType="P" ErrorCode="P6000" Message="No problems were found during rasterization testing" />
+</RasterizationTest_BW>
+<RasterizationTest_Grayscale>
+<Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
+</RasterizationTest_Grayscale>
+<RasterizationTest_ClearType>
+<Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
+</RasterizationTest_ClearType>
+</Font>
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:00" />
+</FontFile>
+</FontValidatorReport>

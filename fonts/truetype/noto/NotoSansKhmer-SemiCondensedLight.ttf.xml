@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="20 December 2019 17:47" MachineName="hintak-System-Product-Name">
-<FontFile FileName="NotoSansKhmer-SemiCondensedLight.ttf" FileNameAndPath="//usr/share/fonts/truetype/noto/NotoSansKhmer-SemiCondensedLight.ttf">
+<FontValidatorReport RunDateTime="Sunday, 01 November 2020 03:19" MachineName="ubuntu">
+<FontFile FileName="NotoSansKhmer-SemiCondensedLight.ttf" FileNameAndPath="/usr/share/fonts/truetype/noto/NotoSansKhmer-SemiCondensedLight.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
-<FontInfo FontName="Noto Sans Khmer SemiCondensed Light" FontVersion="Version 2.001;GOOG;noto-source:20181019:f8f3770;ttfautohint (v1.8.2)" FontDate="19/10/2018" />
+<FontInfo FontName="Noto Sans Khmer SemiCondensed Light" FontVersion="Version 2.001; ttfautohint (v1.8.2)" FontDate="09/26/2019" />
 <Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="17" TestName="_OFFSET_numTables" />
 <Report ErrorType="P" ErrorCode="P0010" Message="The searchRange, entrySelector, and rangeShift fields are all valid" TestName="_OFFSET_BinarySearchFields" />
 <Report ErrorType="P" ErrorCode="P0032" Message="The directory entry tags are in ascending order" />
@@ -16,56 +16,56 @@
 <Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="VDMX" />
 <Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="DSIG" />
 <Report ErrorType="P" ErrorCode="P0022" Message="No unnecessary tables are present" />
-<Report ErrorType="P" ErrorCode="P0021" Message="Tables are in optimal order" />
-<TableEntry Tag="GDEF" Offset="0x00017f64" Length="0x00000104" Checksum="0x17eb1906" CodeFriendlyTag="GDEF">
+<Report ErrorType="W" ErrorCode="W0020" Message="Tables are not in optimal order" Details="table 'OS/2' precedes table 'head'" />
+<TableEntry Tag="GDEF" Offset="0x0000011c" Length="0x00000104" Checksum="0x17eb1906" CodeFriendlyTag="GDEF">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="GPOS" Offset="0x00018068" Length="0x00001abc" Checksum="0xd5480b11" CodeFriendlyTag="GPOS">
+<TableEntry Tag="GPOS" Offset="0x00000220" Length="0x00001abc" Checksum="0xd5480b11" CodeFriendlyTag="GPOS">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="GSUB" Offset="0x00019b24" Length="0x000010da" Checksum="0x34152636" CodeFriendlyTag="GSUB">
+<TableEntry Tag="GSUB" Offset="0x00001cdc" Length="0x000010da" Checksum="0x34152636" CodeFriendlyTag="GSUB">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="OS/2" Offset="0x00000198" Length="0x00000060" Checksum="0x88680353" CodeFriendlyTag="OS_2">
+<TableEntry Tag="OS/2" Offset="0x00002db8" Length="0x00000060" Checksum="0x88680353" CodeFriendlyTag="OS_2">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="cmap" Offset="0x000007a4" Length="0x0000013a" Checksum="0xe768f806" CodeFriendlyTag="cmap">
+<TableEntry Tag="cmap" Offset="0x00002e18" Length="0x0000013a" Checksum="0xe768f806" CodeFriendlyTag="cmap">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="cvt " Offset="0x000017ac" Length="0x00000048" Checksum="0x08520051" CodeFriendlyTag="cvt_">
+<TableEntry Tag="cvt " Offset="0x00019cc0" Length="0x00000048" Checksum="0x08520051" CodeFriendlyTag="cvt_">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="fpgm" Offset="0x000008e0" Length="0x00000e15" Checksum="0x9e3612cc" CodeFriendlyTag="fpgm">
+<TableEntry Tag="fpgm" Offset="0x00019d08" Length="0x00000e15" Checksum="0x9e3612cc" CodeFriendlyTag="fpgm">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="gasp" Offset="0x00017f5c" Length="0x00000008" Checksum="0x00000010" CodeFriendlyTag="gasp">
+<TableEntry Tag="gasp" Offset="0x00019cb8" Length="0x00000008" Checksum="0x00000010" CodeFriendlyTag="gasp">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="glyf" Offset="0x00001acc" Length="0x00014c04" Checksum="0x846c68c4" CodeFriendlyTag="glyf">
+<TableEntry Tag="glyf" Offset="0x00002f54" Length="0x00014bd4" Checksum="0xe84da3a7" CodeFriendlyTag="glyf">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="head" Offset="0x0000011c" Length="0x00000036" Checksum="0x0ccdc3fa" CodeFriendlyTag="head">
+<TableEntry Tag="head" Offset="0x00017b28" Length="0x00000036" Checksum="0x0e92a8f1" CodeFriendlyTag="head">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="hhea" Offset="0x00000154" Length="0x00000024" Checksum="0x06f306bf" CodeFriendlyTag="hhea">
+<TableEntry Tag="hhea" Offset="0x00017b60" Length="0x00000024" Checksum="0x06f3047b" CodeFriendlyTag="hhea">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="hmtx" Offset="0x000001f8" Length="0x000005ac" Checksum="0xcbcd7ff6" CodeFriendlyTag="hmtx">
+<TableEntry Tag="hmtx" Offset="0x00017b84" Length="0x000005ac" Checksum="0xc8bf7ff6" CodeFriendlyTag="hmtx">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="loca" Offset="0x000017f4" Length="0x000002d8" Checksum="0xab60fd20" CodeFriendlyTag="loca">
+<TableEntry Tag="loca" Offset="0x00018130" Length="0x000002d8" Checksum="0xa13cf2f0" CodeFriendlyTag="loca">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="maxp" Offset="0x00000178" Length="0x00000020" Checksum="0x03a70fb9" CodeFriendlyTag="maxp">
+<TableEntry Tag="maxp" Offset="0x00018408" Length="0x00000020" Checksum="0x03a70fb9" CodeFriendlyTag="maxp">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="name" Offset="0x000166d0" Length="0x00000726" Checksum="0xb6f8d8e2" CodeFriendlyTag="name">
+<TableEntry Tag="name" Offset="0x00018428" Length="0x0000072a" Checksum="0xb9b0d9ea" CodeFriendlyTag="name">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="post" Offset="0x00016df8" Length="0x00001163" Checksum="0x08b5188f" CodeFriendlyTag="post">
+<TableEntry Tag="post" Offset="0x00018b54" Length="0x00001163" Checksum="0x08b5188f" CodeFriendlyTag="post">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="prep" Offset="0x000016f8" Length="0x000000b2" Checksum="0x663df7e2" CodeFriendlyTag="prep">
+<TableEntry Tag="prep" Offset="0x0001ab20" Length="0x000000b2" Checksum="0x663df7e2" CodeFriendlyTag="prep">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
@@ -2680,6 +2680,6 @@
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
 </RasterizationTest_ClearType>
 </Font>
-<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:04" />
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:01" />
 </FontFile>
 </FontValidatorReport>

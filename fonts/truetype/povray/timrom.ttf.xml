@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="fval.xsl"?>
+<FontValidatorReport RunDateTime="Sunday, 01 November 2020 00:07" MachineName="ubuntu">
+<FontFile FileName="timrom.ttf" FileNameAndPath="/usr/share/fonts/truetype/povray/timrom.ttf">
+<Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
+<Font FontIndex="0">
+<FontInfo FontName="Time Roman" FontVersion="001.1" FontDate="01/01/1904" />
+<Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="14" TestName="_OFFSET_numTables" />
+<Report ErrorType="E" ErrorCode="E0014" Message="The searchRange field is invalid" Details="48" TestName="_OFFSET_BinarySearchFields" />
+<Report ErrorType="E" ErrorCode="E0013" Message="The rangeShift field is invalid" Details="176" TestName="_OFFSET_BinarySearchFields" />
+<Report ErrorType="P" ErrorCode="P0032" Message="The directory entry tags are in ascending order" />
+<Report ErrorType="P" ErrorCode="P0031" Message="The directory entry tag names are valid" />
+<Report ErrorType="W" ErrorCode="W0030" Message="The directory entry table offset is not a multiple of 4" Details="cmap" />
+<Report ErrorType="W" ErrorCode="W0030" Message="The directory entry table offset is not a multiple of 4" Details="glyf" />
+<Report ErrorType="W" ErrorCode="W0030" Message="The directory entry table offset is not a multiple of 4" Details="head" />
+<Report ErrorType="W" ErrorCode="W0030" Message="The directory entry table offset is not a multiple of 4" Details="hhea" />
+<Report ErrorType="W" ErrorCode="W0030" Message="The directory entry table offset is not a multiple of 4" Details="hmtx" />
+<Report ErrorType="W" ErrorCode="W0030" Message="The directory entry table offset is not a multiple of 4" Details="kern" />
+<Report ErrorType="W" ErrorCode="W0030" Message="The directory entry table offset is not a multiple of 4" Details="loca" />
+<Report ErrorType="W" ErrorCode="W0030" Message="The directory entry table offset is not a multiple of 4" Details="maxp" />
+<Report ErrorType="W" ErrorCode="W0030" Message="The directory entry table offset is not a multiple of 4" Details="name" />
+<Report ErrorType="W" ErrorCode="W0030" Message="The directory entry table offset is not a multiple of 4" Details="post" />
+<Report ErrorType="W" ErrorCode="W0030" Message="The directory entry table offset is not a multiple of 4" Details="prep" />
+<Report ErrorType="P" ErrorCode="P0030" Message="The directory entry table offsets are all multiples of 4" />
+<Report ErrorType="P" ErrorCode="P0020" Message="All required tables are present" />
+<Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="gasp" />
+<Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="hdmx" />
+<Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="VDMX" />
+<Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="DSIG" />
+<Report ErrorType="P" ErrorCode="P0022" Message="No unnecessary tables are present" />
+<Report ErrorType="W" ErrorCode="W0020" Message="Tables are not in optimal order" Details="table 'OS/2' precedes table 'head'" />
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'OS/2', calc: 0x0550259b, font: 0x259b054f" />
+<TableEntry Tag="OS/2" Offset="0x000000ec" Length="0x0000004e" Checksum="0x259b054f" CodeFriendlyTag="OS_2">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'cmap', calc: 0x7236084e, font: 0x580b3949" />
+<TableEntry Tag="cmap" Offset="0x0000013a" Length="0x000002d2" Checksum="0x580b3949" CodeFriendlyTag="cmap">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'cvt ', calc: 0x359333b0, font: 0xb034950e" />
+<TableEntry Tag="cvt " Offset="0x0000040c" Length="0x000001d0" Checksum="0xb034950e" CodeFriendlyTag="cvt_">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'fpgm', calc: 0x5bf29bd4, font: 0x0196ee30" />
+<TableEntry Tag="fpgm" Offset="0x000005dc" Length="0x00000241" Checksum="0x0196ee30" CodeFriendlyTag="fpgm">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'glyf', calc: 0xb2ef08b3, font: 0x00000000" />
+<TableEntry Tag="glyf" Offset="0x0000081d" Length="0x0000789c" Checksum="0x00000000" CodeFriendlyTag="glyf">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'head', calc: 0x635342e6, font: 0x65034136" />
+<TableEntry Tag="head" Offset="0x000080b9" Length="0x00000036" Checksum="0x65034136" CodeFriendlyTag="head">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'hhea', calc: 0x06f8fe98, font: 0xfe9a06f5" />
+<TableEntry Tag="hhea" Offset="0x000080ef" Length="0x00000024" Checksum="0xfe9a06f5" CodeFriendlyTag="hhea">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'hmtx', calc: 0x1e24106b, font: 0x6f4420d6" />
+<TableEntry Tag="hmtx" Offset="0x00008113" Length="0x00000244" Checksum="0x6f4420d6" CodeFriendlyTag="hmtx">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'kern', calc: 0x26df2a4c, font: 0xe52adc6b" />
+<TableEntry Tag="kern" Offset="0x00008357" Length="0x0000073e" Checksum="0xe52adc6b" CodeFriendlyTag="kern">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'loca', calc: 0x64f44551, font: 0x5944f441" />
+<TableEntry Tag="loca" Offset="0x00008a95" Length="0x00000124" Checksum="0x5944f441" CodeFriendlyTag="loca">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'maxp', calc: 0x02dc01bf, font: 0x01c002db" />
+<TableEntry Tag="maxp" Offset="0x00008bb9" Length="0x00000020" Checksum="0x01c002db" CodeFriendlyTag="maxp">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'name', calc: 0xc1abd303, font: 0x0fcfb4ad" />
+<TableEntry Tag="name" Offset="0x00008bd9" Length="0x0000016d" Checksum="0x0fcfb4ad" CodeFriendlyTag="name">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'post', calc: 0x124512f7, font: 0x091446ed" />
+<TableEntry Tag="post" Offset="0x00008d46" Length="0x0000023d" Checksum="0x091446ed" CodeFriendlyTag="post">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<Report ErrorType="E" ErrorCode="E0030" Message="Directory Entry checksum error" Details="table 'prep', calc: 0x69a33a62, font: 0x703ca558" />
+<TableEntry Tag="prep" Offset="0x00008f83" Length="0x000000c5" Checksum="0x703ca558" CodeFriendlyTag="prep">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<RasterizationTest_BW>
+<Report ErrorType="E" ErrorCode="E6049" Message="Twilight zone point not set" Details="Size 10, IP, Pre-Program, At ByteOffset 58" />
+<Report ErrorType="E" ErrorCode="E6049" Message="Twilight zone point not set" Details="Size 10, IP, Pre-Program, At ByteOffset 58" />
+<Report ErrorType="E" ErrorCode="E6043" Message="RP1 and RP2 have the same position on the projection vector" Details="Size 10, IP, Pre-Program, At ByteOffset 58" />
+<Report ErrorType="E" ErrorCode="E6049" Message="Twilight zone point not set" Details="Size 10, IP, Pre-Program, At ByteOffset 75" />
+<Report ErrorType="E" ErrorCode="E6049" Message="Twilight zone point not set" Details="Size 10, IP, Pre-Program, At ByteOffset 75" />
+<Report ErrorType="E" ErrorCode="E6049" Message="Twilight zone point not set" Details="Size 10, IP, Pre-Program, At ByteOffset 92" />
+<Report ErrorType="E" ErrorCode="E6049" Message="Twilight zone point not set" Details="Size 10, IP, Pre-Program, At ByteOffset 92" />
+<Report ErrorType="E" ErrorCode="E6049" Message="Twilight zone point not set" Details="Size 10, IP, Pre-Program, At ByteOffset 109" />
+<Report ErrorType="E" ErrorCode="E6049" Message="Twilight zone point not set" Details="Size 10, IP, Pre-Program, At ByteOffset 109" />
+<Report ErrorType="E" ErrorCode="E6049" Message="Twilight zone point not set" Details="Size 10, IP, Pre-Program, At ByteOffset 126" />
+<Report ErrorType="E" ErrorCode="E6049" Message="Twilight zone point not set" Details="Size 10, IP, Pre-Program, At ByteOffset 126" />
+</RasterizationTest_BW>
+<RasterizationTest_Grayscale>
+<Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
+</RasterizationTest_Grayscale>
+<RasterizationTest_ClearType>
+<Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
+</RasterizationTest_ClearType>
+</Font>
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:00" />
+</FontFile>
+</FontValidatorReport>

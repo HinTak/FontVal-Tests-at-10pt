@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="20 December 2019 21:10" MachineName="hintak-System-Product-Name">
-<FontFile FileName="logix.ttf" FileNameAndPath="//usr/share/texlive/texmf-dist/fonts/truetype/public/logix/logix.ttf">
+<FontValidatorReport RunDateTime="Sunday, 01 November 2020 07:01" MachineName="ubuntu">
+<FontFile FileName="logix.ttf" FileNameAndPath="/usr/share/texlive/texmf-dist/fonts/truetype/public/logix/logix.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
-<FontInfo FontName="Logix" FontVersion="Version 1.000" FontDate="07/07/2019" />
-<Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="18" TestName="_OFFSET_numTables" />
+<FontInfo FontName="Logix" FontVersion="Version 1.01" FontDate="01/04/2020" />
+<Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="19" TestName="_OFFSET_numTables" />
 <Report ErrorType="P" ErrorCode="P0010" Message="The searchRange, entrySelector, and rangeShift fields are all valid" TestName="_OFFSET_BinarySearchFields" />
 <Report ErrorType="P" ErrorCode="P0032" Message="The directory entry tags are in ascending order" />
 <Report ErrorType="P" ErrorCode="P0031" Message="The directory entry tag names are valid" />
@@ -16,58 +16,61 @@
 <Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="VDMX" />
 <Report ErrorType="P" ErrorCode="P0022" Message="No unnecessary tables are present" />
 <Report ErrorType="W" ErrorCode="W0020" Message="Tables are not in optimal order" Details="table 'glyf' precedes table 'loca'" />
-<TableEntry Tag="DSIG" Offset="0x000fef40" Length="0x00000008" Checksum="0x00000001" CodeFriendlyTag="DSIG">
+<TableEntry Tag="DSIG" Offset="0x000ff528" Length="0x00000008" Checksum="0x00000001" CodeFriendlyTag="DSIG">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="GPOS" Offset="0x000fee20" Length="0x00000110" Checksum="0xe5fee970" CodeFriendlyTag="GPOS">
+<TableEntry Tag="GDEF" Offset="0x000ff24c" Length="0x00000172" Checksum="0x122c1269" CodeFriendlyTag="GDEF">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="GSUB" Offset="0x000fef30" Length="0x00000010" Checksum="0x0019000c" CodeFriendlyTag="GSUB">
+<TableEntry Tag="GPOS" Offset="0x000ff3c0" Length="0x00000158" Checksum="0xf5a9f0e2" CodeFriendlyTag="GPOS">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="MATH" Offset="0x000fef48" Length="0x00001bb6" Checksum="0xe77b8742" CodeFriendlyTag="MATH">
+<TableEntry Tag="GSUB" Offset="0x000ff518" Length="0x00000010" Checksum="0x0019000c" CodeFriendlyTag="GSUB">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="OS/2" Offset="0x000001a8" Length="0x00000060" Checksum="0x358c3b9a" CodeFriendlyTag="OS_2">
+<TableEntry Tag="MATH" Offset="0x000ff530" Length="0x00001c82" Checksum="0x048084cb" CodeFriendlyTag="MATH">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="cmap" Offset="0x00004298" Length="0x00001788" Checksum="0x7f5f0b0c" CodeFriendlyTag="cmap">
+<TableEntry Tag="OS/2" Offset="0x000001b8" Length="0x00000060" Checksum="0x358c3b97" CodeFriendlyTag="OS_2">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="cvt " Offset="0x00005c60" Length="0x00000020" Checksum="0x014f01c4" CodeFriendlyTag="cvt_">
+<TableEntry Tag="cmap" Offset="0x00004320" Length="0x000017b8" Checksum="0xe1589f86" CodeFriendlyTag="cmap">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="fpgm" Offset="0x00005a20" Length="0x00000173" Checksum="0x06599c37" CodeFriendlyTag="fpgm">
+<TableEntry Tag="cvt " Offset="0x00005d18" Length="0x00000020" Checksum="0x014501c4" CodeFriendlyTag="cvt_">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="gasp" Offset="0x000fee18" Length="0x00000008" Checksum="0x00000010" CodeFriendlyTag="gasp">
+<TableEntry Tag="fpgm" Offset="0x00005ad8" Length="0x00000173" Checksum="0x06599c37" CodeFriendlyTag="fpgm">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="glyf" Offset="0x00005c80" Length="0x000e7a60" Checksum="0x094c1d9f" CodeFriendlyTag="glyf">
+<TableEntry Tag="gasp" Offset="0x000ff244" Length="0x00000008" Checksum="0x00000010" CodeFriendlyTag="gasp">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="head" Offset="0x0000012c" Length="0x00000036" Checksum="0xf56eb283" CodeFriendlyTag="head">
+<TableEntry Tag="glyf" Offset="0x00005d38" Length="0x000e7bd4" Checksum="0x45ae9c46" CodeFriendlyTag="glyf">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="hhea" Offset="0x00000164" Length="0x00000024" Checksum="0x0a79162e" CodeFriendlyTag="hhea">
+<TableEntry Tag="head" Offset="0x0000013c" Length="0x00000036" Checksum="0xf65cd95b" CodeFriendlyTag="head">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="hmtx" Offset="0x00000208" Length="0x00004090" Checksum="0xbcc13d64" CodeFriendlyTag="hmtx">
+<TableEntry Tag="hhea" Offset="0x00000174" Length="0x00000024" Checksum="0x0a79164c" CodeFriendlyTag="hhea">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="loca" Offset="0x000ed6e0" Length="0x00004094" Checksum="0x78626984" CodeFriendlyTag="loca">
+<TableEntry Tag="hmtx" Offset="0x00000218" Length="0x00004108" Checksum="0xef4246d5" CodeFriendlyTag="hmtx">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="maxp" Offset="0x00000188" Length="0x00000020" Checksum="0x123b0318" CodeFriendlyTag="maxp">
+<TableEntry Tag="loca" Offset="0x000ed90c" Length="0x0000410c" Checksum="0x79dc78c4" CodeFriendlyTag="loca">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="name" Offset="0x000f1774" Length="0x00002244" Checksum="0x41b2b15b" CodeFriendlyTag="name">
+<TableEntry Tag="maxp" Offset="0x00000198" Length="0x00000020" Checksum="0x12590317" CodeFriendlyTag="maxp">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="post" Offset="0x000f39b8" Length="0x0000b460" Checksum="0xeb7aca6b" CodeFriendlyTag="post">
+<TableEntry Tag="name" Offset="0x000f1a18" Length="0x0000223e" Checksum="0x420c3553" CodeFriendlyTag="name">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="prep" Offset="0x00005b94" Length="0x000000cc" Checksum="0x0f6a1fec" CodeFriendlyTag="prep">
+<TableEntry Tag="post" Offset="0x000f3c58" Length="0x0000b5ec" Checksum="0xc616b5c9" CodeFriendlyTag="post">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="prep" Offset="0x00005c4c" Length="0x000000cc" Checksum="0x0f6a1fec" CodeFriendlyTag="prep">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
@@ -122,16 +125,6 @@
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 786, At ByteOffset 159" />
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 805, At ByteOffset 49" />
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 806, At ByteOffset 39" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 1421, At ByteOffset 43" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 1421, At ByteOffset 47" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pG], Glyph ID 1421, At ByteOffset 55" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 1421, At ByteOffset 73" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 1471, At ByteOffset 106" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 1474, At ByteOffset 50" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 1598, At ByteOffset 109" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2075, At ByteOffset 106" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2078, At ByteOffset 50" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2106, At ByteOffset 156" />
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2128, At ByteOffset 99" />
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2129, At ByteOffset 73" />
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2155, At ByteOffset 58" />
@@ -166,9 +159,6 @@
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pG], Glyph ID 2222, At ByteOffset 41" />
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2222, At ByteOffset 61" />
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2224, At ByteOffset 137" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2327, At ByteOffset 184" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2328, At ByteOffset 128" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2329, At ByteOffset 206" />
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2333, At ByteOffset 214" />
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2334, At ByteOffset 150" />
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2335, At ByteOffset 228" />
@@ -191,48 +181,6 @@
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pG], Glyph ID 2358, At ByteOffset 55" />
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2358, At ByteOffset 73" />
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2359, At ByteOffset 161" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2408, At ByteOffset 41" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2409, At ByteOffset 57" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 2410, At ByteOffset 19" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 2410, At ByteOffset 23" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pG], Glyph ID 2410, At ByteOffset 31" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2410, At ByteOffset 65" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 2411, At ByteOffset 35" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 2411, At ByteOffset 39" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pG], Glyph ID 2411, At ByteOffset 47" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2411, At ByteOffset 89" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2412, At ByteOffset 41" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2413, At ByteOffset 57" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 2414, At ByteOffset 19" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 2414, At ByteOffset 23" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pG], Glyph ID 2414, At ByteOffset 31" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2414, At ByteOffset 65" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 2415, At ByteOffset 35" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 2415, At ByteOffset 39" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pG], Glyph ID 2415, At ByteOffset 47" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2415, At ByteOffset 89" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2416, At ByteOffset 41" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2417, At ByteOffset 57" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 2418, At ByteOffset 19" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 2418, At ByteOffset 23" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pG], Glyph ID 2418, At ByteOffset 31" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2418, At ByteOffset 65" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 2419, At ByteOffset 35" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 2419, At ByteOffset 39" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pG], Glyph ID 2419, At ByteOffset 47" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2419, At ByteOffset 89" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2420, At ByteOffset 41" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2421, At ByteOffset 57" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 2422, At ByteOffset 19" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 2422, At ByteOffset 23" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pG], Glyph ID 2422, At ByteOffset 31" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2422, At ByteOffset 65" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 2423, At ByteOffset 35" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 2423, At ByteOffset 39" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pG], Glyph ID 2423, At ByteOffset 47" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2423, At ByteOffset 89" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 2440, At ByteOffset 191" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2440, At ByteOffset 211" />
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2472, At ByteOffset 75" />
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2473, At ByteOffset 43" />
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2474, At ByteOffset 95" />
@@ -264,7 +212,7 @@
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 2675, At ByteOffset 65" />
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 2675, At ByteOffset 69" />
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pG], Glyph ID 2675, At ByteOffset 77" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2675, At ByteOffset 164" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2675, At ByteOffset 176" />
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2676, At ByteOffset 127" />
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 2678, At ByteOffset 42" />
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 2686, At ByteOffset 79" />
@@ -441,11 +389,70 @@
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 3778, At ByteOffset 21" />
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 3779, At ByteOffset 21" />
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 3780, At ByteOffset 21" />
-<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 4059, At ByteOffset 171" />
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4063, At ByteOffset 29" />
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4063, At ByteOffset 33" />
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pG], Glyph ID 4063, At ByteOffset 41" />
 <Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDRP[pmrG], Glyph ID 4063, At ByteOffset 61" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4132, At ByteOffset 7" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4132, At ByteOffset 11" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4133, At ByteOffset 7" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4133, At ByteOffset 11" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4134, At ByteOffset 7" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4134, At ByteOffset 11" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4135, At ByteOffset 7" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4135, At ByteOffset 11" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4136, At ByteOffset 7" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4136, At ByteOffset 11" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4137, At ByteOffset 7" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4137, At ByteOffset 11" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4138, At ByteOffset 7" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4138, At ByteOffset 11" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4139, At ByteOffset 7" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4139, At ByteOffset 11" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4140, At ByteOffset 7" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4140, At ByteOffset 11" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4141, At ByteOffset 7" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4141, At ByteOffset 11" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4142, At ByteOffset 7" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4142, At ByteOffset 11" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4143, At ByteOffset 7" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4143, At ByteOffset 11" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4144, At ByteOffset 7" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4144, At ByteOffset 11" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4145, At ByteOffset 7" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4145, At ByteOffset 11" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4146, At ByteOffset 7" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4146, At ByteOffset 11" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4147, At ByteOffset 7" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4147, At ByteOffset 11" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4148, At ByteOffset 7" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4148, At ByteOffset 11" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4149, At ByteOffset 7" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4149, At ByteOffset 11" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4150, At ByteOffset 7" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4150, At ByteOffset 11" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4151, At ByteOffset 7" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4151, At ByteOffset 11" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4152, At ByteOffset 7" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4152, At ByteOffset 11" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4153, At ByteOffset 7" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4153, At ByteOffset 11" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4154, At ByteOffset 7" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4154, At ByteOffset 11" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4155, At ByteOffset 7" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4155, At ByteOffset 11" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4156, At ByteOffset 7" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4156, At ByteOffset 11" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4157, At ByteOffset 7" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4157, At ByteOffset 11" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4158, At ByteOffset 7" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4158, At ByteOffset 11" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4159, At ByteOffset 7" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4159, At ByteOffset 11" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4160, At ByteOffset 7" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4160, At ByteOffset 11" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4161, At ByteOffset 7" />
+<Report ErrorType="E" ErrorCode="E6039" Message="Point out of range" Details="Size 10, MDAP[rnd], Glyph ID 4161, At ByteOffset 11" />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
@@ -454,6 +461,6 @@
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
 </RasterizationTest_ClearType>
 </Font>
-<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:00" />
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:01" />
 </FontFile>
 </FontValidatorReport>

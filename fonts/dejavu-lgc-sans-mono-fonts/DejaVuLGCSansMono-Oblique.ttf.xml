@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="30 April 2023 06:21" MachineName="localhost">
+<FontValidatorReport RunDateTime="04 May 2023 05:19" MachineName="localhost">
 <FontFile FileName="DejaVuLGCSansMono-Oblique.ttf" FileNameAndPath="/usr/share/fonts/dejavu-lgc-sans-mono-fonts/DejaVuLGCSansMono-Oblique.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
-<FontInfo FontName="DejaVu LGC Sans Mono Oblique" FontVersion="Version 2.37" FontDate="21/07/2022" />
+<FontInfo FontName="DejaVu LGC Sans Mono Oblique" FontVersion="Version 2.37" FontDate="19/01/2023" />
 <Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="18" TestName="_OFFSET_numTables" />
 <Report ErrorType="P" ErrorCode="P0010" Message="The searchRange, entrySelector, and rangeShift fields are all valid" TestName="_OFFSET_BinarySearchFields" />
 <Report ErrorType="P" ErrorCode="P0032" Message="The directory entry tags are in ascending order" />
@@ -15,7 +15,7 @@
 <Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="DSIG" />
 <Report ErrorType="P" ErrorCode="P0022" Message="No unnecessary tables are present" />
 <Report ErrorType="W" ErrorCode="W0020" Message="Tables are not in optimal order" Details="table 'OS/2' precedes table 'head'" />
-<TableEntry Tag="FFTM" Offset="0x0000012c" Length="0x0000001c" Checksum="0x9cc8bd81" CodeFriendlyTag="FFTM">
+<TableEntry Tag="FFTM" Offset="0x0000012c" Length="0x0000001c" Checksum="0x9fb44001" CodeFriendlyTag="FFTM">
 <Report ErrorType="I" ErrorCode="I0040" Message="Not an OpenType table, contents not validated" Details="" />
 </TableEntry>
 <TableEntry Tag="GDEF" Offset="0x00000148" Length="0x0000002a" Checksum="0x13c11d75" CodeFriendlyTag="GDEF">
@@ -45,7 +45,7 @@
 <TableEntry Tag="glyf" Offset="0x0000178c" Length="0x0002a634" Checksum="0x233fc481" CodeFriendlyTag="glyf">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="head" Offset="0x0002bdc0" Length="0x00000036" Checksum="0x20ad37b2" CodeFriendlyTag="head">
+<TableEntry Tag="head" Offset="0x0002bdc0" Length="0x00000036" Checksum="0x228d19b2" CodeFriendlyTag="head">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <TableEntry Tag="hhea" Offset="0x0002bdf8" Length="0x00000024" Checksum="0x0afd022f" CodeFriendlyTag="hhea">
@@ -152,6 +152,6 @@
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
 </RasterizationTest_ClearType>
 </Font>
-<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:01" />
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:00" />
 </FontFile>
 </FontValidatorReport>

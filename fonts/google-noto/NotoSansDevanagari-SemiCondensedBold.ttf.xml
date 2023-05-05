@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="26 June 2022 04:14" MachineName="localhost">
+<FontValidatorReport RunDateTime="26 April 2023 02:44" MachineName="localhost">
 <FontFile FileName="NotoSansDevanagari-SemiCondensedBold.ttf" FileNameAndPath="/usr/share/fonts/google-noto/NotoSansDevanagari-SemiCondensedBold.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
-<FontInfo FontName="Noto Sans Devanagari SemiCondensed Bold" FontVersion="Version 2.001; ttfautohint (v1.8.2)" FontDate="15/10/2020" />
-<Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="18" TestName="_OFFSET_numTables" />
+<FontInfo FontName="Noto Sans Devanagari SemiCondensed Bold" FontVersion="Version 2.002; ttfautohint (v1.8) -l 8 -r 50 -G 200 -x 14 -D deva -f none -a qsq -X &quot;&quot;" FontDate="19/04/2022" />
+<Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="17" TestName="_OFFSET_numTables" />
 <Report ErrorType="P" ErrorCode="P0010" Message="The searchRange, entrySelector, and rangeShift fields are all valid" TestName="_OFFSET_BinarySearchFields" />
 <Report ErrorType="P" ErrorCode="P0032" Message="The directory entry tags are in ascending order" />
 <Report ErrorType="P" ErrorCode="P0031" Message="The directory entry tag names are valid" />
@@ -14,60 +14,58 @@
 <Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="kern" />
 <Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="hdmx" />
 <Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="VDMX" />
+<Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="DSIG" />
 <Report ErrorType="P" ErrorCode="P0022" Message="No unnecessary tables are present" />
-<Report ErrorType="P" ErrorCode="P0021" Message="Tables are in optimal order" />
-<TableEntry Tag="DSIG" Offset="0x0003982c" Length="0x00000008" Checksum="0x00000001" CodeFriendlyTag="DSIG">
+<Report ErrorType="W" ErrorCode="W0020" Message="Tables are not in optimal order" Details="table 'OS/2' precedes table 'head'" />
+<TableEntry Tag="GDEF" Offset="0x0000011c" Length="0x0000038a" Checksum="0xffa6fae9" CodeFriendlyTag="GDEF">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="GDEF" Offset="0x0002de54" Length="0x000002ea" Checksum="0xfe97026a" CodeFriendlyTag="GDEF">
+<TableEntry Tag="GPOS" Offset="0x000004a8" Length="0x00001d90" Checksum="0x93556050" CodeFriendlyTag="GPOS">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="GPOS" Offset="0x0002e140" Length="0x00001d4c" Checksum="0x2692aec3" CodeFriendlyTag="GPOS">
+<TableEntry Tag="GSUB" Offset="0x00002238" Length="0x00006a64" Checksum="0xc0260632" CodeFriendlyTag="GSUB">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="GSUB" Offset="0x0002fe8c" Length="0x000099a0" Checksum="0xe37b5af2" CodeFriendlyTag="GSUB">
+<TableEntry Tag="OS/2" Offset="0x00008c9c" Length="0x00000060" Checksum="0x09c888ed" CodeFriendlyTag="OS_2">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="OS/2" Offset="0x000001a8" Length="0x00000060" Checksum="0x09c888eb" CodeFriendlyTag="OS_2">
+<TableEntry Tag="cmap" Offset="0x00008cfc" Length="0x0000011a" Checksum="0xdd2628bc" CodeFriendlyTag="cmap">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="cmap" Offset="0x000010f0" Length="0x0000011a" Checksum="0xdd2628bc" CodeFriendlyTag="cmap">
+<TableEntry Tag="cvt " Offset="0x00035be4" Length="0x00000032" Checksum="0x0a7e083e" CodeFriendlyTag="cvt_">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="cvt " Offset="0x000020cc" Length="0x00000032" Checksum="0x0a7e083e" CodeFriendlyTag="cvt_">
+<TableEntry Tag="fpgm" Offset="0x00035c18" Length="0x00000e15" Checksum="0x9e3611ca" CodeFriendlyTag="fpgm">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="fpgm" Offset="0x0000120c" Length="0x00000e15" Checksum="0x9e3611ca" CodeFriendlyTag="fpgm">
+<TableEntry Tag="gasp" Offset="0x00035bdc" Length="0x00000008" Checksum="0x00000010" CodeFriendlyTag="gasp">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="gasp" Offset="0x0002de4c" Length="0x00000008" Checksum="0x00000010" CodeFriendlyTag="gasp">
+<TableEntry Tag="glyf" Offset="0x00008e18" Length="0x0002663c" Checksum="0x3697167b" CodeFriendlyTag="glyf">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="glyf" Offset="0x00002fec" Length="0x00026598" Checksum="0xf4ce38da" CodeFriendlyTag="glyf">
+<TableEntry Tag="head" Offset="0x0002f454" Length="0x00000036" Checksum="0x125d712f" CodeFriendlyTag="head">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="head" Offset="0x0000012c" Length="0x00000036" Checksum="0x0f88102c" CodeFriendlyTag="head">
+<TableEntry Tag="hhea" Offset="0x0002f48c" Length="0x00000024" Checksum="0x06bc02c9" CodeFriendlyTag="hhea">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="hhea" Offset="0x00000164" Length="0x00000024" Checksum="0x06bc02c9" CodeFriendlyTag="hhea">
+<TableEntry Tag="hmtx" Offset="0x0002f4b0" Length="0x00000ee8" Checksum="0xb2c4f30b" CodeFriendlyTag="hmtx">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="hmtx" Offset="0x00000208" Length="0x00000ee8" Checksum="0xa43bf30b" CodeFriendlyTag="hmtx">
+<TableEntry Tag="loca" Offset="0x00030398" Length="0x00000eec" Checksum="0x042c7670" CodeFriendlyTag="loca">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="loca" Offset="0x00002100" Length="0x00000eec" Checksum="0x042b3c44" CodeFriendlyTag="loca">
+<TableEntry Tag="maxp" Offset="0x00031284" Length="0x00000020" Checksum="0x05360f70" CodeFriendlyTag="maxp">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="maxp" Offset="0x00000188" Length="0x00000020" Checksum="0x05260f70" CodeFriendlyTag="maxp">
+<TableEntry Tag="name" Offset="0x000312a4" Length="0x000007aa" Checksum="0xc7dbe244" CodeFriendlyTag="name">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="name" Offset="0x00029584" Length="0x0000073a" Checksum="0xbbb2db81" CodeFriendlyTag="name">
+<TableEntry Tag="post" Offset="0x00031a50" Length="0x0000418c" Checksum="0x6167776c" CodeFriendlyTag="post">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="post" Offset="0x00029cc0" Length="0x0000418c" Checksum="0x6167776c" CodeFriendlyTag="post">
-<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
-</TableEntry>
-<TableEntry Tag="prep" Offset="0x00002024" Length="0x000000a7" Checksum="0xa845c69d" CodeFriendlyTag="prep">
+<TableEntry Tag="prep" Offset="0x00036a30" Length="0x000000a7" Checksum="0xa845c69d" CodeFriendlyTag="prep">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
@@ -4371,7 +4369,16 @@
 <Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 591, At ByteOffset 1501, In function 48 offsetted by 5" />
 <Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 591, At ByteOffset 1501, In function 48 offsetted by 5" />
 <Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 592, At ByteOffset 981, In function 20 offsetted by 62" />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, RCVT, Glyph ID 592, At ByteOffset 223, In function 4 offsetted by 40" />
 <Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 592, At ByteOffset 1501, In function 48 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 592, At ByteOffset 1501, In function 48 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 592, At ByteOffset 1501, In function 48 offsetted by 5" />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, RCVT, Glyph ID 592, At ByteOffset 223, In function 4 offsetted by 40" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 592, At ByteOffset 1501, In function 48 offsetted by 5" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 592, At ByteOffset 1501, In function 48 offsetted by 5" />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, RCVT, Glyph ID 592, At ByteOffset 223, In function 4 offsetted by 40" />
+<Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 592, At ByteOffset 1501, In function 48 offsetted by 5" />
+<Report ErrorType="E" ErrorCode="E6005" Message="CVT Out of range" Details="Size 10, RCVT, Glyph ID 592, At ByteOffset 223, In function 4 offsetted by 40" />
 <Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 592, At ByteOffset 1501, In function 48 offsetted by 5" />
 <Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 592, At ByteOffset 1501, In function 48 offsetted by 5" />
 <Report ErrorType="W" ErrorCode="W6008" Message="Value for count is less than 1. Function will not be called" Details="Size 10, LOOPCALL, Glyph ID 592, At ByteOffset 1501, In function 48 offsetted by 5" />

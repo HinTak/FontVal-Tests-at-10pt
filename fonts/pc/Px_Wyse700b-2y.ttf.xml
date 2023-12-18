@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="fval.xsl"?>
+<FontValidatorReport RunDateTime="Sunday, 10 December 2023 20:11" MachineName="fv-az1242-990">
+<FontFile FileName="Px_Wyse700b-2y.ttf" FileNameAndPath="/usr/share/fonts/pc/Px_Wyse700b-2y.ttf">
+<Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
+<Font FontIndex="0">
+<FontInfo FontName="Px Wyse700b-2y" FontVersion="v1.0-2015-11" FontDate="11/28/2015" />
+<Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="14" TestName="_OFFSET_numTables" />
+<Report ErrorType="P" ErrorCode="P0010" Message="The searchRange, entrySelector, and rangeShift fields are all valid" TestName="_OFFSET_BinarySearchFields" />
+<Report ErrorType="P" ErrorCode="P0032" Message="The directory entry tags are in ascending order" />
+<Report ErrorType="P" ErrorCode="P0031" Message="The directory entry tag names are valid" />
+<Report ErrorType="P" ErrorCode="P0030" Message="The directory entry table offsets are all multiples of 4" />
+<Report ErrorType="P" ErrorCode="P0020" Message="All required tables are present" />
+<Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="VDMX" />
+<Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="DSIG" />
+<Report ErrorType="P" ErrorCode="P0022" Message="No unnecessary tables are present" />
+<Report ErrorType="P" ErrorCode="P0021" Message="Tables are in optimal order" />
+<TableEntry Tag="FFTM" Offset="0x000073e4" Length="0x0000001c" Checksum="0x7f395da0" CodeFriendlyTag="FFTM">
+<Report ErrorType="I" ErrorCode="I0040" Message="Not an OpenType table, contents not validated" Details="" />
+</TableEntry>
+<TableEntry Tag="GDEF" Offset="0x000073bc" Length="0x00000026" Checksum="0x00270147" CodeFriendlyTag="GDEF">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="OS/2" Offset="0x00000168" Length="0x00000060" Checksum="0x93942a14" CodeFriendlyTag="OS_2">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="cmap" Offset="0x00000414" Length="0x000004aa" Checksum="0x1f67930a" CodeFriendlyTag="cmap">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="cvt " Offset="0x000008c0" Length="0x00000004" Checksum="0x006a07eb" CodeFriendlyTag="cvt_">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="gasp" Offset="0x000073b4" Length="0x00000008" Checksum="0xffff0003" CodeFriendlyTag="gasp">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="glyf" Offset="0x00000b08" Length="0x00005ce4" Checksum="0x228d8513" CodeFriendlyTag="glyf">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="head" Offset="0x000000ec" Length="0x00000036" Checksum="0x0a253f5d" CodeFriendlyTag="head">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="hhea" Offset="0x00000124" Length="0x00000024" Checksum="0x106a03ed" CodeFriendlyTag="hhea">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="hmtx" Offset="0x000001c8" Length="0x0000024a" Checksum="0x940c7c3e" CodeFriendlyTag="hmtx">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="loca" Offset="0x000008c4" Length="0x00000244" Checksum="0x0b792344" CodeFriendlyTag="loca">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="maxp" Offset="0x00000148" Length="0x00000020" Checksum="0x01620130" CodeFriendlyTag="maxp">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="name" Offset="0x000067ec" Length="0x00000504" Checksum="0x97cb86cc" CodeFriendlyTag="name">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="post" Offset="0x00006cf0" Length="0x000006c2" Checksum="0x2a2184b4" CodeFriendlyTag="post">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<RasterizationTest_BW>
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[1], Glyph ID 0, At ByteOffset 0" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, MDAP[rnd], Glyph ID 0, At ByteOffset 3" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, ALIGNRP, Glyph ID 0, At ByteOffset 4" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[2], Glyph ID 0, At ByteOffset 5" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, MIRP[mrB], Glyph ID 0, At ByteOffset 9" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, SHP[rp2], Glyph ID 0, At ByteOffset 10" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[1], Glyph ID 0, At ByteOffset 11" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, MDRP[pmrG], Glyph ID 0, At ByteOffset 14" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, ALIGNRP, Glyph ID 0, At ByteOffset 15" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[2], Glyph ID 0, At ByteOffset 16" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, MIRP[mrB], Glyph ID 0, At ByteOffset 20" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, SHP[rp2], Glyph ID 0, At ByteOffset 21" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[1], Glyph ID 0, At ByteOffset 23" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, MDAP[rnd], Glyph ID 0, At ByteOffset 26" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, ALIGNRP, Glyph ID 0, At ByteOffset 27" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[2], Glyph ID 0, At ByteOffset 28" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, MIRP[mrB], Glyph ID 0, At ByteOffset 32" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, SHP[rp2], Glyph ID 0, At ByteOffset 33" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[2], Glyph ID 0, At ByteOffset 34" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, MIRP[pmrG], Glyph ID 0, At ByteOffset 38" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, ALIGNRP, Glyph ID 0, At ByteOffset 39" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, PUSHB[2], Glyph ID 0, At ByteOffset 40" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, MIRP[mrB], Glyph ID 0, At ByteOffset 44" />
+<Report ErrorType="E" ErrorCode="E6045" Message="Stack Overflow" Details="Size 10, SHP[rp2], Glyph ID 0, At ByteOffset 45" />
+</RasterizationTest_BW>
+<RasterizationTest_Grayscale>
+<Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
+</RasterizationTest_Grayscale>
+<RasterizationTest_ClearType>
+<Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
+</RasterizationTest_ClearType>
+</Font>
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:00" />
+</FontFile>
+</FontValidatorReport>

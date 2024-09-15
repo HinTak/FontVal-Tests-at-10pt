@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="Monday, 18 December 2023 22:40" MachineName="fv-az1567-608">
+<FontValidatorReport RunDateTime="Friday, 24 May 2024 02:57" MachineName="fv-az1047-522">
 <FontFile FileName="FreeSansBold.ttf" FileNameAndPath="/usr/share/fonts/truetype/freefont/FreeSansBold.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
-<FontInfo FontName="FreeSans Bold" FontVersion="Version 0412.2261 " FontDate="05/01/2012" />
-<Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="19" TestName="_OFFSET_numTables" />
+<FontInfo FontName="FreeSans Bold" FontVersion="Version 0412.4271" FontDate="11/01/2021" />
+<Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="21" TestName="_OFFSET_numTables" />
 <Report ErrorType="P" ErrorCode="P0010" Message="The searchRange, entrySelector, and rangeShift fields are all valid" TestName="_OFFSET_BinarySearchFields" />
 <Report ErrorType="P" ErrorCode="P0032" Message="The directory entry tags are in ascending order" />
 <Report ErrorType="P" ErrorCode="P0031" Message="The directory entry tag names are valid" />
@@ -13,68 +13,544 @@
 <Report ErrorType="P" ErrorCode="P0020" Message="All required tables are present" />
 <Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="hdmx" />
 <Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="VDMX" />
-<Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="DSIG" />
 <Report ErrorType="P" ErrorCode="P0022" Message="No unnecessary tables are present" />
 <Report ErrorType="P" ErrorCode="P0021" Message="Tables are in optimal order" />
-<TableEntry Tag="FFTM" Offset="0x00041bf4" Length="0x0000001c" Checksum="0x6bcba0cf" CodeFriendlyTag="FFTM">
+<TableEntry Tag="BASE" Offset="0x000f33cc" Length="0x0000006c" Checksum="0x239b26f1" CodeFriendlyTag="BASE">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="DSIG" Offset="0x000d7584" Length="0x00000008" Checksum="0x00000001" CodeFriendlyTag="DSIG">
+<Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
+</TableEntry>
+<TableEntry Tag="FFTM" Offset="0x000f3438" Length="0x0000001c" Checksum="0x81887eaa" CodeFriendlyTag="FFTM">
 <Report ErrorType="I" ErrorCode="I0040" Message="Not an OpenType table, contents not validated" Details="" />
 </TableEntry>
-<TableEntry Tag="GDEF" Offset="0x0003a4f0" Length="0x000004c4" Checksum="0x3cdc819f" CodeFriendlyTag="GDEF">
+<TableEntry Tag="GDEF" Offset="0x000d758c" Length="0x000008f4" Checksum="0xb8edf404" CodeFriendlyTag="GDEF">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="GPOS" Offset="0x0003c4b8" Length="0x0000573a" Checksum="0x8f7c6a9f" CodeFriendlyTag="GPOS">
+<TableEntry Tag="GPOS" Offset="0x000e6418" Length="0x0000cfb4" Checksum="0xd52ade13" CodeFriendlyTag="GPOS">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="GSUB" Offset="0x0003a9b4" Length="0x00001b04" Checksum="0x79974b51" CodeFriendlyTag="GSUB">
+<TableEntry Tag="GSUB" Offset="0x000d7e80" Length="0x0000e596" Checksum="0x1d4f24ef" CodeFriendlyTag="GSUB">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="OS/2" Offset="0x000001b8" Length="0x00000060" Checksum="0xf0bee9a6" CodeFriendlyTag="OS_2">
+<TableEntry Tag="OS/2" Offset="0x000001d8" Length="0x00000060" Checksum="0xf4bef4ea" CodeFriendlyTag="OS_2">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="cmap" Offset="0x00002f94" Length="0x0000074e" Checksum="0xc3ac1f97" CodeFriendlyTag="cmap">
+<TableEntry Tag="cmap" Offset="0x00004dac" Length="0x00001c48" Checksum="0x49cc99f5" CodeFriendlyTag="cmap">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="cvt " Offset="0x00003a14" Length="0x00000050" Checksum="0x0a9c093a" CodeFriendlyTag="cvt_">
+<TableEntry Tag="cvt " Offset="0x00006d24" Length="0x0000005e" Checksum="0x0dd90c2e" CodeFriendlyTag="cvt_">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="fpgm" Offset="0x000036e4" Length="0x00000265" Checksum="0x0fb42fa7" CodeFriendlyTag="fpgm">
+<TableEntry Tag="fpgm" Offset="0x000069f4" Length="0x00000265" Checksum="0x0fb42fa7" CodeFriendlyTag="fpgm">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="gasp" Offset="0x0003a4e0" Length="0x00000010" Checksum="0x001f002d" CodeFriendlyTag="gasp">
+<TableEntry Tag="gasp" Offset="0x000d7574" Length="0x00000010" Checksum="0x001e0009" CodeFriendlyTag="gasp">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="glyf" Offset="0x000067e4" Length="0x00028e04" Checksum="0xeed53653" CodeFriendlyTag="glyf">
+<TableEntry Tag="glyf" Offset="0x0000b8fc" Length="0x00094cd8" Checksum="0xfb965a0f" CodeFriendlyTag="glyf">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="head" Offset="0x0000013c" Length="0x00000036" Checksum="0xf2bfb271" CodeFriendlyTag="head">
+<TableEntry Tag="head" Offset="0x0000015c" Length="0x00000036" Checksum="0x08de2fda" CodeFriendlyTag="head">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="hhea" Offset="0x00000174" Length="0x00000024" Checksum="0x06370d7d" CodeFriendlyTag="hhea">
+<TableEntry Tag="hhea" Offset="0x00000194" Length="0x00000024" Checksum="0x0a751a8e" CodeFriendlyTag="hhea">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="hmtx" Offset="0x00000218" Length="0x00002d7c" Checksum="0xebc64849" CodeFriendlyTag="hmtx">
+<TableEntry Tag="hmtx" Offset="0x00000238" Length="0x00004b74" Checksum="0xdbcc0815" CodeFriendlyTag="hmtx">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="kern" Offset="0x0002f5e8" Length="0x00001626" Checksum="0x13c42d7c" CodeFriendlyTag="kern">
+<TableEntry Tag="kern" Offset="0x000a05d4" Length="0x00026ffe" Checksum="0xfbac7d6d" CodeFriendlyTag="kern">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="loca" Offset="0x00003a64" Length="0x00002d80" Checksum="0x0e133804" CodeFriendlyTag="loca">
+<TableEntry Tag="loca" Offset="0x00006d84" Length="0x00004b78" Checksum="0x48b12b0c" CodeFriendlyTag="loca">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="maxp" Offset="0x00000198" Length="0x00000020" Checksum="0x0c990224" CodeFriendlyTag="maxp">
+<TableEntry Tag="maxp" Offset="0x000001b8" Length="0x00000020" Checksum="0x142207fe" CodeFriendlyTag="maxp">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="name" Offset="0x00030c10" Length="0x00001a36" Checksum="0x9c224ea2" CodeFriendlyTag="name">
+<TableEntry Tag="name" Offset="0x000c75d4" Length="0x00001b7c" Checksum="0x79f52946" CodeFriendlyTag="name">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="post" Offset="0x00032648" Length="0x00007e98" Checksum="0x9e265313" CodeFriendlyTag="post">
+<TableEntry Tag="post" Offset="0x000c9150" Length="0x0000e421" Checksum="0xaedf4f3e" CodeFriendlyTag="post">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
-<TableEntry Tag="prep" Offset="0x0000394c" Length="0x000000c5" Checksum="0xf2178c8d" CodeFriendlyTag="prep">
+<TableEntry Tag="prep" Offset="0x00006c5c" Length="0x000000c5" Checksum="0xfe299291" CodeFriendlyTag="prep">
 <Report ErrorType="I" ErrorCode="I0041" Message="Table not selected for validation" />
 </TableEntry>
 <RasterizationTest_BW>
-<Report ErrorType="P" ErrorCode="P6000" Message="No problems were found during rasterization testing" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 6, At ByteOffset 102" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 6, At ByteOffset 131" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 18, At ByteOffset 46" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 24, At ByteOffset 81" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 48, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 48, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 48, At ByteOffset 91" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 54, At ByteOffset 87" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 54, At ByteOffset 87" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 58, At ByteOffset 42" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 58, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 58, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 63, At ByteOffset 46" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 63, At ByteOffset 46" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 86, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 86, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 90, At ByteOffset 42" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 90, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 90, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 108, At ByteOffset 119" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 108, At ByteOffset 142" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 108, At ByteOffset 173" />
+<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, ALIGNRP, Glyph ID 108, At ByteOffset 512, In function 19 offsetted by 18" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 168, At ByteOffset 107" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 284, At ByteOffset 87" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 284, At ByteOffset 87" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 285, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 285, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 286, At ByteOffset 87" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 286, At ByteOffset 87" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 287, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 287, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 288, At ByteOffset 107" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 288, At ByteOffset 107" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 289, At ByteOffset 107" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 289, At ByteOffset 107" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 290, At ByteOffset 87" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 290, At ByteOffset 87" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 291, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 291, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 310, At ByteOffset 42" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 310, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 310, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 311, At ByteOffset 42" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 311, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 311, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 361, At ByteOffset 97" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 362, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 419, At ByteOffset 107" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 444, At ByteOffset 107" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 471, At ByteOffset 87" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 471, At ByteOffset 87" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 472, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 472, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 512, At ByteOffset 63" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 563, At ByteOffset 99" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 563, At ByteOffset 99" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 574, At ByteOffset 42" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 574, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 574, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 599, At ByteOffset 135" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 599, At ByteOffset 135" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 603, At ByteOffset 91" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 603, At ByteOffset 91" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 605, At ByteOffset 42" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 605, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 605, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 605, At ByteOffset 42" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 605, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 605, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 616, At ByteOffset 30" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 616, At ByteOffset 53" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 616, At ByteOffset 53" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 627, At ByteOffset 48" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 627, At ByteOffset 72" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 627, At ByteOffset 72" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 628, At ByteOffset 48" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 628, At ByteOffset 72" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 628, At ByteOffset 72" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 659, At ByteOffset 98" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 659, At ByteOffset 98" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 674, At ByteOffset 48" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 674, At ByteOffset 72" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 674, At ByteOffset 72" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 675, At ByteOffset 48" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 675, At ByteOffset 72" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 675, At ByteOffset 72" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 769, At ByteOffset 48" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 769, At ByteOffset 72" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 769, At ByteOffset 72" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 773, At ByteOffset 48" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 773, At ByteOffset 72" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 773, At ByteOffset 72" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 774, At ByteOffset 48" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 774, At ByteOffset 72" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 774, At ByteOffset 72" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 775, At ByteOffset 26" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 775, At ByteOffset 49" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 775, At ByteOffset 49" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 828, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 828, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 828, At ByteOffset 91" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 853, At ByteOffset 52" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 853, At ByteOffset 52" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 895, At ByteOffset 87" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 895, At ByteOffset 87" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 918, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 918, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 918, At ByteOffset 91" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 975, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 975, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1014, At ByteOffset 28" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1014, At ByteOffset 28" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1014, At ByteOffset 51" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1014, At ByteOffset 51" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1014, At ByteOffset 73" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 1014, At ByteOffset 99" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 1014, At ByteOffset 99" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 1014, At ByteOffset 130" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 1014, At ByteOffset 158" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 1014, At ByteOffset 189" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 1014, At ByteOffset 220" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 1014, At ByteOffset 251" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 1014, At ByteOffset 251" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 1014, At ByteOffset 282" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 1014, At ByteOffset 282" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 1014, At ByteOffset 313" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 1014, At ByteOffset 313" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1089, At ByteOffset 73" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1089, At ByteOffset 73" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1089, At ByteOffset 98" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1097, At ByteOffset 107" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1156, At ByteOffset 42" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1156, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1156, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1157, At ByteOffset 42" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1157, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1157, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1186, At ByteOffset 58" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1186, At ByteOffset 58" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1188, At ByteOffset 56" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1188, At ByteOffset 56" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1194, At ByteOffset 74" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1194, At ByteOffset 74" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1276, At ByteOffset 77" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1276, At ByteOffset 77" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1277, At ByteOffset 37" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1277, At ByteOffset 37" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1289, At ByteOffset 64" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1293, At ByteOffset 27" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1293, At ByteOffset 50" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1293, At ByteOffset 50" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1414, At ByteOffset 70" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1414, At ByteOffset 70" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1572, At ByteOffset 40" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1681, At ByteOffset 90" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 1681, At ByteOffset 120" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1685, At ByteOffset 42" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1685, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1685, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1689, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1689, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1689, At ByteOffset 91" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1699, At ByteOffset 56" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1699, At ByteOffset 79" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1699, At ByteOffset 79" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 1699, At ByteOffset 105" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 1699, At ByteOffset 123" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 1699, At ByteOffset 123" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1768, At ByteOffset 107" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1779, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1779, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1779, At ByteOffset 91" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1796, At ByteOffset 42" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1796, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1796, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1818, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1818, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1818, At ByteOffset 91" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1826, At ByteOffset 42" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1826, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1826, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1830, At ByteOffset 107" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1891, At ByteOffset 99" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1891, At ByteOffset 99" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1908, At ByteOffset 107" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1916, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1916, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1916, At ByteOffset 91" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1920, At ByteOffset 98" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1920, At ByteOffset 98" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1931, At ByteOffset 30" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1931, At ByteOffset 53" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1931, At ByteOffset 53" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1938, At ByteOffset 48" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1938, At ByteOffset 72" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1938, At ByteOffset 72" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1939, At ByteOffset 48" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1939, At ByteOffset 72" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 1939, At ByteOffset 72" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2002, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2002, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2002, At ByteOffset 91" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2004, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2004, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2004, At ByteOffset 91" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2006, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2006, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2006, At ByteOffset 91" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2036, At ByteOffset 87" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2036, At ByteOffset 87" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2037, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2037, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2038, At ByteOffset 87" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2038, At ByteOffset 87" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2039, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2039, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2040, At ByteOffset 87" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2040, At ByteOffset 87" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2041, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2041, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2042, At ByteOffset 87" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2042, At ByteOffset 87" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2043, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2043, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2044, At ByteOffset 87" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2044, At ByteOffset 87" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2045, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2045, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2068, At ByteOffset 42" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2068, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2068, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2069, At ByteOffset 42" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2069, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2069, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2070, At ByteOffset 42" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2070, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2070, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2071, At ByteOffset 42" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2071, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2071, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2072, At ByteOffset 42" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2072, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2072, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2073, At ByteOffset 42" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2073, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2073, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2074, At ByteOffset 42" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2074, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2074, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2075, At ByteOffset 42" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2075, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2075, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2076, At ByteOffset 42" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2076, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2076, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2077, At ByteOffset 42" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2077, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2077, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2092, At ByteOffset 42" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2092, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2092, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2507, At ByteOffset 42" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2507, At ByteOffset 42" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2527, At ByteOffset 87" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2527, At ByteOffset 87" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2532, At ByteOffset 101" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2548, At ByteOffset 101" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2569, At ByteOffset 98" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2569, At ByteOffset 98" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2575, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2575, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2616, At ByteOffset 189" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2616, At ByteOffset 212" />
+<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, MDRP[G], Glyph ID 2616, At ByteOffset 222" />
+<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, MIRP[pmB], Glyph ID 2616, At ByteOffset 226" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2616, At ByteOffset 238" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 2616, At ByteOffset 270" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 2616, At ByteOffset 306" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2617, At ByteOffset 214" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2617, At ByteOffset 237" />
+<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, MDRP[G], Glyph ID 2617, At ByteOffset 247" />
+<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, MIRP[pmB], Glyph ID 2617, At ByteOffset 251" />
+<Report ErrorType="W" ErrorCode="W6010" Message="Projection and freedom vectors at or near perpendicular" Details="Size 10, MDRP[G], Glyph ID 2617, At ByteOffset 254" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2617, At ByteOffset 263" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 2617, At ByteOffset 295" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 2617, At ByteOffset 331" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2620, At ByteOffset 148" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2620, At ByteOffset 174" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 2620, At ByteOffset 203" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2631, At ByteOffset 160" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2631, At ByteOffset 160" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2631, At ByteOffset 183" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2631, At ByteOffset 183" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2631, At ByteOffset 209" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2633, At ByteOffset 125" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2633, At ByteOffset 125" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2633, At ByteOffset 150" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2642, At ByteOffset 77" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2642, At ByteOffset 77" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2643, At ByteOffset 37" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2643, At ByteOffset 37" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2652, At ByteOffset 158" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2652, At ByteOffset 158" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2652, At ByteOffset 188" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2652, At ByteOffset 188" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2659, At ByteOffset 101" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2660, At ByteOffset 101" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2661, At ByteOffset 101" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2662, At ByteOffset 101" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2664, At ByteOffset 101" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2667, At ByteOffset 101" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2685, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2685, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2685, At ByteOffset 91" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2769, At ByteOffset 49" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2770, At ByteOffset 49" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2771, At ByteOffset 49" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2915, At ByteOffset 81" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2925, At ByteOffset 81" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2935, At ByteOffset 81" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2945, At ByteOffset 81" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2955, At ByteOffset 81" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2965, At ByteOffset 81" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2989, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2989, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2993, At ByteOffset 42" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2993, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 2993, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3009, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3009, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3009, At ByteOffset 91" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3015, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3015, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3019, At ByteOffset 42" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3019, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3019, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3041, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3041, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3045, At ByteOffset 42" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3045, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3045, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3064, At ByteOffset 81" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3098, At ByteOffset 36" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3098, At ByteOffset 36" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3098, At ByteOffset 62" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3108, At ByteOffset 36" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3108, At ByteOffset 36" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3108, At ByteOffset 62" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3164, At ByteOffset 43" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3164, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3164, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 3164, At ByteOffset 111" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3166, At ByteOffset 43" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3166, At ByteOffset 68" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3166, At ByteOffset 68" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3188, At ByteOffset 563" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3188, At ByteOffset 563" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3188, At ByteOffset 589" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3188, At ByteOffset 589" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 3188, At ByteOffset 621" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 3188, At ByteOffset 621" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 3188, At ByteOffset 636" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SFVFS, Glyph ID 3188, At ByteOffset 636" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3203, At ByteOffset 81" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3224, At ByteOffset 46" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3224, At ByteOffset 46" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3225, At ByteOffset 46" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3254, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3254, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3270, At ByteOffset 36" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3270, At ByteOffset 36" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3270, At ByteOffset 62" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3270, At ByteOffset 36" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3270, At ByteOffset 36" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3270, At ByteOffset 62" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3276, At ByteOffset 46" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3276, At ByteOffset 46" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3348, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3348, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3351, At ByteOffset 46" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3351, At ByteOffset 46" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3351, At ByteOffset 46" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3353, At ByteOffset 46" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3353, At ByteOffset 46" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3368, At ByteOffset 43" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3368, At ByteOffset 43" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3368, At ByteOffset 68" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3393, At ByteOffset 46" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3393, At ByteOffset 69" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3393, At ByteOffset 69" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3397, At ByteOffset 43" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3397, At ByteOffset 43" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3397, At ByteOffset 68" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3490, At ByteOffset 28" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3518, At ByteOffset 113" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3563, At ByteOffset 81" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3573, At ByteOffset 81" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3583, At ByteOffset 81" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3588, At ByteOffset 81" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3604, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3604, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3604, At ByteOffset 91" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3607, At ByteOffset 87" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3607, At ByteOffset 87" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3615, At ByteOffset 42" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3615, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3615, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3639, At ByteOffset 97" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3640, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3648, At ByteOffset 113" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3703, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3703, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3725, At ByteOffset 70" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3725, At ByteOffset 70" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3762, At ByteOffset 57" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3762, At ByteOffset 57" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3779, At ByteOffset 77" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3779, At ByteOffset 77" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3780, At ByteOffset 37" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3780, At ByteOffset 37" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3790, At ByteOffset 64" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3801, At ByteOffset 77" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3801, At ByteOffset 77" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3822, At ByteOffset 87" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3822, At ByteOffset 87" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3845, At ByteOffset 56" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3845, At ByteOffset 56" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3941, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3941, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3941, At ByteOffset 91" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3947, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3947, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3951, At ByteOffset 42" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3951, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3951, At ByteOffset 66" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 3981, At ByteOffset 81" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4134, At ByteOffset 98" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4134, At ByteOffset 98" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4138, At ByteOffset 30" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4138, At ByteOffset 53" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4138, At ByteOffset 53" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4150, At ByteOffset 30" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4150, At ByteOffset 53" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4150, At ByteOffset 53" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4158, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4158, At ByteOffset 78" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4239, At ByteOffset 101" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4249, At ByteOffset 101" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4250, At ByteOffset 101" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4251, At ByteOffset 101" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4252, At ByteOffset 101" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4254, At ByteOffset 101" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4257, At ByteOffset 101" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4261, At ByteOffset 101" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4266, At ByteOffset 101" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4420, At ByteOffset 223" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4420, At ByteOffset 223" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4745, At ByteOffset 98" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4745, At ByteOffset 98" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4754, At ByteOffset 98" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4754, At ByteOffset 98" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4755, At ByteOffset 98" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4755, At ByteOffset 98" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4756, At ByteOffset 98" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4756, At ByteOffset 98" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4757, At ByteOffset 98" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4757, At ByteOffset 98" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4758, At ByteOffset 98" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4758, At ByteOffset 98" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4762, At ByteOffset 167" />
+<Report ErrorType="E" ErrorCode="E6053" Message="Value exceeds capacity of 2 byte number" Details="Size 10, SPVFS, Glyph ID 4762, At ByteOffset 167" />
 </RasterizationTest_BW>
 <RasterizationTest_Grayscale>
 <Report ErrorType="I" ErrorCode="I0052" Message="Rasterization not selected for validation" />
